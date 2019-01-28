@@ -1,6 +1,6 @@
 # Computer engineering at UFSC
 
-![logo](logo.png)
+<img src="https://github.com/matheusfrancisco/computer-engineering-at-UFSC/blob/master/logo.png" with='500' heigth='650'>
 
 I will put out my projects developed in my graduation at UFSC, this repository I will focus on projects of classes about programming language.
 
@@ -9,7 +9,7 @@ In my blog I will post about the course itself. [click here and go to my blog](w
 
 
 I will separate by semester
-
+<img src="https://github.com/matheusfrancisco/computer-engineering-at-UFSC/blob/master/MatrizCurricular1.jpg" with='500' heigth='650'>
 ## Projects developing in classes
 
 #### 1th Semester

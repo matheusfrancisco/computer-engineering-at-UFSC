@@ -1,0 +1,58 @@
+#include <stdio.h>
+int main ()
+{
+	int tv;
+	int vt;
+	int vb;
+    int vr;
+    int total ;
+    float porcvt;
+    float porcb;
+    float porcvr;
+
+    vt = 0 ;
+    vb = 0;
+    vr = 0 ;
+
+   while (tv != -1)
+	{
+		printf ("\n Digite 1 para vinho tinto \n");
+		printf ("\n Digite 2 para vinho branco \n");
+		printf ("\n Digite 3 para vinho rose \n");
+		printf ("\n Digite (-1) para finalizar \n");
+		scanf ("%i",&tv);
+
+	switch (tv)
+
+	{
+
+		case 1:
+			vt++;
+			break ;
+		case 2:
+			vb++;
+			break ;
+		case 3:
+			vr++;
+			break ;
+		default:
+			printf ("\n Numero inexistente no sistema \n");
+				break ;
+
+	}
+
+	}
+
+    total = vt + vb + vr;
+    porcvt = vt * 100 / total;
+    porcb = vb * 100 / total;
+    porcvr = vr * 100 / total;
+
+	printf ("\n%i vinho tinto %i vinho branco %i vinho rose  \n", vt, vb, vr);
+	printf ("\n No total de %i vinhos \n", total);
+	printf ("\n %2.f por cento de vinho tinto \n", porcvt);
+	printf ("\n %2.f por cento de vinho branco \n", porcb);
+	printf ("\n %2.f por cento de vinho rose \n", porcvr);
+
+	return 0 ;
+}

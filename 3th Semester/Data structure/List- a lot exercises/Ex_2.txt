@@ -1,0 +1,119 @@
+/*2. (PF) { Escreva uma função que remova de uma lista duplamente encadeada com cabeça, a célula cujo endereço é p. A função deve devolver o conteúdo
+da célula. Quais dados sua função recebe?*/
+
+#include<stdio.h>
+#include<stdlib.h>
+
+struct celula{
+    int conteudo;
+    struct celula*seg;
+    struct celula*ant;
+}; typedef struct celula cel;
+
+void inserir(int x, cel**lst);
+int remover(cel **lst, cel*p);
+cel*buscar(int x, cel**lst);
+void imprimir(cel*lst);
+
+int main(){
+    cel*lst;
+
+    lst = (cel*)malloc(sizeof(cel*));
+    lst->ant = NULL;
+    lst->seg = NULL;
+    lst->conteudo = 0;
+
+    inserir(4, &lst);
+    inserir(7, &lst);
+    inserir(9, &lst);
+    inserir(2, &lst);
+
+    imprimir(lst);
+
+    printf("\nREMOVIDO: %i\n", remover(&lst, buscar(9, &lst)));
+
+    imprimir(lst);
+
+    return 0;
+}
+
+void inserir(int x, cel**lst){
+    cel*p;
+    cel*nova;
+
+    nova = (cel*)malloc(sizeof(cel*));
+    nova->ant = (*lst);
+    nova->seg = NULL;
+    nova->conteudo = x;
+
+    if((*lst)->seg == NULL){
+        (*lst)->seg = nova;
+    }else{
+        p = (*lst)->seg;
+        while(p->seg != NULL){
+            p = p->seg;
+        }
+        p->seg = nova;
+        nova->ant = p;
+    }
+}
+
+int remover(cel**lst, cel*p){
+    cel *q = NULL;
+    int x = -1;
+
+    if((*lst) == p || p == NULL){
+        printf("\nVALOR INVALIDO\n");
+        p = NULL;
+        return x;
+    }else{
+        q = (*lst)->seg;
+        while(q->seg != p && q != NULL){
+            q = q->seg;
+        }
+    }
+    if(q != NULL){
+        q->seg = p->seg;
+        if(p->seg != NULL){
+            p->seg->ant = q;
+        }
+        x = p->conteudo;
+        free(p);
+    }
+    return x;
+}
+
+cel*buscar(int x,cel**lst){
+    cel*p;
+
+    p = (*lst)->seg;
+
+    if((*lst)->seg == NULL){
+        printf("LISTA VAZIA!\n");
+    }else{
+        while(p->seg != NULL && p->conteudo != x){
+            p = p->seg;
+        }
+    }
+    if(p->conteudo == x){
+        return p;
+    }else{
+        printf("\nNAO EXISTE CORRESPONDENCIA\n");
+        p = NULL;
+        return p;
+    }
+}
+
+void imprimir(cel*lst){
+    cel*p;
+
+    if(lst->seg == NULL){
+        printf("LISTA VAZIA!");
+    }else{
+        p = lst->seg;
+        do{
+            printf("CONTEUDO: %i\n", p->conteudo);
+            p = p->seg;
+        }while(p != NULL);
+    }
+}

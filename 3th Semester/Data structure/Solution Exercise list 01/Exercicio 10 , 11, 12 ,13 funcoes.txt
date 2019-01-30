@@ -1,0 +1,118 @@
+// questao 10 da lista1 : criar uma terceira lista e unir as duas outras
+lista *l3; // criar uma terceira lista
+
+for (;p-> seg != NULL ; p = p -> seg) // percorrer a primeira lista através deste for e inseri-la na lista l3
+
+    void Inserir (lista *l, int x) { // funçao de inserir comum
+
+    celula * nova;
+    nova = (celula *) malloc (sizeof(celula));
+    nova -> conteudo = x;
+    nova -> seg = p -> seg;
+    p -> seg = nova;
+}
+
+for (;p2 -> seg != NULL ; p2 = p2 -> seg)// percorrer uma segunda lista e adiciona-la a l3
+
+    void Inserir (lista* ll, int x) {
+
+    celula * nova;
+    nova = (celula *) malloc (sizeof(celula));
+    nova -> conteudo = x;
+    nova -> seg = p -> seg;
+    p -> seg = nova;
+}
+
+return *l3;// retornar lista 3 com as células de lista 1 e lista 2
+
+
+
+-----------------------------------------------------------------------------------------------------------------
+// Questão 11: mesma que questão 10 porém em lista duplamente encadeada circular com cabeça.
+
+lista *l3; // criar uma terceira lista
+
+
+
+for (;p != lst; p = p -> seg) // se a celula de p (ou um ponteiro que percorre toda a lista, for diferente de cabeça
+                             // ele estará apontando e lendo a célula seguinte. Se ler lst, estará percorrendo  lista de novo
+
+    void Insere(int x, celula **lst){
+
+	celula *p, *nova;
+
+	nova = (celula *) malloc (sizeof(celula*));
+	nova->seg = (*lst);
+	nova->ant = (*lst);
+	nova->conteudo = x;
+
+	if((*lst)->seg == (*lst)){
+		(*lst)->seg = nova;
+		(*lst)->ant = nova;
+	}else{
+		p = (*lst)->ant;
+		(*lst)->ant = nova;
+		p->seg = nova;
+		nova->ant = p;
+	}
+}
+
+for (;p2 -> seg != NULL ; p2 = p2 -> seg)// percorrer uma segunda lista e adiciona-la a l3
+
+    void Insere(int x, celula **lst){
+
+	celula *p, *nova;
+
+	nova = (celula *) malloc (sizeof(celula*));
+	nova->seg = (*lst);
+	nova->ant = (*lst);
+	nova->conteudo = x;
+
+	if((*lst)->seg == (*lst)){
+		(*lst)->seg = nova;
+		(*lst)->ant = nova;
+	}else{
+		p = (*lst)->ant;
+		(*lst)->ant = nova;
+		p->seg = nova;
+		nova->ant = p;
+	}
+}
+----------------------------------------------------------------------------------------------
+// Questão 12: criar uma lista resultante das células cujo conteudo( neste caso nome), seja igual nas duas outras listas
+
+for (p-> seg != NULL ; p = p -> seg) // percorre a primeira lista
+
+for (p2 -> seg != NULL ; p2 = p2 -> seg) // percorre a segunda lista
+
+if (p->conteudo->nome == p2->conteudo ->nome){ // se o conteudo de uma for igual ao de outra, insere na terceira lista
+
+    void Inserir (lista *lst, int * x) {
+
+    celula * nova;
+    nova = (celula *) malloc (sizeof(celula));
+    nova -> conteudo = x;
+    nova -> seg = p -> seg;
+    p -> seg = nova;
+}
+--------------------------------------------------------------------------------------------------
+
+// Questão 13 formar terceira lista com variáveis diferentes entre as primeiras
+
+celula * diferenca (celula* ll , celula* l2){
+
+celula *aux =  NULL;  // a auxiliar inicia com nulo , auxiliar guarda a célula comparada para depois ser iserida na nova lista
+
+int v =0; // inicia com zero
+
+for (; l1 -> conteudo -> nome == l2 -> conteudo-> nome) // se o conteudo de l1 for igual ao conteudo de l2
+
+    v = l1; // copia o valor da celula anterior consultada pelo auxiliar e adiciona a nova lista.
+
+    aux = l1;
+    }
+
+    // criar nova lista para adicionar os dados do auxiliar.
+}
+
+

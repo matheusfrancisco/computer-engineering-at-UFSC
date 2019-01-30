@@ -1,0 +1,108 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <malloc.h>
+#include <string.h>
+
+
+#define MAX_NOME 50
+
+typedef struct pes
+{
+    char nome[MAX_NOME];
+    int num;
+} pessoa;
+
+typedef struct cel
+{
+    pessoa *conteudo;
+    struct cel *seg;
+} celula;
+
+pessoa *CriaPessoa(char *nome, int num)
+{
+    pessoa *nova = (pessoa*) malloc(sizeof(pessoa));
+    strcpy(nova->nome, nome);
+    nova->num = num;
+
+    return nova;
+}
+
+
+void Inserir(celula** p, pessoa *x)
+{
+
+    celula* elemento = (celula*) malloc (sizeof(celula));
+    elemento->conteudo = x;
+    elemento->seg = NULL;
+
+
+    if(*p==NULL)
+    {
+        *p = elemento;
+    }
+    else
+    {
+    elemento->seg = (*p)->seg;
+    (*p)->seg = elemento;
+
+    }
+}
+
+void Imprime(celula *lista)
+{
+    printf("\n");
+    for(;lista!=NULL;lista = lista->seg)
+        printf("nome: %s -- numero: %d\n", lista->conteudo->nome, lista->conteudo->num);
+}
+
+void * Remover(celula* p)
+{
+    pessoa *aux = NULL;
+    celula *rem = p->seg;
+    if(p->seg)
+    {
+    aux = p->seg->conteudo;
+    p->seg = p->seg->seg;
+    printf("removeu %s da lista\n", aux->nome);
+    }
+    else
+    printf("Sem elementos a serem removidos\n");
+    return aux;
+}
+
+celula * Inverte(celula* cabeca)
+{
+
+    celula* anterior = NULL;
+    celula* proximo;
+    while (cabeca)
+    {
+        proximo = cabeca->seg;
+        cabeca->seg = anterior;
+        anterior = cabeca;
+        cabeca = proximo;
+
+    }
+}
+
+
+void main()
+{
+    celula *lista = NULL;
+    celula *invertida = NULL;
+    Inserir(&lista ,CriaPessoa("eduardo",10));
+    Inserir(&lista ,CriaPessoa("andrei",12));
+    Inserir(&lista ,CriaPessoa("luiz",13));
+    Inserir(&lista ,CriaPessoa("caio",14));
+    Inserir(&lista ,CriaPessoa("daniel",15));
+    Inserir(&lista ,CriaPessoa("joao",16));
+    Inserir(&lista ,CriaPessoa("pedro",17));
+
+    Imprime(lista);
+
+    invertida = Inverte(lista);
+
+
+   Imprime(invertida);
+}
+

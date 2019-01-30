@@ -1,0 +1,75 @@
+/*1. (PF) { Defina e implemente operações Insere, Remove e Busca usando uma lista encadeada sem cabeça.*/
+#include<stdio.h>
+#include<stdlib.h>
+
+struct cel{
+    int conteudo;
+    struct cel *seg;
+}; typedef struct cel celula;
+
+void Imprime(celula*lst);
+celula *Busca(int n, celula *lst);
+void Remove(celula *p);
+void Insere(int n, celula *p);
+
+int main(){
+    celula *lst;
+    celula c;
+    lst = &c;
+
+    lst->seg = NULL;
+
+    int i;
+    for(i=0;i<5;i++){
+        printf("\nINFORME O VALOR:\n");
+        scanf("%i", &i);
+        Insere(i, lst);
+    }
+
+    Imprime(lst);
+
+    int n, x;
+    printf("\nQUE NUMERO VOCE QUER BUSCAR?\n");
+    scanf("%i", &n);
+
+    x = Busca(n,lst);
+    printf("\nENDERECO DO NUMERO %i: %i\n", n, x);
+
+    printf("\nREMOVENDO O PRIMEIRO NUMERO DA LISTA:\n");
+
+    Remove(lst);
+    Imprime(lst);
+
+    return 0;
+}
+
+void Imprime(celula*lst){
+    celula *p;
+    printf("\nLISTA ATUALIZADA:\n");
+    for(p = lst; p != NULL; p = p->seg)
+        printf("%d\n", p->conteudo);
+        printf("\n");
+}
+
+celula *Busca(int x, celula *lst){
+    celula*p;
+    p = lst->seg;
+    while(p != NULL && p->conteudo != x)
+        p = p->seg;
+    return p;
+}
+
+void Remove(celula *p){
+    celula *lixo;
+    lixo = p->seg;
+    p->seg = lixo->seg;
+    free(lixo);
+}
+
+void Insere(int y, celula *p){
+    celula*nova;
+    nova = malloc(sizeof(celula));
+    nova->conteudo = y;
+    nova->seg = p->seg;
+    p->seg = nova;
+}

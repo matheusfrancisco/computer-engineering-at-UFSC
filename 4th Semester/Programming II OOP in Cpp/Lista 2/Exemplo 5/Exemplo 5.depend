@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1442605370 source:c:\users\victor lima\documents\programação\p. orientado a objetos\exemplo 5\circle.cpp
+	"header.h"
+
+1442004752 c:\users\victor lima\documents\programação\p. orientado a objetos\exemplo 5\header.h
+	<string>
+
+1442602905 source:c:\users\victor lima\documents\programação\p. orientado a objetos\exemplo 5\main.cpp
+	<iostream>
+	"header.h"
+
+1442605966 source:c:\users\victor lima\documents\programação\p. orientado a objetos\lista 2\exemplo 5\circle.cpp
+	"header.h"
+	<iostream>
+
+1442004752 c:\users\victor lima\documents\programação\p. orientado a objetos\lista 2\exemplo 5\header.h
+	<string>
+
+1442602905 source:c:\users\victor lima\documents\programação\p. orientado a objetos\lista 2\exemplo 5\main.cpp
+	<iostream>
+	"header.h"
+

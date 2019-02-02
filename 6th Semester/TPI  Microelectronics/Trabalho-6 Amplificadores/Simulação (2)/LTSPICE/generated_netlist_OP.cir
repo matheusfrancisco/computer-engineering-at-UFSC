@@ -1,0 +1,27 @@
+* C:\Users\Jonas\Google Drive\ENC\9\MicroEletronica\Otimização Muller\Simulação\inicial.asc
+* v = [50.000000 49.980000 49.990000 32.150000 0.100000 100.000000 ]
+I1 Vg857 Vss {Iref}
+M3 Vg43Vd1 Vg43Vd1 Vss Vss N_1u l={Ln} w={Wn}
+C1 Vg6Vd24 out {C}
+V1 Vdd 0 2.5
+V2 Vss 0 -2.5
+V3 in+ 0 AC 1
+C2 out 0 1p
+M1 Vg43Vd1 0 Vd5Vs12 Vd5Vs12 P_1u l={Lp} w={Wp}
+M4 Vg6Vd24 Vg43Vd1 Vss Vss N_1u l={Ln} w={Wn}
+M6 out Vg6Vd24 Vss Vss N_1u l={Ln} w={Wn}
+M2 Vg6Vd24 in+ Vd5Vs12 Vd5Vs12 P_1u l={Lp} w={Wp}
+M7 out Vg857 Vdd Vdd P_1u l={Lp} w={Wp}
+M5 Vd5Vs12 Vg857 Vdd Vdd P_1u l={Lp} w={Wp}
+M8 Vg857 Vg857 Vdd Vdd P_1u l={Lp} w={Wp}
+.OP
+.include cmosedu_models.txt
+.param Wp=50.000000u
+.param Lp=49.980000u
+.param Wn=49.990000u
+.param Ln=32.150000u
+.param C=0.100000p
+.param Iref=100.000000u
+.meas AC Gain1Hz FIND V(out) AT 1
+.backanno
+.end

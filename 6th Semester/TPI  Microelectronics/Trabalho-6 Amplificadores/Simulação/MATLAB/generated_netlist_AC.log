@@ -1,0 +1,25 @@
+Circuit: .lib C:\users\francisco\My Documents\LTspiceXVII\lib\cmp\standard.mos
+
+Direct Newton iteration for .op point succeeded.
+
+gain1hz: v(out)=(116.798dB,-39.1557°) at 1
+freq0db: v(out)=(-0.000102133dB,-119.999°) at 986064
+
+
+Date: Wed Jun 28 11:57:39 2017
+Total elapsed time: 0.013 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 24
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 11
+fillins = 2
+solver = Normal
+Matrix Compiler1:      38 opcodes
+Matrix Compiler2: 1003 bytes object code size
+

@@ -1,0 +1,22 @@
+.lib C:\users\francisco\My Documents\LTspiceXVII\lib\cmp\standard.mos
+* v = [40.888978 1.800042 27.884442 49.995483 50.000000 39.678885 39.070008 14.794937 2.303828 20.000000]
+Iref vg875 ss 20.000000u 
+M3 vg43vd12 vg43vd12 ss ss N_1u l=39.678885u w=50.000000u
+CC out vg6vd24  2.303828p
+vdd dd 0 2.5
+vss 0 ss 2.5
+V3 in+ 0 AC 1
+C1 out 0 1p
+M1 vg43vd12 0 vd5vs23 vd5vs23 P_1u l=49.995483u w=27.884442u
+M4 vg6vd24 vg43vd12 ss ss N_1u  l=39.678885u w=50.000000u
+M6 out vg6vd24 ss ss N_1u l=14.794937u w=39.070008u
+M2 vg6vd24 in+ vd5vs23 vd5vs23 P_1u l=49.995483u w=27.884442u
+M7 out vg875 dd dd P_1u l=1.800042u w=40.888978u
+M5 vd5vs23 vg875 dd dd P_1u l=1.800042u w=40.888978u
+M8 vg875 vg875 dd dd P_1u l=1.800042u w=40.888978u
+.OP
+.include cmosedu_models.txt
+.meas AC Gain1Hz FIND V(out) AT 1
+.meas AC Freq0dB FIND V(out) WHEN MAG(V(out))=1
+.backanno
+.end

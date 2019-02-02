@@ -1,0 +1,24 @@
+Circuit: * Z:\home\francisco\Files\College-UFSC\6th semester\Tópicos Especiais I -Microeletronica\Trabalho-6 Otimização de Estágio Fonte Comum Ativa\ParticleSwarm\ex5.asc
+
+Direct Newton iteration for .op point succeeded.
+
+gain: v(vout)=(42.7672dB,180°) at 1
+
+
+Date: Thu Jun 15 17:07:37 2017
+Total elapsed time: 0.081 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 32
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 8
+fillins = 0
+solver = Normal
+Matrix Compiler1:      13 opcodes
+Matrix Compiler2:      44 opcodes
+

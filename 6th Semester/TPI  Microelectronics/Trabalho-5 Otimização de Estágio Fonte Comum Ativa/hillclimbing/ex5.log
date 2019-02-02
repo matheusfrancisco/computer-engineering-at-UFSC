@@ -1,0 +1,48 @@
+Questionable use of curly braces in ".model sir870adp vdmos(rg=3 vto=2.9 rd=3.2m rs=1.5m rb={m} kp=100 mtriode=1.85 cgdmax=1.4n cgdmin=70p cgs=2.9n cjo=3.6n m=.4 a=.7 vj=.7 lambda=20m is=3p ksubthres=.08 mfg=siliconix vds=100 ron=5.5m qg=53.5n)"
+    Error: undefined symbol in: "[m]"
+Circuit: * Z:\home\francisco\Files\College-UFSC\6th semester\Tópicos Especiais I -Microeletronica\Trabalho-6 Otimização de Estágio Fonte Comum Ativa\ex5.asc
+
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- MOSFET Transistors ---
+Name:        m§nmos      m§pmos2     m§pmos1
+Model:        n_1u        p_1u        p_1u
+Id:          3.21e-05    3.21e-05    3.21e-05
+Vgs:         1.00e+00   -1.69e+00    0.00e+00
+Vds:         1.42e+00    3.58e+00    5.27e+00
+Vbs:         0.00e+00    3.58e+00    5.27e+00
+Vth:         8.35e-01   -9.59e-01   -9.59e-01
+Vdsat:       1.84e-01   -3.58e+00   -3.58e+00
+Gm:          2.74e-04    1.21e-05    1.21e-05
+Gds:         1.92e-06    6.67e-08    6.37e-08
+Gmb:         7.34e-05    1.89e-06    1.89e-06
+Cbd:         0.00e+00    0.00e+00    0.00e+00
+Cbs:         0.00e+00    0.00e+00    0.00e+00
+Cgsov:       3.50e-15    6.00e-16    6.00e-16
+Cgdov:       3.50e-15    6.00e-16    6.00e-16
+Cgbov:       1.30e-16    1.98e-15    1.98e-15
+Cgs:         2.62e-14    0.00e+00    0.00e+00
+Cgd:         0.00e+00    6.84e-14    6.84e-14
+Cgb:         0.00e+00    0.00e+00    0.00e+00
+
+
+
+
+
+Date: Tue Jun 13 10:25:45 2017
+Total elapsed time: 0.067 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 32
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 8
+fillins = 0
+solver = Normal
+Matrix Compiler1: 210 bytes object code size
+Matrix Compiler2: 526 bytes object code size
+

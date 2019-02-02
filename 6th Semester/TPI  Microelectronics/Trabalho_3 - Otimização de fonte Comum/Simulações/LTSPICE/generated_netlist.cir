@@ -1,0 +1,13 @@
+* Otimizacao de fonte modo comum
+VGS_DC N001 0 1.0842V
+M1 out in 0 0 N_1u l=4.9100u w=88.7592u
+vgs_ac in N001 AC 1
+Rd VDD out 90453.9768
+VDD VDD 0 5V
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\Jonas\Documents\LTspiceXVII\lib\cmp\standard.mos 
+.include cmosedu_models.txt 
+.ac dec 10 1 1MEG 
+.meas AC Gain FIND V(out) AT 1 
+.end

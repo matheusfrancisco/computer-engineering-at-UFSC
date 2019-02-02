@@ -1,0 +1,17 @@
+#!/bin/bash
+#tempstr="$0"
+tempstr="$1"
+fc=${tempstr:0:1}
+if [ "$fc" == "/" ]; then
+#    echo "argument = $tempstr"
+#    echo "command = /home/francisco/.wine/drive_c/Program Files/LTC/LTspiceXVII/XVIIx64.exe z:$@"
+    wine "/home/francisco/.wine/drive_c/Program Files/LTC/LTspiceXVII/XVIIx64.exe" "z:$@" 2> /dev/null
+elif [ "$fc" == "" ]; then
+#   echo "argument = $tempstr"
+#   echo "command:/home/francisco/.wine/drive_c/Program Files/LTC/LTspiceXVII/XVIIx64.exe"
+   wine "/home/francisco/.wine/drive_c/Program Files/LTC/LTspiceXVII/XVIIx64.exe" 2> /dev/null
+else
+#    echo "argument = $tempstr"
+#    echo "command = /home/francisco/.wine/drive_c/Program Files/LTC/LTspiceXVII/XVIIx64.exe $@"
+   wine "/home/francisco/.wine/drive_c/Program Files/LTC/LTspiceXVII/XVIIx64.exe" "$@" 2> /dev/null
+fi

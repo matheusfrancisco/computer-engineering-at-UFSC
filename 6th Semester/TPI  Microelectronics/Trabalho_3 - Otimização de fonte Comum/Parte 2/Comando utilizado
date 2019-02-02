@@ -1,0 +1,14 @@
+.measure AC GAIN FIND V(vout) AT =1 
+
+Foi utilizado no trabalho  um comando automatico 
+.MEASURE - Avaliar Quantidades Elétricas Definidas pelo Usuário
+ 
+Existem dois tipos diferentes básicos de instruções .MEASURE. Aqueles que se referem a um ponto ao longo da abscissa (a variável independente plotada ao longo do eixo horizontal, ou seja, o eixo de tempo de uma análise .tran) e .MEASURE declarações que se referem a um intervalo sobre a abscissa. A primeira versão, aquelas que apontam para um ponto na abscissa, são usadas para imprimir um valor de dados ou sua expressão em um ponto específico ou quando uma condição é atendida. A seguinte sintaxe é usada:
+ 
+Sintaxe: .MEAS [SURE] [AC | DC | OP | TRAN | TF | NOISE] <nome>
+ + [<ENCONTRAR | DERIV | PARAM> <expr>]
+ + [WHEN <expr> | AT = <expr>]]
+ + [TD = <val1>] [<RISE | FALL | CROSS> = [<count1> | LAST]]
+ 
+Observe que um pode opcionalmente indicar o tipo de análise a que se aplica a declaração .MEAS. Isso permite que você use determinadas instruções .MEAS somente para determinados tipos de análise. O nome é necessário para dar ao resultado um nome de parâmetro que pode ser usado em outras instruções .MEAS. Abaixo estão exemplos de instruções .MEAS que se referem a um único ponto ao longo da abscissa:
+Para as análises .AC, as expressões condicionais de dados complexos são traduzidas para condições reais, convertendo a expressão em sua magnitude.

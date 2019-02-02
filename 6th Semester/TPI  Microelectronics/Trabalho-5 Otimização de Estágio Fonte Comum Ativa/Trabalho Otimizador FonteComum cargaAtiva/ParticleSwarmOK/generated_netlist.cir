@@ -1,0 +1,16 @@
+*Netlist_teste
+Vd Vdd 0 5V 
+M1 Vdd N001 N001 Vdd P_1u l=2.602949u w=98.035593u 
+M2 Vdd N001 vout Vdd P_1u l=2.602949u w=98.035593u 
+Iref N001 0 24123.202048u
+M3 vout N002 0 0 N_1u l=9.219441u w=36.948425u 
+VGS N003 0 4.258895
+Vg N002 N003 AC 1
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Program Files (x86)\LTC\LTspiceIV\lib\cmp\standard.mos
+.ac oct 1 1 1MEG
+.include cmosedu_models.txt 
+.meas AC gain FIND V(vout) AT 1 
+.backanno 
+.end 

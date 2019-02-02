@@ -1,0 +1,14 @@
+*Netlist_teste
+Vgs1 in N001 AC 1 
+VGS N001 0 4.7229 
+M§N_1u Vout in 0 0 N_1u l=2.9016u w=41.0882u 
+RD VDD Vout 10287.0228 
+VDS VDD 0 5V 
+.model NMOS NMOS 
+.model PMOS PMOS 
+.lib C:\Program Files (x86)\LTC\LTspiceIV\lib\cmp\standard.mos 
+.include cmosedu_models.txt 
+.ac dec 10 1 1Mega
+.measure AC GAIN FIND V(vout) AT = 1 
+.backanno 
+.end 

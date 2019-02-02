@@ -1,0 +1,26 @@
+Questionable use of curly braces in ".model sir870adp vdmos(rg=3 vto=2.9 rd=3.2m rs=1.5m rb={m} kp=100 mtriode=1.85 cgdmax=1.4n cgdmin=70p cgs=2.9n cjo=3.6n m=.4 a=.7 vj=.7 lambda=20m is=3p ksubthres=.08 mfg=siliconix vds=100 ron=5.5m qg=53.5n)"
+    Error: undefined symbol in: "[m]"
+Circuit: * Z:\home\francisco\Files\College-UFSC\6th semester\Tópicos Especiais I\Parte_3\Circuito\Parte3.asc
+
+Direct Newton iteration for .op point succeeded.
+
+gain: v(vout)=(7.63652dB,180°) at 1
+
+
+Date: Wed May 10 11:04:45 2017
+Total elapsed time: 0.075 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 6
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 7
+fillins = 0
+solver = Normal
+Matrix Compiler1:       9 opcodes
+Matrix Compiler2: 419 bytes object code size
+

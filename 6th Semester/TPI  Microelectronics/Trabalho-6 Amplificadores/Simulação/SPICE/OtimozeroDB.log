@@ -1,0 +1,88 @@
+Questionable use of curly braces in ".model sir870adp vdmos(rg=3 vto=2.9 rd=3.2m rs=1.5m rb={m} kp=100 mtriode=1.85 cgdmax=1.4n cgdmin=70p cgs=2.9n cjo=3.6n m=.4 a=.7 vj=.7 lambda=20m is=3p ksubthres=.08 mfg=siliconix vds=100 ron=5.5m qg=53.5n)"
+    Error: undefined symbol in: "[m]"
+Circuit: * Z:\home\francisco\Files\College-UFSC\6th semester\Tópicos Especiais I -Microeletronica\Trabalho-6 Amplificadores\Simulação\SPICE\OtimozeroDB.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+Gmin = 1.89714e-008
+Gmin = 2.03704e-009
+Gmin = 2.18725e-010
+Gmin = 2.34854e-011
+Gmin = 2.52173e-012
+Gmin = 2.70769e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Semiconductor Device Operating Points:
+                        --- MOSFET Transistors ---
+Name:          m8          m5          m7          m2          m1
+Model:        p_1u        p_1u        p_1u        p_1u        p_1u
+Id:         -2.00e-08   -2.01e-08   -2.03e-08   -1.00e-08   -1.00e-08
+Vgs:        -7.15e-01   -7.15e-01   -7.15e-01   -8.44e-01   -8.44e-01
+Vds:        -7.15e-01   -1.66e+00   -4.96e+00   -2.67e+00   -2.67e+00
+Vbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Vth:        -9.33e-01   -9.33e-01   -9.33e-01   -9.58e-01   -9.58e-01
+Vdsat:      -4.98e-02   -4.98e-02   -4.98e-02   -5.01e-02   -5.01e-02
+Gm:          3.42e-07    3.43e-07    3.50e-07    1.70e-07    1.70e-07
+Gds:         1.22e-10    1.22e-10    1.23e-10    2.58e-13    2.58e-13
+Gmb:         1.21e-07    1.21e-07    1.22e-07    6.31e-08    6.31e-08
+Cbd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgsov:       5.65e-15    5.65e-15    5.65e-15    7.74e-15    7.74e-15
+Cgdov:       5.65e-15    5.65e-15    5.65e-15    7.74e-15    7.74e-15
+Cgbov:       2.00e-16    2.00e-16    2.00e-16    3.34e-15    3.34e-15
+Cgs:         6.49e-14    6.49e-14    6.49e-14    1.49e-12    1.49e-12
+Cgd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgb:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:          m6          m4          m3
+Model:        n_1u        n_1u        n_1u
+Id:          2.03e-08    1.00e-08    1.00e-08
+Vgs:         6.77e-01    6.77e-01    6.77e-01
+Vds:         3.59e-02    6.77e-01    6.77e-01
+Vbs:         0.00e+00    0.00e+00    0.00e+00
+Vth:         8.59e-01    8.65e-01    8.65e-01
+Vdsat:       4.99e-02    4.96e-02    4.96e-02
+Gm:          3.52e-07    1.74e-07    1.74e-07
+Gds:         2.46e-07    2.53e-12    2.53e-12
+Gmb:         1.13e-07    5.72e-08    5.72e-08
+Cbd:         0.00e+00    0.00e+00    0.00e+00
+Cbs:         0.00e+00    0.00e+00    0.00e+00
+Cgsov:       1.00e-14    3.87e-15    3.87e-15
+Cgdov:       1.00e-14    3.87e-15    3.87e-15
+Cgbov:       1.66e-15    1.28e-15    1.28e-15
+Cgs:         4.59e-13    1.33e-13    1.33e-13
+Cgd:         0.00e+00    0.00e+00    0.00e+00
+Cgb:         3.72e-13    1.15e-13    1.15e-13
+
+
+
+
+
+Date: Fri Jun 30 23:40:48 2017
+Total elapsed time: 0.084 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 435
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 11
+fillins = 2
+solver = Normal
+Matrix Compiler1: 708 bytes object code size
+Matrix Compiler2: 991 bytes object code size  0.8/0.9/[0.6]
+
+

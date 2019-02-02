@@ -1,0 +1,1 @@
+g++ Main.cpp -lGL -lGLEW -lGLU -lglut -lm -lpthread -lX11

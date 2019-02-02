@@ -1,0 +1,122 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.1\2017\somador_4bit\simulation\modelsim
+Emeio_somador
+Z1 w1491622191
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\altera\13.1\2017\somador_4bit\simulation\modelsim
+Z5 8C:/altera/13.1/2017/somador_4bit/meio_somador.vhd
+Z6 FC:/altera/13.1/2017/somador_4bit/meio_somador.vhd
+l0
+L5
+VJa=N0X0c;Mn;<mcYKj7>i0
+!s100 NTMjYUSFQgNOVKAMO4R5C1
+Z7 OV;C;10.1d;51
+31
+!i10b 1
+Z8 !s108 1491623366.202000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/altera/13.1/2017/somador_4bit/meio_somador.vhd|
+Z10 !s107 C:/altera/13.1/2017/somador_4bit/meio_somador.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+Abehavioral
+R2
+R3
+DEx4 work 12 meio_somador 0 22 Ja=N0X0c;Mn;<mcYKj7>i0
+l22
+L17
+VblTL[ehoK8Ko4^U[W@zfD0
+!s100 7He>HVz>mei[P497l6WZk3
+R7
+31
+!i10b 1
+R8
+R9
+R10
+R11
+R12
+Esomador_4bit
+Z13 w1491623152
+Z14 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z15 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z16 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R2
+R3
+R4
+Z17 8C:/altera/13.1/2017/somador_4bit/somador_4bit.vhd
+Z18 FC:/altera/13.1/2017/somador_4bit/somador_4bit.vhd
+l0
+L9
+VEL0c19k9<ZZF;EO3XJL7T0
+R7
+31
+Z19 !s108 1491623365.553000
+Z20 !s90 -reportprogress|300|-93|-work|work|C:/altera/13.1/2017/somador_4bit/somador_4bit.vhd|
+Z21 !s107 C:/altera/13.1/2017/somador_4bit/somador_4bit.vhd|
+R11
+R12
+!s100 6SW8FallQLzfWSTKG@h9:0
+!i10b 1
+Abehavior
+R14
+R15
+R16
+R2
+R3
+DEx4 work 12 somador_4bit 0 22 EL0c19k9<ZZF;EO3XJL7T0
+l56
+L32
+VHFjCDTgSTO2;YYH8EfIm00
+R7
+31
+R19
+R20
+R21
+R11
+R12
+!s100 mJl<89mWm<`l1d?EKI4N^3
+!i10b 1
+Esomador_completo
+Z22 w1491622176
+R14
+R15
+R16
+R2
+R3
+R4
+Z23 8C:/altera/13.1/2017/somador_4bit/somador_completo.vhd
+Z24 FC:/altera/13.1/2017/somador_4bit/somador_completo.vhd
+l0
+L9
+V<H9m5GL742<<G0UfCF7kg2
+R7
+31
+Z25 !s108 1491623365.922000
+Z26 !s90 -reportprogress|300|-93|-work|work|C:/altera/13.1/2017/somador_4bit/somador_completo.vhd|
+Z27 !s107 C:/altera/13.1/2017/somador_4bit/somador_completo.vhd|
+R11
+R12
+!s100 oe7>IX`l_6Re?WJcUenbE3
+!i10b 1
+Abehavior
+R14
+R15
+R16
+R2
+R3
+DEx4 work 16 somador_completo 0 22 <H9m5GL742<<G0UfCF7kg2
+l45
+L23
+V22IlPkOg[6^<Pd0>R4;EK1
+R7
+31
+R25
+R26
+R27
+R11
+R12
+!s100 Lh]Y8QJhXUISR3mRM:Gkj0
+!i10b 1

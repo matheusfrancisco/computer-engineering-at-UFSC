@@ -1,0 +1,57 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+USE ieee.std_logic_unsigned.all;
+
+
+ENTITY TB_Registradores IS
+END TB_Registradores;
+
+ARCHITECTURE behavior OF TB_Registradores IS
+   
+   component Registradores
+    port( 
+      i_EN, i_CLK : in STD_LOGIC;
+	   
+		i_DATA : in std_logic_vector(7 downto 0);
+		o_DATA : out std_logic_vector(7 downto 0));
+
+    
+      
+end component;
+   
+   signal i_EN : std_LOGIC;
+	signal i_CLK : std_LOGIC;
+	signal i_DATA : in std_logic_vector(7 downto 0);
+		
+   signal o_DATA : out std_logic_vector(7 downto 0)
+
+
+	
+   
+   
+   
+BEGIN
+    
+   Teste: circuito_digital PORT MAP (
+         i_EN => i_EN,
+         i_CLK => i_CLK,
+			i_DATA => i_DATA,
+		
+			o_DATA => o_DATA
+        );      
+
+   
+ stin_proc: process
+	begin
+wait for 5 ns; 
+i_EN <= '0'; 
+i_CLK <= '1'; 
+i_DATA <= '0'; 
+
+wait for 5 ns; 
+i_EN <= '1'; 
+i_CLK <= '1'; 
+i_DATA <= '1';
+	end process;
+
+END;

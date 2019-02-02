@@ -1,0 +1,31 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+
+entity Registradores is port
+(        
+      i_EN, i_CLK : in STD_LOGIC;
+	   
+		i_DATA :in std_logic_vector(7 downto 0);
+		o_DATA :out std_logic_vector(7 downto 0);
+);
+
+end Registradores;
+
+architecture Behavioral of Registradores is
+
+process (i_CLK)
+
+
+begin 
+if rising_EDGE (i_CLK) then 
+   if(i_EN = '1') then
+	
+	o_DATA <= i_DATA;
+	
+	end if;
+	end if;
+	
+	end process;
+
+end behavioral;

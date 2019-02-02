@@ -1,0 +1,20 @@
+# Writing all output to: D:\Arquivos_UFSC\7a_Fase\Microprocessadores e Microcontroladores\PIC\13-05-2016\Exe2\exe2.log
+set pad_wire_necking on
+bus diagonal
+fanout 5
+route 50
+clean 2
+route 50 16
+clean 2
+route 50 16
+clean 2
+route 50 16
+clean 2
+route 50 16
+clean 2
+route 50 16
+clean 2
+filter 5
+recorner diagonal
+status_file
+

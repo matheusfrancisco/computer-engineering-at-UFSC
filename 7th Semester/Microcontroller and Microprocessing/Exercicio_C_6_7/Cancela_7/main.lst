@@ -1,0 +1,386 @@
+CCS PCM C Compiler, Version 5.015, 5967               20-May-16 15:27
+
+               Filename:   D:\Arquivos_UFSC\7a_Fase\Microprocessadores e Microcontroladores\PIC\13-05-2016\Exe2\main.lst
+
+               ROM used:   229 words (3%)
+                           Largest free fragment is 2048
+               RAM used:   16 (4%) at main() level
+                           18 (5%) worst case
+               Stack used: 3 locations (1 in main + 2 for interrupts)
+               Stack size: 8
+
+*
+0000:  MOVLW  00
+0001:  MOVWF  0A
+0002:  GOTO   079
+0003:  NOP
+0004:  MOVWF  7F
+0005:  SWAPF  03,W
+0006:  CLRF   03
+0007:  MOVWF  21
+0008:  MOVF   0A,W
+0009:  MOVWF  20
+000A:  CLRF   0A
+000B:  MOVF   04,W
+000C:  MOVWF  22
+000D:  MOVF   77,W
+000E:  MOVWF  23
+000F:  MOVF   78,W
+0010:  MOVWF  24
+0011:  MOVF   79,W
+0012:  MOVWF  25
+0013:  MOVF   7A,W
+0014:  MOVWF  26
+0015:  BCF    03.7
+0016:  BCF    03.5
+0017:  BTFSS  0B.4
+0018:  GOTO   01B
+0019:  BTFSC  0B.1
+001A:  GOTO   02C
+001B:  MOVF   22,W
+001C:  MOVWF  04
+001D:  MOVF   23,W
+001E:  MOVWF  77
+001F:  MOVF   24,W
+0020:  MOVWF  78
+0021:  MOVF   25,W
+0022:  MOVWF  79
+0023:  MOVF   26,W
+0024:  MOVWF  7A
+0025:  MOVF   20,W
+0026:  MOVWF  0A
+0027:  SWAPF  21,W
+0028:  MOVWF  03
+0029:  SWAPF  7F,F
+002A:  SWAPF  7F,W
+002B:  RETFIE
+002C:  BCF    0A.3
+002D:  BCF    0A.4
+002E:  GOTO   044
+.................... /*C-------------------------------------------------------------------------------------- 
+.................... - FILENAME :        main.c              
+.................... - 
+.................... - DESCRIPTION : 
+.................... -       Controle de cancela de travessia de ferrovia usando microcontrolador PIC16F877A. 
+.................... - 
+.................... - PUBLIC FUNCTIONS : 
+.................... -       void	trata_INT_ext() 
+.................... -       void    main() 
+.................... - 
+.................... - NOTES : 
+.................... -			O problema foi resolvido com base nas expecificaï¿½ï¿½es do enunciado. 
+.................... - 
+.................... - AUTHOR :  Thiago Raulino Dal Pont     	START DATE :	13 May 16 
+.................... - 
+.................... -----------------------------------------------------------------------------------------C*/ 
+....................  
+.................... /*---------------------------------   ENUNCIADO    -------------------------------------- 
+....................  
+.................... Desenvolva um sistema embarcado(hardware e software) para controle de uma cancela  
+.................... para passagem de trem. Uma saída determinará cancela aberta ou fechada e sensores  
+.................... na cancela garantem a posição dela.Um sensor de presença de automóvel faz a cancela  
+.................... abrir e depois fecha. Um outro sensor de trem detecta a presença do mesmo e não  
+.................... deixa abrir a cancela mesmo com a presença de carro.(usar interrupção) 
+....................  
+.................... -----------------------------------------------------------------------------------------*/ 
+....................  
+.................... //--------------------------------     INCLUDES     -------------------------------------// 
+.................... #include <main.h> 
+.................... #include <16F877A.h> 
+.................... //////////// Standard Header file for the PIC16F877A device //////////////// 
+.................... /////////////////////////////////////////////////////////////////////////// 
+.................... ////        (C) Copyright 1996, 2013 Custom Computer Services          //// 
+.................... //// This source code may only be used by licensed users of the CCS C  //// 
+.................... //// compiler.  This source code may only be distributed to other      //// 
+.................... //// licensed users of the CCS C compiler.  No other use, reproduction //// 
+.................... //// or distribution is permitted without written permission.          //// 
+.................... //// Derivative programs created using this software in object code    //// 
+.................... //// form are not restricted in any way.                               //// 
+.................... /////////////////////////////////////////////////////////////////////////// 
+.................... #device PIC16F877A 
+....................  
+.................... #list 
+....................  
+.................... #device ADC=16 
+....................  
+.................... #FUSES NOWDT                 	//No Watch Dog Timer 
+.................... #FUSES NOBROWNOUT            	//No brownout reset 
+.................... #FUSES NOLVP                 	//No low voltage prgming, B3(PIC16) or B5(PIC18) used for I/O 
+....................  
+.................... #use delay(crystal=4MHz) 
+002F:  MOVLW  2C
+0030:  MOVWF  04
+0031:  BCF    03.7
+0032:  MOVF   00,W
+0033:  BTFSC  03.2
+0034:  GOTO   043
+0035:  MOVLW  01
+0036:  MOVWF  78
+0037:  CLRF   77
+0038:  DECFSZ 77,F
+0039:  GOTO   038
+003A:  DECFSZ 78,F
+003B:  GOTO   037
+003C:  MOVLW  4A
+003D:  MOVWF  77
+003E:  DECFSZ 77,F
+003F:  GOTO   03E
+0040:  GOTO   041
+0041:  DECFSZ 00,F
+0042:  GOTO   035
+0043:  RETURN
+....................  
+....................  
+....................  
+....................  
+.................... //---------------------     VARIï¿½VEIS GLOBAIS E CONSTANTES     --------------------------// 
+.................... const int SENSOR_TREM				= PIN_B0;	// Sensor de presenï¿½a do trem 
+.................... const int SENSOR_AUTO				= PIN_B1;	// Sensor de presenï¿½a de automï¿½veis 
+.................... const int SENSOR_CANCELA_FECHADA	= PIN_B2;	// Sensor de cancela fechada 
+.................... const int SENSOR_CANCELA_ABERTA		= PIN_B3;	// Sensor de cancela aberta 
+.................... const int SAIDA_FECHANDO			= PIN_B4;	// Saï¿½da de motor em estado 'fechando' 
+.................... const int SAIDA_ABRINDO				= PIN_B5;	// Saï¿½da de motor em estado 'abrindo' 
+.................... const int SAIDA_SOM					= PIN_B6;	// Saï¿½da de som 
+.................... int1 flag, auto_cross; 
+....................  
+.................... //----------------------	Controle de Interrupï¿½ï¿½o	Externa    -------------------------// 
+.................... #INT_ext 
+.................... void trata_INT_ext() { 
+.................... 	while (input(SENSOR_TREM) == 0){ 
+0044:  BSF    03.5
+0045:  BSF    06.0
+0046:  BCF    03.5
+0047:  BTFSC  06.0
+0048:  GOTO   075
+.................... 		flag = 1;					// Indicador de interrupï¿½ï¿½o   	 
+0049:  BSF    28.0
+.................... 	   	 
+.................... 		output_high(SAIDA_SOM);		// Aviso sonoro de trem se aproximando. 
+004A:  BSF    03.5
+004B:  BCF    06.6
+004C:  BCF    03.5
+004D:  BSF    06.6
+.................... 	   	 
+.................... 		// Caso um automï¿½vel esteja cruzando a ferrovia, espera antes de fechar a cancela. 
+.................... 		if (auto_cross == 1) { 
+004E:  BTFSS  28.1
+004F:  GOTO   057
+.................... 			delay_ms(20000); 
+0050:  MOVLW  50
+0051:  MOVWF  2B
+0052:  MOVLW  FA
+0053:  MOVWF  2C
+0054:  CALL   02F
+0055:  DECFSZ 2B,F
+0056:  GOTO   052
+.................... 		} 
+.................... 	   	 
+....................    	 
+.................... 		while (input(SENSOR_CANCELA_FECHADA) == 1) { 
+0057:  BSF    03.5
+0058:  BSF    06.2
+0059:  BCF    03.5
+005A:  BTFSS  06.2
+005B:  GOTO   065
+.................... 			output_low(SAIDA_ABRINDO); 
+005C:  BSF    03.5
+005D:  BCF    06.5
+005E:  BCF    03.5
+005F:  BCF    06.5
+.................... 			output_high(SAIDA_FECHANDO); 
+0060:  BSF    03.5
+0061:  BCF    06.4
+0062:  BCF    03.5
+0063:  BSF    06.4
+0064:  GOTO   057
+.................... 		} 
+.................... 	   	 
+.................... 		output_low(SAIDA_FECHANDO);	// Apaga a luz que indica a aï¿½ï¿½o de fechamento da cancela. 
+0065:  BSF    03.5
+0066:  BCF    06.4
+0067:  BCF    03.5
+0068:  BCF    06.4
+.................... 	   	 
+.................... 		delay_ms(10000);		   	 
+0069:  MOVLW  28
+006A:  MOVWF  2B
+006B:  MOVLW  FA
+006C:  MOVWF  2C
+006D:  CALL   02F
+006E:  DECFSZ 2B,F
+006F:  GOTO   06B
+.................... 		output_low(SAIDA_SOM);		// Para o alerta sonoro. 
+0070:  BSF    03.5
+0071:  BCF    06.6
+0072:  BCF    03.5
+0073:  BCF    06.6
+0074:  GOTO   044
+.................... 	} 
+0075:  BCF    0B.1
+0076:  BCF    0A.3
+0077:  BCF    0A.4
+0078:  GOTO   01B
+.................... } 
+....................  
+....................  
+.................... //----------------------------     FUNï¿½ï¿½O PRINCIPAL     -------------------------------// 
+.................... void main() { 
+0079:  MOVF   03,W
+007A:  ANDLW  1F
+007B:  MOVWF  03
+007C:  BSF    03.5
+007D:  BSF    1F.0
+007E:  BSF    1F.1
+007F:  BSF    1F.2
+0080:  BCF    1F.3
+0081:  MOVLW  07
+0082:  MOVWF  1C
+0083:  BCF    03.7
+....................    	 
+.................... 	port_b_pullups (true); 
+0084:  BCF    01.7
+....................  
+.................... 	// Configuraï¿½ï¿½o das interrupï¿½ï¿½es 
+.................... 	enable_interrupts (global);			// Global 
+0085:  MOVLW  C0
+0086:  BCF    03.5
+0087:  IORWF  0B,F
+....................     enable_interrupts (INT_ext);		// Externa 
+0088:  BSF    0B.4
+....................     ext_INT_edge (H_to_L);				// Habilita Falling edge como disparador de interrupï¿½ï¿½o*/ 
+0089:  BSF    03.5
+008A:  BCF    01.6
+....................      
+....................     // Inicializaï¿½ï¿½o das saï¿½das. 
+....................     output_low(SAIDA_ABRINDO); 
+008B:  BCF    06.5
+008C:  BCF    03.5
+008D:  BCF    06.5
+....................     output_low(SAIDA_FECHANDO); 
+008E:  BSF    03.5
+008F:  BCF    06.4
+0090:  BCF    03.5
+0091:  BCF    06.4
+....................     output_low(SAIDA_SOM); 
+0092:  BSF    03.5
+0093:  BCF    06.6
+0094:  BCF    03.5
+0095:  BCF    06.6
+....................      
+....................     // Laï¿½o de repetiï¿½ï¿½o infinito 
+....................     while (true) { 
+.................... 		flag = 0; 
+0096:  BCF    28.0
+.................... 	   	 
+.................... 		// Caso tenha um automï¿½vel em frente a cancela 
+.................... 		if (input (SENSOR_AUTO) == 0 && flag == 0) { 
+0097:  BSF    03.5
+0098:  BSF    06.1
+0099:  BCF    03.5
+009A:  BTFSC  06.1
+009B:  GOTO   0E3
+009C:  BTFSC  28.0
+009D:  GOTO   0E3
+.................... 		   	 
+.................... 			if (input(SENSOR_CANCELA_ABERTA) == 1 && flag == 0) { 
+009E:  BSF    03.5
+009F:  BSF    06.3
+00A0:  BCF    03.5
+00A1:  BTFSS  06.3
+00A2:  GOTO   0B8
+00A3:  BTFSC  28.0
+00A4:  GOTO   0B8
+.................... 				output_high(SAIDA_ABRINDO); // aciona a luz e o motor de abrindo simultaneamente. 
+00A5:  BSF    03.5
+00A6:  BCF    06.5
+00A7:  BCF    03.5
+00A8:  BSF    06.5
+.................... 				output_low(SAIDA_FECHANDO); // apaga a luz de fechando. 
+00A9:  BSF    03.5
+00AA:  BCF    06.4
+00AB:  BCF    03.5
+00AC:  BCF    06.4
+.................... 		   	 
+.................... 				while(input(SENSOR_CANCELA_ABERTA) == 1 && flag == 0); // Enquanto nï¿½o estiver totalmente aberto, espera. 
+00AD:  BSF    03.5
+00AE:  BSF    06.3
+00AF:  BCF    03.5
+00B0:  BTFSS  06.3
+00B1:  GOTO   0B4
+00B2:  BTFSS  28.0
+00B3:  GOTO   0AD
+.................... 			   	 
+.................... 				output_low(SAIDA_ABRINDO); // desliga a luz e o motor de abrindo simultaneamente. 
+00B4:  BSF    03.5
+00B5:  BCF    06.5
+00B6:  BCF    03.5
+00B7:  BCF    06.5
+.................... 			} 
+.................... 		   	 
+.................... 			if (flag == 0) { 
+00B8:  BTFSC  28.0
+00B9:  GOTO   0E3
+.................... 			    auto_cross = 1;			// Diz que estï¿½ passando um carro. 
+00BA:  BSF    28.1
+.................... 				delay_ms(10000);		// O automï¿½vel passa e espera enquanto isso. 
+00BB:  MOVLW  28
+00BC:  MOVWF  29
+00BD:  CLRF   27
+00BE:  BTFSC  0B.7
+00BF:  BSF    27.7
+00C0:  BCF    0B.7
+00C1:  MOVLW  FA
+00C2:  MOVWF  2C
+00C3:  CALL   02F
+00C4:  BTFSC  27.7
+00C5:  BSF    0B.7
+00C6:  DECFSZ 29,F
+00C7:  GOTO   0BD
+.................... 			   	 
+.................... 				auto_cross = 0;			// Indica que nï¿½o hï¿½ mais nenhum automï¿½vel atravessando. 
+00C8:  BCF    28.1
+.................... 			   	 
+.................... 				// Caso a cancela jÃ¡ nÃ£o esteja fechada. 
+.................... 				if ((input(SENSOR_CANCELA_FECHADA) == 1) && (flag == 0)) { 
+00C9:  BSF    03.5
+00CA:  BSF    06.2
+00CB:  BCF    03.5
+00CC:  BTFSS  06.2
+00CD:  GOTO   0DF
+00CE:  BTFSC  28.0
+00CF:  GOTO   0DF
+.................... 					output_low(SAIDA_ABRINDO);  
+00D0:  BSF    03.5
+00D1:  BCF    06.5
+00D2:  BCF    03.5
+00D3:  BCF    06.5
+.................... 					output_high(SAIDA_FECHANDO);  
+00D4:  BSF    03.5
+00D5:  BCF    06.4
+00D6:  BCF    03.5
+00D7:  BSF    06.4
+.................... 					// Fechamento da cancela 
+.................... 					while ((input(SENSOR_CANCELA_FECHADA) == 1) && (flag == 0)); 
+00D8:  BSF    03.5
+00D9:  BSF    06.2
+00DA:  BCF    03.5
+00DB:  BTFSS  06.2
+00DC:  GOTO   0DF
+00DD:  BTFSS  28.0
+00DE:  GOTO   0D8
+.................... 				} 
+.................... 			   	 
+.................... 				output_low(SAIDA_FECHANDO); // Apaga a luz de fechando e desliga o motor. 
+00DF:  BSF    03.5
+00E0:  BCF    06.4
+00E1:  BCF    03.5
+00E2:  BCF    06.4
+.................... 			} 
+.................... 		} 
+00E3:  GOTO   096
+.................... 	} 
+.................... } 
+00E4:  SLEEP
+
+Configuration Fuses:
+   Word  1: 3F31   XT NOWDT PUT NOBROWNOUT NOLVP NOCPD NOWRT NODEBUG NOPROTECT

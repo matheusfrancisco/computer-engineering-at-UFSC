@@ -1,0 +1,455 @@
+
+
+Microchip Technology PIC LITE Macro Assembler V1.44 build -154322312 
+                                                                                               Sun Oct  1 19:19:01 2017
+
+Microchip Technology Omniscient Code Generator v1.44 (Free mode) build 201709140600
+     1                           	processor	16F877A
+     2                           	opt	pw 120
+     3                           	opt	lm
+     4                           	psect	cinit,global,class=CODE,merge=1,delta=2
+     5                           	psect	cstackCOMMON,global,class=COMMON,space=1,delta=1
+     6                           	psect	maintext,global,class=CODE,split=1,delta=2
+     7                           	psect	text1,local,class=CODE,merge=1,delta=2
+     8                           	dabs	1,0x7E,2
+     9  0000                     
+    10                           ; Version 1.44
+    11                           ; Generated 14/09/2017 GMT
+    12                           ; 
+    13                           ; Copyright © 2017, Microchip Technology Inc. and its subsidiaries ("Microchip")
+    14                           ; All rights reserved.
+    15                           ; 
+    16                           ; This software is developed by Microchip Technology Inc. and its subsidiaries ("Microch
+      +                          ip").
+    17                           ; 
+    18                           ; Redistribution and use in source and binary forms, with or without modification, are
+    19                           ; permitted provided that the following conditions are met:
+    20                           ; 
+    21                           ;     1. Redistributions of source code must retain the above copyright notice, this lis
+      +                          t of
+    22                           ;        conditions and the following disclaimer.
+    23                           ; 
+    24                           ;     2. Redistributions in binary form must reproduce the above copyright notice, this 
+      +                          list
+    25                           ;        of conditions and the following disclaimer in the documentation and/or other
+    26                           ;        materials provided with the distribution.
+    27                           ; 
+    28                           ;     3. Microchip's name may not be used to endorse or promote products derived from th
+      +                          is
+    29                           ;        software without specific prior written permission.
+    30                           ; 
+    31                           ; THIS SOFTWARE IS PROVIDED BY MICROCHIP "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+    32                           ; INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS F
+      +                          OR
+    33                           ; PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL MICROCHIP BE LIABLE FOR ANY DIRECT, INDIREC
+      +                          T,
+    34                           ; INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING BUT NOT LIMITED TO
+    35                           ; PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA OR PROFITS; OR BUSINESS
+    36                           ; INTERRUPTION) HOWSOEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, ST
+      +                          RICT
+    37                           ; LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE U
+      +                          SE OF
+    38                           ; THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+    39                           ; 
+    40                           ; 
+    41                           ; Code-generator required, PIC16F877A Definitions
+    42                           ; 
+    43                           ; SFR Addresses
+    44  0000                     	;# 
+    45  0001                     	;# 
+    46  0002                     	;# 
+    47  0003                     	;# 
+    48  0004                     	;# 
+    49  0005                     	;# 
+    50  0006                     	;# 
+    51  0007                     	;# 
+    52  0008                     	;# 
+    53  0009                     	;# 
+    54  000A                     	;# 
+    55  000B                     	;# 
+    56  000C                     	;# 
+    57  000D                     	;# 
+    58  000E                     	;# 
+    59  000E                     	;# 
+    60  000F                     	;# 
+    61  0010                     	;# 
+    62  0011                     	;# 
+    63  0012                     	;# 
+    64  0013                     	;# 
+    65  0014                     	;# 
+    66  0015                     	;# 
+    67  0015                     	;# 
+    68  0016                     	;# 
+    69  0017                     	;# 
+    70  0018                     	;# 
+    71  0019                     	;# 
+    72  001A                     	;# 
+    73  001B                     	;# 
+    74  001B                     	;# 
+    75  001C                     	;# 
+    76  001D                     	;# 
+    77  001E                     	;# 
+    78  001F                     	;# 
+    79  0081                     	;# 
+    80  0085                     	;# 
+    81  0086                     	;# 
+    82  0087                     	;# 
+    83  0088                     	;# 
+    84  0089                     	;# 
+    85  008C                     	;# 
+    86  008D                     	;# 
+    87  008E                     	;# 
+    88  0091                     	;# 
+    89  0092                     	;# 
+    90  0093                     	;# 
+    91  0094                     	;# 
+    92  0098                     	;# 
+    93  0099                     	;# 
+    94  009C                     	;# 
+    95  009D                     	;# 
+    96  009E                     	;# 
+    97  009F                     	;# 
+    98  010C                     	;# 
+    99  010D                     	;# 
+   100  010E                     	;# 
+   101  010F                     	;# 
+   102  018C                     	;# 
+   103  018D                     	;# 
+   104  0006                     _PORTB	set	6
+   105  0006                     _PORTBbits	set	6
+   106  0005                     _PORTAbits	set	5
+   107  0085                     _TRISAbits	set	133
+   108  0086                     _TRISB	set	134
+   109                           
+   110                           	psect	cinit
+   111  07FC                     start_initialization:	
+   112                           ; #config settings
+   113                           
+   114  07FC                     __initialization:	
+   115  07FC                     end_of_initialization:	
+   116                           ;End of C runtime variable initialization code
+   117                           
+   118  07FC                     __end_of__initialization:	
+   119  07FC  0183               	clrf	3
+   120  07FD  120A  118A  2FC2   	ljmp	_main	;jump to C main() function
+   121                           
+   122                           	psect	cstackCOMMON
+   123  0070                     __pcstackCOMMON:	
+   124  0070                     ?_setup:	
+   125  0070                     ??_setup:	
+   126                           ; 1 bytes @ 0x0
+   127                           
+   128  0070                     ?_main:	
+   129                           ; 1 bytes @ 0x0
+   130                           
+   131                           
+   132                           ; 1 bytes @ 0x0
+   133  0070                     	ds	2
+   134  0072                     ??_main:	
+   135                           
+   136                           ; 1 bytes @ 0x2
+   137  0072                     	ds	3
+   138                           
+   139                           	psect	maintext
+   140  07C2                     __pmaintext:	
+   141 ;;
+   142 ;;Main: autosize = 0, tempsize = 3, incstack = 0, save=0
+   143 ;;
+   144 ;; *************** function _main *****************
+   145 ;; Defined at:
+   146 ;;		line 16 in file "Exercicio3.c"
+   147 ;; Parameters:    Size  Location     Type
+   148 ;;		None
+   149 ;; Auto vars:     Size  Location     Type
+   150 ;;		None
+   151 ;; Return value:  Size  Location     Type
+   152 ;;                  1    wreg      void 
+   153 ;; Registers used:
+   154 ;;		wreg, status,2, status,0, pclath, cstack
+   155 ;; Tracked objects:
+   156 ;;		On entry : B00/0
+   157 ;;		On exit  : 0/0
+   158 ;;		Unchanged: 0/0
+   159 ;; Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+   160 ;;      Params:         0       0       0       0       0
+   161 ;;      Locals:         0       0       0       0       0
+   162 ;;      Temps:          3       0       0       0       0
+   163 ;;      Totals:         3       0       0       0       0
+   164 ;;Total ram usage:        3 bytes
+   165 ;; Hardware stack levels required when called:    1
+   166 ;; This function calls:
+   167 ;;		_setup
+   168 ;; This function is called by:
+   169 ;;		Startup code after reset
+   170 ;; This function uses a non-reentrant model
+   171 ;;
+   172                           
+   173                           
+   174                           ;psect for function _main
+   175  07C2                     _main:	
+   176                           
+   177                           ;Exercicio3.c: 17: setup();
+   178                           
+   179                           ;incstack = 0
+   180                           ; Regs used in _main: [wreg+status,2+status,0+pclath+cstack]
+   181  07C2  120A  118A  27A8  120A  118A  	fcall	_setup
+   182                           
+   183                           ;Exercicio3.c: 18: if(PORTAbits.RA0 == 1 && PORTAbits.RA1 == 1){
+   184  07C7  1283               	bcf	3,5	;RP0=0, select bank0
+   185  07C8  1303               	bcf	3,6	;RP1=0, select bank0
+   186  07C9  1805               	btfsc	5,0	;volatile
+   187  07CA  1C85               	btfss	5,1	;volatile
+   188  07CB  2FF6               	goto	l506
+   189                           
+   190                           ;Exercicio3.c: 19: _delay((unsigned long)((10)*(4000000/4000.0)));
+   191  07CC  300D               	movlw	13
+   192  07CD  00F3               	movwf	??_main+1
+   193  07CE  30FB               	movlw	251
+   194  07CF  00F2               	movwf	??_main
+   195  07D0                     u37:	
+   196  07D0  0BF2               	decfsz	??_main,f
+   197  07D1  2FD0               	goto	u37
+   198  07D2  0BF3               	decfsz	??_main+1,f
+   199  07D3  2FD0               	goto	u37
+   200  07D4  2FD5               	nop2
+   201                           
+   202                           ;Exercicio3.c: 20: PORTBbits.RB0 = 1;
+   203  07D5  1283               	bcf	3,5	;RP0=0, select bank0
+   204  07D6  1303               	bcf	3,6	;RP1=0, select bank0
+   205  07D7  1406               	bsf	6,0	;volatile
+   206                           
+   207                           ;Exercicio3.c: 21: _delay((unsigned long)((2000)*(4000000/4000.0)));
+   208  07D8  300B               	movlw	11
+   209  07D9  00F4               	movwf	??_main+2
+   210  07DA  3026               	movlw	38
+   211  07DB  00F3               	movwf	??_main+1
+   212  07DC  305D               	movlw	93
+   213  07DD  00F2               	movwf	??_main
+   214  07DE                     u47:	
+   215  07DE  0BF2               	decfsz	??_main,f
+   216  07DF  2FDE               	goto	u47
+   217  07E0  0BF3               	decfsz	??_main+1,f
+   218  07E1  2FDE               	goto	u47
+   219  07E2  0BF4               	decfsz	??_main+2,f
+   220  07E3  2FDE               	goto	u47
+   221  07E4  2FE5               	nop2
+   222                           
+   223                           ;Exercicio3.c: 22: PORTBbits.RB0 = 0;
+   224  07E5  1283               	bcf	3,5	;RP0=0, select bank0
+   225  07E6  1303               	bcf	3,6	;RP1=0, select bank0
+   226  07E7  1006               	bcf	6,0	;volatile
+   227                           
+   228                           ;Exercicio3.c: 23: _delay((unsigned long)((3000)*(4000000/4000.0)));
+   229  07E8  3010               	movlw	16
+   230  07E9  00F4               	movwf	??_main+2
+   231  07EA  3039               	movlw	57
+   232  07EB  00F3               	movwf	??_main+1
+   233  07EC  300D               	movlw	13
+   234  07ED  00F2               	movwf	??_main
+   235  07EE                     u57:	
+   236  07EE  0BF2               	decfsz	??_main,f
+   237  07EF  2FEE               	goto	u57
+   238  07F0  0BF3               	decfsz	??_main+1,f
+   239  07F1  2FEE               	goto	u57
+   240  07F2  0BF4               	decfsz	??_main+2,f
+   241  07F3  2FEE               	goto	u57
+   242  07F4  2FF5               	nop2
+   243                           
+   244                           ;Exercicio3.c: 24: }else{
+   245  07F5  2FF9               	goto	l21
+   246  07F6                     l506:	
+   247                           
+   248                           ;Exercicio3.c: 25: PORTB = 0x00;
+   249  07F6  1283               	bcf	3,5	;RP0=0, select bank0
+   250  07F7  1303               	bcf	3,6	;RP1=0, select bank0
+   251  07F8  0186               	clrf	6	;volatile
+   252  07F9                     l21:	
+   253                           ;Exercicio3.c: 26: }
+   254                           ;Exercicio3.c: 27: return;
+   255                           
+   256  07F9  120A  118A  2800   	ljmp	start
+   257  07FC                     __end_of_main:	
+   258                           
+   259                           	psect	text1
+   260  07A8                     __ptext1:	
+   261 ;; *************** function _setup *****************
+   262 ;; Defined at:
+   263 ;;		line 30 in file "Exercicio3.c"
+   264 ;; Parameters:    Size  Location     Type
+   265 ;;		None
+   266 ;; Auto vars:     Size  Location     Type
+   267 ;;		None
+   268 ;; Return value:  Size  Location     Type
+   269 ;;                  1    wreg      void 
+   270 ;; Registers used:
+   271 ;;		wreg, status,2
+   272 ;; Tracked objects:
+   273 ;;		On entry : 0/0
+   274 ;;		On exit  : 0/0
+   275 ;;		Unchanged: 0/0
+   276 ;; Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+   277 ;;      Params:         0       0       0       0       0
+   278 ;;      Locals:         0       0       0       0       0
+   279 ;;      Temps:          2       0       0       0       0
+   280 ;;      Totals:         2       0       0       0       0
+   281 ;;Total ram usage:        2 bytes
+   282 ;; Hardware stack levels used:    1
+   283 ;; This function calls:
+   284 ;;		Nothing
+   285 ;; This function is called by:
+   286 ;;		_main
+   287 ;; This function uses a non-reentrant model
+   288 ;;
+   289                           
+   290                           
+   291                           ;psect for function _setup
+   292  07A8                     _setup:	
+   293                           
+   294                           ;Exercicio3.c: 32: TRISB = 0x00;
+   295                           
+   296                           ;incstack = 0
+   297                           ; Regs used in _setup: [wreg+status,2]
+   298  07A8  1683               	bsf	3,5	;RP0=1, select bank1
+   299  07A9  1303               	bcf	3,6	;RP1=0, select bank1
+   300  07AA  0186               	clrf	6	;volatile
+   301                           
+   302                           ;Exercicio3.c: 34: _delay((unsigned long)((20)*(4000000/4000.0)));
+   303  07AB  301A               	movlw	26
+   304  07AC  00F1               	movwf	??_setup+1
+   305  07AD  30F8               	movlw	248
+   306  07AE  00F0               	movwf	??_setup
+   307  07AF                     u67:	
+   308  07AF  0BF0               	decfsz	??_setup,f
+   309  07B0  2FAF               	goto	u67
+   310  07B1  0BF1               	decfsz	??_setup+1,f
+   311  07B2  2FAF               	goto	u67
+   312  07B3  0000               	nop
+   313                           
+   314                           ;Exercicio3.c: 36: TRISAbits.TRISA0 = 1;
+   315  07B4  1683               	bsf	3,5	;RP0=1, select bank1
+   316  07B5  1303               	bcf	3,6	;RP1=0, select bank1
+   317  07B6  1405               	bsf	5,0	;volatile
+   318                           
+   319                           ;Exercicio3.c: 37: TRISAbits.TRISA1 = 1;
+   320  07B7  1485               	bsf	5,1	;volatile
+   321                           
+   322                           ;Exercicio3.c: 38: _delay((unsigned long)((20)*(4000000/4000.0)));
+   323  07B8  301A               	movlw	26
+   324  07B9  00F1               	movwf	??_setup+1
+   325  07BA  30F8               	movlw	248
+   326  07BB  00F0               	movwf	??_setup
+   327  07BC                     u77:	
+   328  07BC  0BF0               	decfsz	??_setup,f
+   329  07BD  2FBC               	goto	u77
+   330  07BE  0BF1               	decfsz	??_setup+1,f
+   331  07BF  2FBC               	goto	u77
+   332  07C0  0000               	nop
+   333  07C1  0008               	return
+   334  07C2                     __end_of_setup:	
+   335  007E                     btemp	set	126	;btemp
+   336  007E                     wtemp0	set	126
+
+
+Data Sizes:
+    Strings     0
+    Constant    0
+    Data        0
+    BSS         0
+    Persistent  0
+    Stack       0
+
+Auto Spaces:
+    Space          Size  Autos    Used
+    COMMON           14      5       5
+    BANK0            80      0       0
+    BANK1            80      0       0
+    BANK3            96      0       0
+    BANK2            96      0       0
+
+Pointer List with Targets:
+
+    None.
+
+Critical Paths under _main in COMMON
+
+    _main->_setup
+
+Critical Paths under _main in BANK0
+
+    None.
+
+Critical Paths under _main in BANK1
+
+    None.
+
+Critical Paths under _main in BANK3
+
+    None.
+
+Critical Paths under _main in BANK2
+
+    None.
+
+Call Graph Tables:
+
+ ---------------------------------------------------------------------------------
+ (Depth) Function   	        Calls       Base Space   Used Autos Params    Refs
+ ---------------------------------------------------------------------------------
+ (0) _main                                                 3     3      0       0
+                                              2 COMMON     3     3      0
+                              _setup
+ ---------------------------------------------------------------------------------
+ (1) _setup                                                2     2      0       0
+                                              0 COMMON     2     2      0
+ ---------------------------------------------------------------------------------
+ Estimated maximum stack depth 1
+ ---------------------------------------------------------------------------------
+
+ Call Graph Graphs:
+
+ _main (ROOT)
+   _setup
+
+ Address spaces:
+Name               Size   Autos  Total    Cost      Usage
+BITCOMMON            E      0       0       0        0.0%
+EEDATA             100      0       0       0        0.0%
+NULL                 0      0       0       0        0.0%
+CODE                 0      0       0       0        0.0%
+COMMON               E      5       5       1       35.7%
+BITSFR0              0      0       0       1        0.0%
+SFR0                 0      0       0       1        0.0%
+BITSFR1              0      0       0       2        0.0%
+SFR1                 0      0       0       2        0.0%
+STACK                0      0       0       2        0.0%
+ABS                  0      0       0       3        0.0%
+BITBANK0            50      0       0       4        0.0%
+BITSFR3              0      0       0       4        0.0%
+SFR3                 0      0       0       4        0.0%
+BANK0               50      0       0       5        0.0%
+BITSFR2              0      0       0       5        0.0%
+SFR2                 0      0       0       5        0.0%
+BITBANK1            50      0       0       6        0.0%
+BANK1               50      0       0       7        0.0%
+BITBANK3            60      0       0       8        0.0%
+BANK3               60      0       0       9        0.0%
+BITBANK2            60      0       0      10        0.0%
+BANK2               60      0       0      11        0.0%
+DATA                 0      0       0      12        0.0%
+
+
+Microchip Technology PIC Macro Assembler V1.44 build -154322312 
+Symbol Table                                                                                   Sun Oct  1 19:19:01 2017
+
+                     l21 07F9                       u37 07D0                       u47 07DE  
+                     u57 07EE                       u67 07AF                       u77 07BC  
+                    l506 07F6                     _main 07C2                     btemp 007E  
+                   start 0000                    ?_main 0070                    _PORTB 0006  
+                  _TRISB 0086                    _setup 07A8                    status 0003  
+                  wtemp0 007E          __initialization 07FC             __end_of_main 07FC  
+                 ??_main 0072                   ?_setup 0070  __end_of__initialization 07FC  
+         __pcstackCOMMON 0070            __end_of_setup 07C2                  ??_setup 0070  
+             __pmaintext 07C2                  __ptext1 07A8     end_of_initialization 07FC  
+              _PORTAbits 0005                _PORTBbits 0006                _TRISAbits 0085  
+    start_initialization 07FC                ___latbits 0002           __size_of_setup 001A  
+          __size_of_main 003A  

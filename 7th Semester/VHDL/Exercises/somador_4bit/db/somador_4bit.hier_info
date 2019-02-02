@@ -1,0 +1,367 @@
+|somador_4bit
+i_A0[0] => somador_completo:U1.i_A[0]
+i_A0[1] => somador_completo:U1.i_A[1]
+i_A0[2] => somador_completo:U1.i_A[2]
+i_A0[3] => somador_completo:U1.i_A[3]
+i_B0[0] => somador_completo:U1.i_B[0]
+i_B0[1] => somador_completo:U1.i_B[1]
+i_B0[2] => somador_completo:U1.i_B[2]
+i_B0[3] => somador_completo:U1.i_B[3]
+i_C[0] => somador_completo:U1.i_C[0]
+i_C[1] => somador_completo:U1.i_C[1]
+i_C[2] => somador_completo:U1.i_C[2]
+i_C[3] => somador_completo:U1.i_C[3]
+i_A1[0] => somador_completo:U2.i_A[0]
+i_A1[1] => somador_completo:U2.i_A[1]
+i_A1[2] => somador_completo:U2.i_A[2]
+i_A1[3] => somador_completo:U2.i_A[3]
+i_B1[0] => somador_completo:U2.i_B[0]
+i_B1[1] => somador_completo:U2.i_B[1]
+i_B1[2] => somador_completo:U2.i_B[2]
+i_B1[3] => somador_completo:U2.i_B[3]
+i_A2[0] => somador_completo:U3.i_A[0]
+i_A2[1] => somador_completo:U3.i_A[1]
+i_A2[2] => somador_completo:U3.i_A[2]
+i_A2[3] => somador_completo:U3.i_A[3]
+i_B2[0] => somador_completo:U3.i_B[0]
+i_B2[1] => somador_completo:U3.i_B[1]
+i_B2[2] => somador_completo:U3.i_B[2]
+i_B2[3] => somador_completo:U3.i_B[3]
+i_A3[0] => somador_completo:U4.i_A[0]
+i_A3[1] => somador_completo:U4.i_A[1]
+i_A3[2] => somador_completo:U4.i_A[2]
+i_A3[3] => somador_completo:U4.i_A[3]
+i_B3[0] => somador_completo:U4.i_B[0]
+i_B3[1] => somador_completo:U4.i_B[1]
+i_B3[2] => somador_completo:U4.i_B[2]
+i_B3[3] => somador_completo:U4.i_B[3]
+o_C[0] << somador_completo:U4.o_C[0]
+o_C[1] << somador_completo:U4.o_C[1]
+o_C[2] << somador_completo:U4.o_C[2]
+o_C[3] << somador_completo:U4.o_C[3]
+o_Y0[0] << somador_completo:U1.o_Y[0]
+o_Y0[1] << somador_completo:U1.o_Y[1]
+o_Y0[2] << somador_completo:U1.o_Y[2]
+o_Y0[3] << somador_completo:U1.o_Y[3]
+o_Y1[0] << somador_completo:U2.o_Y[0]
+o_Y1[1] << somador_completo:U2.o_Y[1]
+o_Y1[2] << somador_completo:U2.o_Y[2]
+o_Y1[3] << somador_completo:U2.o_Y[3]
+o_Y2[0] << somador_completo:U3.o_Y[0]
+o_Y2[1] << somador_completo:U3.o_Y[1]
+o_Y2[2] << somador_completo:U3.o_Y[2]
+o_Y2[3] << somador_completo:U3.o_Y[3]
+o_Y3[0] << somador_completo:U4.o_Y[0]
+o_Y3[1] << somador_completo:U4.o_Y[1]
+o_Y3[2] << somador_completo:U4.o_Y[2]
+o_Y3[3] << somador_completo:U4.o_Y[3]
+
+
+|somador_4bit|somador_completo:U1
+i_A[0] => meio_somador:U1.i_A[0]
+i_A[1] => meio_somador:U1.i_A[1]
+i_A[2] => meio_somador:U1.i_A[2]
+i_A[3] => meio_somador:U1.i_A[3]
+i_B[0] => meio_somador:U1.i_B[0]
+i_B[1] => meio_somador:U1.i_B[1]
+i_B[2] => meio_somador:U1.i_B[2]
+i_B[3] => meio_somador:U1.i_B[3]
+i_C[0] => meio_somador:U2.i_B[0]
+i_C[1] => meio_somador:U2.i_B[1]
+i_C[2] => meio_somador:U2.i_B[2]
+i_C[3] => meio_somador:U2.i_B[3]
+o_C[0] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+o_C[1] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+o_C[2] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+o_C[3] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[0] <= meio_somador:U2.o_Y[0]
+o_Y[1] <= meio_somador:U2.o_Y[1]
+o_Y[2] <= meio_somador:U2.o_Y[2]
+o_Y[3] <= meio_somador:U2.o_Y[3]
+
+
+|somador_4bit|somador_completo:U1|meio_somador:U1
+i_A[0] => o_Y.IN0
+i_A[0] => o_C.IN0
+i_A[1] => o_Y.IN0
+i_A[1] => o_C.IN0
+i_A[2] => o_Y.IN0
+i_A[2] => o_C.IN0
+i_A[3] => o_Y.IN0
+i_A[3] => o_C.IN0
+i_B[0] => o_Y.IN1
+i_B[0] => o_C.IN1
+i_B[1] => o_Y.IN1
+i_B[1] => o_C.IN1
+i_B[2] => o_Y.IN1
+i_B[2] => o_C.IN1
+i_B[3] => o_Y.IN1
+i_B[3] => o_C.IN1
+o_C[0] <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+o_C[1] <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+o_C[2] <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+o_C[3] <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[0] <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[1] <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[2] <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[3] <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_4bit|somador_completo:U1|meio_somador:U2
+i_A[0] => o_Y.IN0
+i_A[0] => o_C.IN0
+i_A[1] => o_Y.IN0
+i_A[1] => o_C.IN0
+i_A[2] => o_Y.IN0
+i_A[2] => o_C.IN0
+i_A[3] => o_Y.IN0
+i_A[3] => o_C.IN0
+i_B[0] => o_Y.IN1
+i_B[0] => o_C.IN1
+i_B[1] => o_Y.IN1
+i_B[1] => o_C.IN1
+i_B[2] => o_Y.IN1
+i_B[2] => o_C.IN1
+i_B[3] => o_Y.IN1
+i_B[3] => o_C.IN1
+o_C[0] <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+o_C[1] <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+o_C[2] <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+o_C[3] <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[0] <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[1] <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[2] <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[3] <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_4bit|somador_completo:U2
+i_A[0] => meio_somador:U1.i_A[0]
+i_A[1] => meio_somador:U1.i_A[1]
+i_A[2] => meio_somador:U1.i_A[2]
+i_A[3] => meio_somador:U1.i_A[3]
+i_B[0] => meio_somador:U1.i_B[0]
+i_B[1] => meio_somador:U1.i_B[1]
+i_B[2] => meio_somador:U1.i_B[2]
+i_B[3] => meio_somador:U1.i_B[3]
+i_C[0] => meio_somador:U2.i_B[0]
+i_C[1] => meio_somador:U2.i_B[1]
+i_C[2] => meio_somador:U2.i_B[2]
+i_C[3] => meio_somador:U2.i_B[3]
+o_C[0] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+o_C[1] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+o_C[2] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+o_C[3] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[0] <= meio_somador:U2.o_Y[0]
+o_Y[1] <= meio_somador:U2.o_Y[1]
+o_Y[2] <= meio_somador:U2.o_Y[2]
+o_Y[3] <= meio_somador:U2.o_Y[3]
+
+
+|somador_4bit|somador_completo:U2|meio_somador:U1
+i_A[0] => o_Y.IN0
+i_A[0] => o_C.IN0
+i_A[1] => o_Y.IN0
+i_A[1] => o_C.IN0
+i_A[2] => o_Y.IN0
+i_A[2] => o_C.IN0
+i_A[3] => o_Y.IN0
+i_A[3] => o_C.IN0
+i_B[0] => o_Y.IN1
+i_B[0] => o_C.IN1
+i_B[1] => o_Y.IN1
+i_B[1] => o_C.IN1
+i_B[2] => o_Y.IN1
+i_B[2] => o_C.IN1
+i_B[3] => o_Y.IN1
+i_B[3] => o_C.IN1
+o_C[0] <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+o_C[1] <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+o_C[2] <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+o_C[3] <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[0] <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[1] <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[2] <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[3] <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_4bit|somador_completo:U2|meio_somador:U2
+i_A[0] => o_Y.IN0
+i_A[0] => o_C.IN0
+i_A[1] => o_Y.IN0
+i_A[1] => o_C.IN0
+i_A[2] => o_Y.IN0
+i_A[2] => o_C.IN0
+i_A[3] => o_Y.IN0
+i_A[3] => o_C.IN0
+i_B[0] => o_Y.IN1
+i_B[0] => o_C.IN1
+i_B[1] => o_Y.IN1
+i_B[1] => o_C.IN1
+i_B[2] => o_Y.IN1
+i_B[2] => o_C.IN1
+i_B[3] => o_Y.IN1
+i_B[3] => o_C.IN1
+o_C[0] <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+o_C[1] <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+o_C[2] <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+o_C[3] <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[0] <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[1] <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[2] <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[3] <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_4bit|somador_completo:U3
+i_A[0] => meio_somador:U1.i_A[0]
+i_A[1] => meio_somador:U1.i_A[1]
+i_A[2] => meio_somador:U1.i_A[2]
+i_A[3] => meio_somador:U1.i_A[3]
+i_B[0] => meio_somador:U1.i_B[0]
+i_B[1] => meio_somador:U1.i_B[1]
+i_B[2] => meio_somador:U1.i_B[2]
+i_B[3] => meio_somador:U1.i_B[3]
+i_C[0] => meio_somador:U2.i_B[0]
+i_C[1] => meio_somador:U2.i_B[1]
+i_C[2] => meio_somador:U2.i_B[2]
+i_C[3] => meio_somador:U2.i_B[3]
+o_C[0] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+o_C[1] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+o_C[2] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+o_C[3] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[0] <= meio_somador:U2.o_Y[0]
+o_Y[1] <= meio_somador:U2.o_Y[1]
+o_Y[2] <= meio_somador:U2.o_Y[2]
+o_Y[3] <= meio_somador:U2.o_Y[3]
+
+
+|somador_4bit|somador_completo:U3|meio_somador:U1
+i_A[0] => o_Y.IN0
+i_A[0] => o_C.IN0
+i_A[1] => o_Y.IN0
+i_A[1] => o_C.IN0
+i_A[2] => o_Y.IN0
+i_A[2] => o_C.IN0
+i_A[3] => o_Y.IN0
+i_A[3] => o_C.IN0
+i_B[0] => o_Y.IN1
+i_B[0] => o_C.IN1
+i_B[1] => o_Y.IN1
+i_B[1] => o_C.IN1
+i_B[2] => o_Y.IN1
+i_B[2] => o_C.IN1
+i_B[3] => o_Y.IN1
+i_B[3] => o_C.IN1
+o_C[0] <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+o_C[1] <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+o_C[2] <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+o_C[3] <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[0] <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[1] <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[2] <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[3] <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_4bit|somador_completo:U3|meio_somador:U2
+i_A[0] => o_Y.IN0
+i_A[0] => o_C.IN0
+i_A[1] => o_Y.IN0
+i_A[1] => o_C.IN0
+i_A[2] => o_Y.IN0
+i_A[2] => o_C.IN0
+i_A[3] => o_Y.IN0
+i_A[3] => o_C.IN0
+i_B[0] => o_Y.IN1
+i_B[0] => o_C.IN1
+i_B[1] => o_Y.IN1
+i_B[1] => o_C.IN1
+i_B[2] => o_Y.IN1
+i_B[2] => o_C.IN1
+i_B[3] => o_Y.IN1
+i_B[3] => o_C.IN1
+o_C[0] <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+o_C[1] <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+o_C[2] <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+o_C[3] <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[0] <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[1] <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[2] <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[3] <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_4bit|somador_completo:U4
+i_A[0] => meio_somador:U1.i_A[0]
+i_A[1] => meio_somador:U1.i_A[1]
+i_A[2] => meio_somador:U1.i_A[2]
+i_A[3] => meio_somador:U1.i_A[3]
+i_B[0] => meio_somador:U1.i_B[0]
+i_B[1] => meio_somador:U1.i_B[1]
+i_B[2] => meio_somador:U1.i_B[2]
+i_B[3] => meio_somador:U1.i_B[3]
+i_C[0] => meio_somador:U2.i_B[0]
+i_C[1] => meio_somador:U2.i_B[1]
+i_C[2] => meio_somador:U2.i_B[2]
+i_C[3] => meio_somador:U2.i_B[3]
+o_C[0] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+o_C[1] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+o_C[2] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+o_C[3] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[0] <= meio_somador:U2.o_Y[0]
+o_Y[1] <= meio_somador:U2.o_Y[1]
+o_Y[2] <= meio_somador:U2.o_Y[2]
+o_Y[3] <= meio_somador:U2.o_Y[3]
+
+
+|somador_4bit|somador_completo:U4|meio_somador:U1
+i_A[0] => o_Y.IN0
+i_A[0] => o_C.IN0
+i_A[1] => o_Y.IN0
+i_A[1] => o_C.IN0
+i_A[2] => o_Y.IN0
+i_A[2] => o_C.IN0
+i_A[3] => o_Y.IN0
+i_A[3] => o_C.IN0
+i_B[0] => o_Y.IN1
+i_B[0] => o_C.IN1
+i_B[1] => o_Y.IN1
+i_B[1] => o_C.IN1
+i_B[2] => o_Y.IN1
+i_B[2] => o_C.IN1
+i_B[3] => o_Y.IN1
+i_B[3] => o_C.IN1
+o_C[0] <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+o_C[1] <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+o_C[2] <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+o_C[3] <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[0] <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[1] <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[2] <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[3] <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_4bit|somador_completo:U4|meio_somador:U2
+i_A[0] => o_Y.IN0
+i_A[0] => o_C.IN0
+i_A[1] => o_Y.IN0
+i_A[1] => o_C.IN0
+i_A[2] => o_Y.IN0
+i_A[2] => o_C.IN0
+i_A[3] => o_Y.IN0
+i_A[3] => o_C.IN0
+i_B[0] => o_Y.IN1
+i_B[0] => o_C.IN1
+i_B[1] => o_Y.IN1
+i_B[1] => o_C.IN1
+i_B[2] => o_Y.IN1
+i_B[2] => o_C.IN1
+i_B[3] => o_Y.IN1
+i_B[3] => o_C.IN1
+o_C[0] <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+o_C[1] <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+o_C[2] <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+o_C[3] <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[0] <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[1] <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[2] <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+o_Y[3] <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

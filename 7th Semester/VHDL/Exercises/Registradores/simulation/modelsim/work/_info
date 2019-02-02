@@ -1,0 +1,79 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.1\2017\Registradores\simulation\modelsim
+Eregistradores
+Z1 w1489705263
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\altera\13.1\2017\Registradores\simulation\modelsim
+Z5 8C:/altera/13.1/2017/Registradores/Registradores.vhd
+Z6 FC:/altera/13.1/2017/Registradores/Registradores.vhd
+l0
+L5
+V:AA1KiIVngN7oQU97A1i10
+Z7 OV;C;10.1d;51
+32
+Z8 !s108 1490133896.945000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/altera/13.1/2017/Registradores/Registradores.vhd|
+Z10 !s107 C:/altera/13.1/2017/Registradores/Registradores.vhd|
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+!s100 Zd]eQZ^XdAd<0VDE<Wf1l1
+!i10b 1
+Abehavioral
+R2
+R3
+DEx4 work 13 registradores 0 22 :AA1KiIVngN7oQU97A1i10
+l16
+L15
+Vm?d4UNENb0CzWI0gW52Aa1
+!s100 WmLIVN=2W9U[TeL_R@Jgm2
+R7
+32
+R8
+R9
+R10
+R11
+R12
+!i10b 1
+Etb_registradores
+Z13 w1490133681
+Z14 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z15 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R2
+R3
+R4
+Z16 8C:/altera/13.1/2017/Registradores/TB_Registradores.vhd
+Z17 FC:/altera/13.1/2017/Registradores/TB_Registradores.vhd
+l0
+L6
+VnXP7Q=_h_I6:`FoZi<KHi3
+!s100 @l^RJe>9l5YSmoDAFY6M;0
+R7
+32
+!i10b 1
+Z18 !s108 1490133897.207000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/altera/13.1/2017/Registradores/TB_Registradores.vhd|
+Z20 !s107 C:/altera/13.1/2017/Registradores/TB_Registradores.vhd|
+R11
+R12
+Abehavior
+R14
+R15
+R2
+R3
+Z21 DEx4 work 16 tb_registradores 0 22 nXP7Q=_h_I6:`FoZi<KHi3
+l33
+L9
+Z22 V3iKVGFgH<9C:mhaZ[8d1h1
+Z23 !s100 e8oeP0ajZ;LWnePSB0]J^2
+R7
+32
+!i10b 1
+R18
+R19
+R20
+R11
+R12

@@ -1,0 +1,6 @@
+# Compile of Registradores.vhd was successful.
+# Compile of TB_Registradores.vhd was successful.
+# Compile of Registradores.vhd was successful.
+# Compile of TB_Registradores.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim +altera -do Registradores_run_msim_rtl_vhdl.do -l msim_transcript -gui work.tb_registradores

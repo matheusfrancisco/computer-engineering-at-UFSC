@@ -1,0 +1,113 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'i_SELABC3[0]'
+Slack : -0.587
+TNS   : -1.496
+
+Type  : Slow 1200mV 85C Model Setup 'i_SELABC2[0]'
+Slack : -0.307
+TNS   : -0.307
+
+Type  : Slow 1200mV 85C Model Setup 'i_SELABC1[0]'
+Slack : 0.210
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'i_SELABC1[0]'
+Slack : -0.675
+TNS   : -0.675
+
+Type  : Slow 1200mV 85C Model Hold 'i_SELABC2[0]'
+Slack : -0.495
+TNS   : -0.495
+
+Type  : Slow 1200mV 85C Model Hold 'i_SELABC3[0]'
+Slack : -0.341
+TNS   : -0.913
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'i_SELABC1[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'i_SELABC2[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'i_SELABC3[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Setup 'i_SELABC3[0]'
+Slack : -0.417
+TNS   : -1.025
+
+Type  : Slow 1200mV 0C Model Setup 'i_SELABC2[0]'
+Slack : -0.107
+TNS   : -0.107
+
+Type  : Slow 1200mV 0C Model Setup 'i_SELABC1[0]'
+Slack : 0.175
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'i_SELABC1[0]'
+Slack : -0.580
+TNS   : -0.580
+
+Type  : Slow 1200mV 0C Model Hold 'i_SELABC2[0]'
+Slack : -0.515
+TNS   : -0.515
+
+Type  : Slow 1200mV 0C Model Hold 'i_SELABC3[0]'
+Slack : -0.356
+TNS   : -0.906
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'i_SELABC1[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'i_SELABC2[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'i_SELABC3[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Setup 'i_SELABC3[0]'
+Slack : -0.424
+TNS   : -1.042
+
+Type  : Fast 1200mV 0C Model Setup 'i_SELABC2[0]'
+Slack : -0.222
+TNS   : -0.222
+
+Type  : Fast 1200mV 0C Model Setup 'i_SELABC1[0]'
+Slack : 0.112
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'i_SELABC1[0]'
+Slack : -0.364
+TNS   : -0.364
+
+Type  : Fast 1200mV 0C Model Hold 'i_SELABC2[0]'
+Slack : -0.333
+TNS   : -0.333
+
+Type  : Fast 1200mV 0C Model Hold 'i_SELABC3[0]'
+Slack : -0.261
+TNS   : -0.700
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'i_SELABC1[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'i_SELABC2[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'i_SELABC3[0]'
+Slack : -3.000
+TNS   : -3.000
+
+------------------------------------------------------------

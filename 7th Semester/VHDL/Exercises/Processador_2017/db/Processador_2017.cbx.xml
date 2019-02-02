@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Processador_2017">
+		<CBX_INST_ENTRY INSTANCE_NAME="|PROCESSADOR|CAMINHO_DADOS:CD|ULA:U02|lpm_add_sub:Add0" CBX_FILE_NAME="add_sub_iui.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

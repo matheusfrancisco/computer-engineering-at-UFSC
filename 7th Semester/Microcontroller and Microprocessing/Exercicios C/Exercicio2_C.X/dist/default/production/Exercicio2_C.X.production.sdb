@@ -1,0 +1,65 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 6 ]
+"62 /opt/microchip/xc8/v1.44/sources/common/float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 /opt/microchip/xc8/v1.44/sources/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 /opt/microchip/xc8/v1.44/sources/pic/eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"16 /home/francisco/MPLABXProjects/Exercicio2_C.X/Exercicio2.c
+[v _main main `(v  1 e 1 0 ]
+"73
+[v _setup setup `(v  1 e 1 0 ]
+"214 /opt/microchip/xc8/v1.44/include/pic16f877a.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+[s S51 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"231
+[u S60 . 1 `S51 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES60  1 e 1 @6 ]
+[s S29 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"293
+[u S38 . 1 `S29 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES38  1 e 1 @7 ]
+[s S72 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1390
+[u S81 . 1 `S72 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES81  1 e 1 @134 ]
+"16 /home/francisco/MPLABXProjects/Exercicio2_C.X/Exercicio2.c
+[v _main main `(v  1 e 1 0 ]
+{
+"72
+} 0
+"73
+[v _setup setup `(v  1 e 1 0 ]
+{
+"80
+} 0

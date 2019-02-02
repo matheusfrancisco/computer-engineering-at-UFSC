@@ -1,0 +1,80 @@
+#include <main2.h>
+
+/*
+ENUNCIADO:
+
+Desenvolva um sistema embarcado(hardware e software) para controle de uma cancela 
+para passagem de trem. Uma sa?da determinar? cancela aberta ou fechada e sensores 
+na cancela garantem a posi??o dela.Um sensor de presen?a de autom?vel faz a cancela 
+abrir e depois fecha. Um outro sensor de trem detecta a presen?a do mesmo e n?o 
+deixa abrir a cancela mesmo com a presen?a de carro.(usar interrup??o)
+
+*/
+
+const int1 SENSOR_TREM				= PIN_B0;	// Sensor de presen?a do trem
+const int1 SENSOR_AUTO				= PIN_B1;	// Sensor de presen?a de autom?veis
+const int1 SENSOR_CANCELA_FECHADA	= PIN_B2;	// Sensor de cancela fechada
+const int1 SENSOR_CANCELA_ABERTA	= PIN_B3;	// Sensor de cancela aberta
+const int1 SAIDA_FECHANDO			= pin_a2;	// Sa?da de motor em estado 'fechando'
+const int1 SAIDA_ABRINDO			= pin_a1;	// Sa?da de motor em estado 'abrindo'
+const int1 SAIDA_SOM				= pin_a0;	// Sa?da de som
+int1 flag, auto_cross;
+
+/*
+Desenvolva um sistema embarcado com dois bot?es. 
+Um bot?o ser? o incremento e o outro o decremento.  
+Ambos mudar?o o valor de uma vari?vel. 
+Quando a vari?vel chegar ao valor de 10 um led deve 
+acender e quando estiver em 0 (zero) outro led deve acender. 
+Para incrementar e decrementar, subrotinas devem ser chamadas. 
+Usar passagem de par?metro nas subrotinas
+*/
+
+const int TIME_DELAY = 500;
+
+int inc_dec(int1 action, int number) {
+   delay_ms(TIME_DELAY);
+   
+   switch (action)
+   { 
+      case 0:
+         return number - 1;
+      case 1:
+         return number + 1;      
+   }
+}
+
+void main()
+{
+   port_b_pullups(true);
+   
+   int8 numero = 0;
+   
+   int1 inc;
+   int1 dec;
+   
+   while(TRUE)
+   {
+      inc = input(pin_b0);
+      dec = input(pin_b1);
+      
+      if ((inc ^ dec) == 1) {
+         if (inc == 0) {
+            numero = inc_dec(1, numero);
+         } else {
+            numero = inc_dec(0, numero);
+         }
+      }
+      
+      if (numero == 10) {
+         output_high(pin_a0);         
+      } else if (numero == 0) {
+         output_high(pin_a1);
+         delay_ms(TIME_DELAY * 2);
+      } else {
+         output_low(pin_a0);
+         output_low(pin_a1);
+      }    
+   }
+}
+

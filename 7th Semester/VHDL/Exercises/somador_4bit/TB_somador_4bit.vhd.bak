@@ -1,0 +1,95 @@
+library ieee;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.NUMERIC_STD.ALL;
+USE IEEE.STD_LOGIC_SIGNED.ALL;
+USE IEEE.STD_LOGIC_ARITH.ALL;
+
+ENTITY TB_somador_4bit IS
+END TB_somador_4bit;
+
+
+ARCHITECTURE behavior OF TB_somador_4bitIS
+
+	constant i_CLK_period : time := 10 ns;
+	
+	Signal i_A, i_B : in std_logic_vector (3 downto 0);
+	   
+	   
+		Signal o_C, o_Y  : out std_logic_vector (3 downto 0);
+		
+		Signal o_C1, o_Y1  : out std_logic_vector (3 downto 0);
+		
+		Signal o_C2, o_Y2  : out std_logic_vector (3 downto 0);
+		
+		Signal o_C3, o_Y3  : out std_logic_vector (3 downto 0);
+	   
+		Signal o_C4, o_Y4  : out std_logic_vector (3 downto 0)
+	--variaveis de output do teste
+	
+	COMPONENT somador_4bit IS
+	port(
+		i_A, i_B : in std_logic_vector (3 downto 0);
+	   
+	   
+		o_C, o_Y  : out std_logic_vector (3 downto 0);
+		
+		o_C1, o_Y1  : out std_logic_vector (3 downto 0);
+		
+		o_C2, o_Y2  : out std_logic_vector (3 downto 0);
+		
+		o_C3, o_Y3  : out std_logic_vector (3 downto 0);
+	   
+		o_C4, o_Y4  : out std_logic_vector (3 downto 0));
+	
+	END COMPONENT;
+
+	
+BEGIN
+
+	
+	--Stimulus process
+	teste: reset_sin port map
+	(
+		 i_A	=> i_A,
+		 i_B 	=> i_B,
+		 o_C 	=> o_C,
+		 o_Y 	=> o_Y,
+		 o_C1 => o_C1,
+		 o_Y1 => o_Y1,
+		 o_C2 => o_C2,
+		 o_Y2	=> o_Y2,
+		 o_C3 	=> o_C3,
+		 o_Y3 	=> o_Y3,
+		 o_C4 	=> o_C4,
+		 o_Y4 	=> o_Y4
+		 
+	);
+	
+	i_CLK_process :process
+		begin
+			i_CLK <= '0';
+			wait for i_CLK_period/2;
+			i_CLK <= '1';
+			wait for i_CLK_period/2;
+		end process;
+	
+	stim_proc: process
+	begin
+		wait for 100 ns;
+		i_A <= "0011";
+		i_B	<= "1100";
+		wait for 10 ns;
+		
+
+		
+		
+		i_A <= "1111";
+		i_B	<= "1010";
+		wait for 10 ns;
+		
+		
+		
+		wait;
+	end process;
+		
+end;

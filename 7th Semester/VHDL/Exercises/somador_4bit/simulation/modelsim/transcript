@@ -1,0 +1,10 @@
+# Compile of meio_somador.vhd was successful.
+# Compile of somador_4bit.vhd was successful.
+# Compile of somador_completo.vhd was successful.
+# Compile of TB_somador_4bit.vhd was successful.
+# Compile of meio_somador.vhd was successful.
+# Compile of somador_4bit.vhd was successful.
+# Compile of somador_completo.vhd was successful.
+# Compile of TB_somador_4bit.vhd was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim +altera -do somador_4bit_run_msim_rtl_vhdl.do -l msim_transcript -gui work.tb_somador_4bit

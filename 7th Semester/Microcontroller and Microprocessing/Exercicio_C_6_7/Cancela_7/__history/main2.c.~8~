@@ -1,0 +1,88 @@
+#include <main2.h>
+
+
+/*
+ENUNCIADO:
+
+Desenvolva um sistema embarcado(hardware e software) para controle de uma cancela 
+para passagem de trem. Uma sa?da determinar? cancela aberta ou fechada e sensores 
+na cancela garantem a posi??o dela.Um sensor de presen?a de autom?vel faz a cancela 
+abrir e depois fecha. Um outro sensor de trem detecta a presen?a do mesmo e n?o 
+deixa abrir a cancela mesmo com a presen?a de carro.(usar interrup??o)
+
+*/
+
+const int1 SENSOR_TREM				= PIN_B0;	// Sensor de presen?a do trem
+const int1 SENSOR_AUTO				= PIN_B1;	// Sensor de presen?a de autom?veis
+const int1 SENSOR_CANCELA_FECHADA	= PIN_B2;	// Sensor de cancela fechada
+const int1 SENSOR_CANCELA_ABERTA	= PIN_B3;	// Sensor de cancela aberta
+const int1 SAIDA_FECHANDO			= pin_a2;	// Sa?da de motor em estado 'fechando'
+const int1 SAIDA_ABRINDO			= pin_a1;	// Sa?da de motor em estado 'abrindo'
+const int1 SAIDA_SOM				= pin_a0;	// Sa?da de som
+int1 flag, auto_cross;
+
+//
+/*#INT_ext
+void trata_INT_ext() {
+
+	flag = 1;
+   	
+	if (auto_cross == 1) {
+		delay_ms(20000);
+	}
+   	
+	while (input(SENSOR_CANCELA_FECHADA) == 1) {
+		output_low(SAIDA_ABRINDO);
+		output_high(SAIDA_FECHANDO);
+	}
+	output_high(SAIDA_SOM);
+	delay_ms(20000);
+	output_low(SAIDA_SOM);
+   	
+	return ;
+}*/
+
+//
+void main() {
+	/*
+	port_b_pullups (true);
+
+	// Configura??o das interrup??es
+	enable_interrupts (global);			// Global
+    enable_interrupts (INT_ext);		// Externa
+    ext_INT_edge (H_to_L);				// Habilita Falling edge como disparador de interrup??o*/
+    
+    /*
+    // La?o de repeti??o infinito
+    while (true) {
+		flag = 0;
+	   	
+		// Caso tenha um autom?vel em frente a cancela
+		if (input (SENSOR_AUTO) == 0 && flag == 0) {
+		   	
+			// Enquanto n?o estiver totalmente aberto
+			while(input(SENSOR_CANCELA_ABERTA) == 1 && flag == 0) {
+				output_high(SAIDA_ABRINDO); // aciona a luz e o motor de abrindo simultaneamente.
+				output_low(SAIDA_FECHANDO); 
+			} 
+		   	
+			if (flag == 0) {
+				delay_ms(20000);		// Espera o autom?vel passar.
+			   	
+				// Fechamento da cancela
+				while (input(SENSOR_CANCELA_FECHADA) == 1 && flag == 0) {
+					output_low(SAIDA_ABRINDO); 
+					output_high(SAIDA_FECHANDO); 
+				}
+			}
+		}
+	}
+	*/
+	while(true) {
+		output_high(pin_a2);
+		delay_ms(5000);
+		output_low(SAIDA_FECHANDO);
+		delay_ms(5000);
+	}
+}
+

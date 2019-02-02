@@ -1,0 +1,278 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.1\2017\Processador_2017\simulation\modelsim
+Ebanco_registrador
+Z1 w1493309890
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z3 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dC:\altera\13.1\2017\Processador_2017\simulation\modelsim
+Z7 8C:/Users/luize/Desktop/Processador_2107/banco_registrador.vhd
+Z8 FC:/Users/luize/Desktop/Processador_2107/banco_registrador.vhd
+l0
+L7
+V[XW`4h9d=Lf]TUiloRPnI3
+Z9 OV;C;10.1d;51
+32
+Z10 !s108 1493329542.988000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/luize/Desktop/Processador_2107/banco_registrador.vhd|
+Z12 !s107 C:/Users/luize/Desktop/Processador_2107/banco_registrador.vhd|
+Z13 o-work work -2002 -explicit -O0
+Z14 tExplicit 1
+!s100 3E<^azD@5gB?4M[E>bWHn3
+!i10b 1
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 17 banco_registrador 0 22 [XW`4h9d=Lf]TUiloRPnI3
+l51
+L23
+Vc7A@XIG4`A1`PE<AUDlhE2
+R9
+32
+R10
+R11
+R12
+R13
+R14
+!s100 ::db2i^>A8NN9WAeSciko1
+!i10b 1
+Ecaminho_controle
+Z15 w1493311304
+R2
+R3
+R4
+R5
+R6
+Z16 8C:/Users/luize/Desktop/Processador_2107/caminho_controle.vhd
+Z17 FC:/Users/luize/Desktop/Processador_2107/caminho_controle.vhd
+l0
+L7
+V`XNneU<iRR^cQ6Gl`=G:=0
+R9
+32
+Z18 !s108 1493329542.185000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/luize/Desktop/Processador_2107/caminho_controle.vhd|
+Z20 !s107 C:/Users/luize/Desktop/Processador_2107/caminho_controle.vhd|
+R13
+R14
+!s100 geez0OMYoM7QNLECd:XZA0
+!i10b 1
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 16 caminho_controle 0 22 `XNneU<iRR^cQ6Gl`=G:=0
+l44
+L22
+V<nGRJ=1KkGRK;WmV`ZmI83
+R9
+32
+R18
+R19
+R20
+R13
+R14
+!s100 7WQU_[9_Z55GacQAPc59c0
+!i10b 1
+Ecaminho_dados
+Z21 w1493315564
+R2
+R3
+R4
+R5
+R6
+Z22 8C:/Users/luize/Desktop/Processador_2107/caminho_dados.vhd
+Z23 FC:/Users/luize/Desktop/Processador_2107/caminho_dados.vhd
+l0
+L7
+VFzglYQ]3KhERl8JmcgCQm3
+R9
+32
+Z24 !s108 1493329542.524000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/luize/Desktop/Processador_2107/caminho_dados.vhd|
+Z26 !s107 C:/Users/luize/Desktop/Processador_2107/caminho_dados.vhd|
+R13
+R14
+!s100 ebzdd3a<fR9LY<z<ekgM?3
+!i10b 1
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 13 caminho_dados 0 22 FzglYQ]3KhERl8JmcgCQm3
+l66
+L20
+VP^DKofJc>I>9SUg9G3I2k2
+R9
+32
+R24
+R25
+R26
+R13
+R14
+!s100 2Xn5gYgYee^Bog?IliOQ>3
+!i10b 1
+Eprocessador
+Z27 w1493311344
+R2
+R3
+R4
+R5
+R6
+Z28 8C:/Users/luize/Desktop/Processador_2107/processador.vhd
+Z29 FC:/Users/luize/Desktop/Processador_2107/processador.vhd
+l0
+L7
+V9Fd4^jnjKXX@KPbAQWchR3
+R9
+32
+Z30 !s108 1493329541.679000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/luize/Desktop/Processador_2107/processador.vhd|
+Z32 !s107 C:/Users/luize/Desktop/Processador_2107/processador.vhd|
+R13
+R14
+!s100 5fd:3D;bPnSK0Rd^KI<jW0
+!i10b 1
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 11 processador 0 22 9Fd4^jnjKXX@KPbAQWchR3
+l60
+L19
+V4zU<g6KOlB9_9a]1TKmI20
+R9
+32
+R30
+R31
+R32
+R13
+R14
+!s100 G=1VLM59jLP:MZ2<RfNOA1
+!i10b 1
+Eregistrador
+Z33 w1493314598
+R2
+R3
+R4
+R5
+R6
+Z34 8C:/Users/luize/Desktop/Processador_2107/registrador.vhd
+Z35 FC:/Users/luize/Desktop/Processador_2107/registrador.vhd
+l0
+L7
+VBYmSOO=kVKV8<DW[?EmHA3
+R9
+32
+Z36 !s108 1493329543.512000
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/luize/Desktop/Processador_2107/registrador.vhd|
+Z38 !s107 C:/Users/luize/Desktop/Processador_2107/registrador.vhd|
+R13
+R14
+!s100 JYPkdYgCo8]T;Mb495ZRl1
+!i10b 1
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 11 registrador 0 22 BYmSOO=kVKV8<DW[?EmHA3
+l23
+L20
+V;Y^2IdmDGbzQi^LPV]25M3
+R9
+32
+R36
+R37
+R38
+R13
+R14
+!s100 >6Q8>onzXlEQ@XUz8oi5<2
+!i10b 1
+Etb_processador
+Z39 w1493313912
+R2
+R3
+R4
+R5
+R6
+Z40 8C:/Users/luize/Desktop/Processador_2107/TB_processador.vhd
+Z41 FC:/Users/luize/Desktop/Processador_2107/TB_processador.vhd
+l0
+L7
+VWlSoFPR7J>SEVlC@A?JAS3
+R9
+32
+Z42 !s108 1493329541.238000
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/luize/Desktop/Processador_2107/TB_processador.vhd|
+Z44 !s107 C:/Users/luize/Desktop/Processador_2107/TB_processador.vhd|
+R13
+R14
+!s100 4=9:nS<CMUTY;:jL:=>zX2
+!i10b 1
+Abehavior
+R2
+R3
+R4
+R5
+DEx4 work 14 tb_processador 0 22 WlSoFPR7J>SEVlC@A?JAS3
+l34
+L10
+Vc8ljh_V421lWalMcJ0FSM3
+R9
+32
+R42
+R43
+R44
+R13
+R14
+!s100 IcE>HJ`FFifndQnNj=[h_2
+!i10b 1
+Eula
+Z45 w1492554896
+R2
+R3
+R4
+R5
+R6
+Z46 8C:/Users/luize/Desktop/Processador_2107/ula.vhd
+Z47 FC:/Users/luize/Desktop/Processador_2107/ula.vhd
+l0
+L7
+VY@WEUAo8VN;Uk0[bg5aFe1
+!s100 YhcPG3DoIm>nR<J`[=LoQ3
+R9
+32
+!i10b 1
+Z48 !s108 1493329543.957000
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/luize/Desktop/Processador_2107/ula.vhd|
+Z50 !s107 C:/Users/luize/Desktop/Processador_2107/ula.vhd|
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 3 ula 0 22 Y@WEUAo8VN;Uk0[bg5aFe1
+l19
+L16
+VndV7PjcWSZoa_OADGBTbg1
+!s100 mkzPICbe?3c1KD17bW1EB0
+R9
+32
+!i10b 1
+R48
+R49
+R50
+R13
+R14

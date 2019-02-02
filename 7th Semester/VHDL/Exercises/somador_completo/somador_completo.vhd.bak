@@ -1,0 +1,70 @@
+library IEEE;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+use ieee.numeric_std.all;
+use ieee.std_logic_arith.all;
+
+
+
+ENTITY somador_completo  is
+	port (
+		 i_A, i_B, i_C : in STD_LOGIC;
+	   
+		o_C, o_Y : out std_LOGIC;
+		o_C2 : out  std_LOGIC
+
+
+		
+	);
+end somador_completo;
+
+ARCHITECTURE behavior of somador_completo is
+
+signal w_Y: std_logic;
+signal w_C: std_logic;
+signal w_C1: std_logic;
+ 
+
+
+
+		
+component meio_somador is
+port (
+		
+     i_A, i_B : in STD_LOGIC;
+	   
+		o_C, o_Y : out std_LOGIC
+	
+);
+end component;
+		
+
+		
+BEGIN 
+
+	U1 : meio_somador PORT MAP (
+		    i_A=> i_A,
+          i_B => i_B,
+			 o_Y => w_Y,
+			 o_C => w_C
+			 
+			 
+			 
+);
+		
+	U2 : meio_somador PORT MAP (
+	       i_A=> w_Y,
+          i_B => i_C,
+			 o_Y => o_Y,
+			 o_C => w_C1
+			 
+			 
+			
+			 
+			 
+			 
+		
+);
+o_C2 + 1 <= (w_C or w_C1);
+
+END behavior;

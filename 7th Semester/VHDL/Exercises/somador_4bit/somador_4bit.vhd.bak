@@ -1,0 +1,88 @@
+library IEEE;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+use ieee.numeric_std.all;
+use ieee.std_logic_arith.all;
+
+
+
+ENTITY somador_4bit  is
+	port (
+		 i_A, i_B, i_C : in std_logic_vector (3 downto 0);
+	   
+	   
+		o_C, o_Y  : out std_logic_vector (3 downto 0)
+	   
+		
+
+
+		
+	);
+end somador_4bit;
+
+ARCHITECTURE behavior of somador_4bit is
+
+
+ 
+
+
+
+		
+component somador_completo is
+port (
+		
+     i_A, i_B, i_C : in std_logic_vector (3 downto 0);
+	   
+		o_C, o_Y : out std_logic_vector (3 downto 0)
+	
+);
+end component;
+		
+
+		
+BEGIN 
+
+	U1 : somador_completo PORT MAP (
+		    i_A=> i_A,
+          i_B => i_B,
+			 o_Y => o_Y,
+			 o_C => o_C
+			 
+			 
+			 
+);
+		
+	U2 : somador_completo PORT MAP (
+		    i_A=> i_A,
+          i_B => i_B,
+			 o_Y => o_Y,
+			 o_C => o_C
+			 
+			 
+			
+			 
+			 
+			 
+		
+);
+
+U3 : somador_completo PORT MAP (
+		    i_A=> i_A,
+          i_B => i_B,
+			 o_Y => o_Y,
+			 o_C => o_C
+			 
+
+);
+
+U4 : somador_completo PORT MAP (
+		    i_A=> i_A,
+          i_B => i_B,
+			 o_Y => o_Y,
+			 o_C => o_C
+			 
+);
+
+
+
+END behavior;

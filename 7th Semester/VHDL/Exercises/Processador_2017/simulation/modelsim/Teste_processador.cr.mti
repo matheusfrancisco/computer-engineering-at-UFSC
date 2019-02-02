@@ -1,0 +1,71 @@
+C:/Users/luize/Desktop/Processador_2107/caminho_dados.vhd {1 {vcom -work work -2002 -explicit C:/Users/luize/Desktop/Processador_2107/caminho_dados.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity CAMINHO_DADOS
+-- Compiling architecture Behavioral of CAMINHO_DADOS
+
+} {} {}} C:/Users/luize/Desktop/Processador_2107/processador.vhd {1 {vcom -work work -2002 -explicit C:/Users/luize/Desktop/Processador_2107/processador.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity PROCESSADOR
+-- Compiling architecture Behavioral of PROCESSADOR
+
+} {} {}} C:/Users/luize/Desktop/Processador_2107/ula.vhd {1 {vcom -work work -2002 -explicit C:/Users/luize/Desktop/Processador_2107/ula.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ULA
+-- Compiling architecture Behavioral of ULA
+
+} {} {}} C:/Users/luize/Desktop/Processador_2107/registrador.vhd {1 {vcom -work work -2002 -explicit C:/Users/luize/Desktop/Processador_2107/registrador.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity REGISTRADOR
+-- Compiling architecture Behavioral of REGISTRADOR
+
+} {} {}} C:/Users/luize/Desktop/Processador_2107/TB_processador.vhd {1 {vcom -work work -2002 -explicit C:/Users/luize/Desktop/Processador_2107/TB_processador.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity TB_PROCESSADOR
+-- Compiling architecture behavior of TB_PROCESSADOR
+
+} {} {}} C:/Users/luize/Desktop/Processador_2107/banco_registrador.vhd {1 {vcom -work work -2002 -explicit C:/Users/luize/Desktop/Processador_2107/banco_registrador.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity BANCO_REGISTRADOR
+-- Compiling architecture Behavioral of BANCO_REGISTRADOR
+
+} {} {}} C:/Users/luize/Desktop/Processador_2107/caminho_controle.vhd {1 {vcom -work work -2002 -explicit C:/Users/luize/Desktop/Processador_2107/caminho_controle.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity CAMINHO_CONTROLE
+-- Compiling architecture Behavioral of CAMINHO_CONTROLE
+
+} {} {}}

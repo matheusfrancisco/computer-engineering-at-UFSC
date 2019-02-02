@@ -1,0 +1,530 @@
+# vsim +altera -do somador_4bit_run_msim_rtl_vhdl.do -l msim_transcript -gui work.tb_somador_4bit 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_somador_4bit(behavior)
+# Loading work.somador_4bit(behavior)
+# ** Error: (vsim-3732) C:/altera/13.1/2017/somador_4bit/TB_somador_4bit.vhd(76): No default binding for component instance 'teste'.
+# 
+#    The following component port is not on the entity:
+#           o_C
+# 
+#         Region: /tb_somador_4bit/teste
+# Loading work.somador_completo(behavior)
+# Loading work.meio_somador(behavioral)
+# Error loading design
+# Compile of meio_somador.vhd was successful.
+# Compile of somador_4bit.vhd was successful.
+# Compile of somador_completo.vhd was successful.
+# Compile of TB_somador_4bit.vhd was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim +altera -do somador_4bit_run_msim_rtl_vhdl.do -l msim_transcript -gui work.tb_somador_4bit
+# vsim +altera -do somador_4bit_run_msim_rtl_vhdl.do -l msim_transcript -gui work.tb_somador_4bit 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_somador_4bit(behavior)
+# Loading work.somador_4bit(behavior)
+# Loading work.somador_completo(behavior)
+# Loading work.meio_somador(behavioral)
+# do somador_4bit_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying C:/altera/13.1/2017/somador_4bit/simulation/modelsim/CABOS.mpf
+# 
+# vcom -93 -work work {C:/altera/13.1/2017/somador_4bit/somador_4bit.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity somador_4bit
+# -- Compiling architecture behavior of somador_4bit
+# vcom -93 -work work {C:/altera/13.1/2017/somador_4bit/somador_completo.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity somador_completo
+# -- Compiling architecture behavior of somador_completo
+# vcom -93 -work work {C:/altera/13.1/2017/somador_4bit/meio_somador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity meio_somador
+# -- Compiling architecture Behavioral of meio_somador
+# 
+add wave -position insertpoint  \
+sim:/tb_somador_4bit/i_A0 \
+sim:/tb_somador_4bit/i_B0 \
+sim:/tb_somador_4bit/i_C \
+sim:/tb_somador_4bit/i_A1 \
+sim:/tb_somador_4bit/i_B1 \
+sim:/tb_somador_4bit/i_A2 \
+sim:/tb_somador_4bit/i_B2 \
+sim:/tb_somador_4bit/i_A3 \
+sim:/tb_somador_4bit/i_B3 \
+sim:/tb_somador_4bit/o_Cout \
+sim:/tb_somador_4bit/o_Y0 \
+sim:/tb_somador_4bit/o_Y1 \
+sim:/tb_somador_4bit/o_Y2 \
+sim:/tb_somador_4bit/o_Y3
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador_4bit/teste/U4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador_4bit/teste/U4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador_4bit/teste/U3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador_4bit/teste/U3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador_4bit/teste/U2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador_4bit/teste/U2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador_4bit/teste/U1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador_4bit/teste/U1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /tb_somador_4bit/teste/U1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /tb_somador_4bit/teste/U1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /tb_somador_4bit/teste/U2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /tb_somador_4bit/teste/U2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /tb_somador_4bit/teste/U3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /tb_somador_4bit/teste/U3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /tb_somador_4bit/teste/U4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /tb_somador_4bit/teste/U4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 3  Instance: /tb_somador_4bit/teste/U1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 3  Instance: /tb_somador_4bit/teste/U1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 3  Instance: /tb_somador_4bit/teste/U2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 3  Instance: /tb_somador_4bit/teste/U2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 3  Instance: /tb_somador_4bit/teste/U3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 3  Instance: /tb_somador_4bit/teste/U3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 3  Instance: /tb_somador_4bit/teste/U4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 3  Instance: /tb_somador_4bit/teste/U4
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of meio_somador.vhd was successful.
+# Compile of somador_4bit.vhd was successful.
+# Compile of somador_completo.vhd was successful.
+# Compile of TB_somador_4bit.vhd was successful.
+# 4 compiles, 0 failed with no errors. 
+# Compile of meio_somador.vhd was successful.
+# Compile of somador_4bit.vhd was successful.
+# Compile of somador_completo.vhd was successful.
+# Compile of TB_somador_4bit.vhd was successful.
+vsim +altera -do somador_4bit_run_msim_rtl_vhdl.do -l msim_transcript -gui work.tb_somador_4bit
+# vsim +altera -do somador_4bit_run_msim_rtl_vhdl.do -l msim_transcript -gui work.tb_somador_4bit 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_somador_4bit(behavior)
+# Loading work.somador_4bit(behavior)
+# Loading work.somador_completo(behavior)
+# Loading work.meio_somador(behavioral)
+# WARNING: No extended dataflow license exists
+# do somador_4bit_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying C:/altera/13.1/2017/somador_4bit/simulation/modelsim/CABOS.mpf
+# 
+# vcom -93 -work work {C:/altera/13.1/2017/somador_4bit/somador_4bit.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity somador_4bit
+# -- Compiling architecture behavior of somador_4bit
+# vcom -93 -work work {C:/altera/13.1/2017/somador_4bit/somador_completo.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity somador_completo
+# -- Compiling architecture behavior of somador_completo
+# vcom -93 -work work {C:/altera/13.1/2017/somador_4bit/meio_somador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity meio_somador
+# -- Compiling architecture Behavioral of meio_somador
+# 
+add wave -position insertpoint  \
+sim:/tb_somador_4bit/i_A0 \
+sim:/tb_somador_4bit/i_B0 \
+sim:/tb_somador_4bit/i_C \
+sim:/tb_somador_4bit/i_A1 \
+sim:/tb_somador_4bit/i_B1 \
+sim:/tb_somador_4bit/i_A2 \
+sim:/tb_somador_4bit/i_B2 \
+sim:/tb_somador_4bit/i_A3 \
+sim:/tb_somador_4bit/i_B3 \
+sim:/tb_somador_4bit/o_Cout \
+sim:/tb_somador_4bit/o_Y0 \
+sim:/tb_somador_4bit/o_Y1 \
+sim:/tb_somador_4bit/o_Y2 \
+sim:/tb_somador_4bit/o_Y3
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador_4bit/teste/U4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador_4bit/teste/U4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador_4bit/teste/U3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador_4bit/teste/U3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador_4bit/teste/U2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador_4bit/teste/U2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador_4bit/teste/U1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador_4bit/teste/U1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /tb_somador_4bit/teste/U1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /tb_somador_4bit/teste/U1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /tb_somador_4bit/teste/U2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /tb_somador_4bit/teste/U2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /tb_somador_4bit/teste/U3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /tb_somador_4bit/teste/U3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /tb_somador_4bit/teste/U4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /tb_somador_4bit/teste/U4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 3  Instance: /tb_somador_4bit/teste/U1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 3  Instance: /tb_somador_4bit/teste/U1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 3  Instance: /tb_somador_4bit/teste/U2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 3  Instance: /tb_somador_4bit/teste/U2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 3  Instance: /tb_somador_4bit/teste/U3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 3  Instance: /tb_somador_4bit/teste/U3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 3  Instance: /tb_somador_4bit/teste/U4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 3  Instance: /tb_somador_4bit/teste/U4
+# Compile of meio_somador.vhd was successful.
+# Compile of somador_4bit.vhd was successful.
+# Compile of somador_completo.vhd was successful.
+# Compile of TB_somador_4bit.vhd was successful.
+# Compile of meio_somador.vhd was successful.
+# Compile of somador_4bit.vhd was successful.
+# Compile of somador_completo.vhd was successful.
+# Compile of TB_somador_4bit.vhd was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim +altera -do somador_4bit_run_msim_rtl_vhdl.do -l msim_transcript -gui work.tb_somador_4bit
+# vsim +altera -do somador_4bit_run_msim_rtl_vhdl.do -l msim_transcript -gui work.tb_somador_4bit 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_somador_4bit(behavior)
+# Loading work.somador_4bit(behavior)
+# Loading work.somador_completo(behavior)
+# Loading work.meio_somador(behavioral)
+# WARNING: No extended dataflow license exists
+# do somador_4bit_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying C:/altera/13.1/2017/somador_4bit/simulation/modelsim/CABOS.mpf
+# 
+# vcom -93 -work work {C:/altera/13.1/2017/somador_4bit/somador_4bit.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity somador_4bit
+# -- Compiling architecture behavior of somador_4bit
+# vcom -93 -work work {C:/altera/13.1/2017/somador_4bit/somador_completo.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity somador_completo
+# -- Compiling architecture behavior of somador_completo
+# vcom -93 -work work {C:/altera/13.1/2017/somador_4bit/meio_somador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity meio_somador
+# -- Compiling architecture Behavioral of meio_somador
+# 
+add wave -position insertpoint  \
+sim:/tb_somador_4bit/i_A0 \
+sim:/tb_somador_4bit/i_B0 \
+sim:/tb_somador_4bit/i_C \
+sim:/tb_somador_4bit/i_A1 \
+sim:/tb_somador_4bit/i_B1 \
+sim:/tb_somador_4bit/i_A2 \
+sim:/tb_somador_4bit/i_B2 \
+sim:/tb_somador_4bit/i_A3 \
+sim:/tb_somador_4bit/i_B3 \
+sim:/tb_somador_4bit/o_C \
+sim:/tb_somador_4bit/o_Y0 \
+sim:/tb_somador_4bit/o_Y1 \
+sim:/tb_somador_4bit/o_Y2 \
+sim:/tb_somador_4bit/o_Y3
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador_4bit/teste/U4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador_4bit/teste/U4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador_4bit/teste/U3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador_4bit/teste/U3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador_4bit/teste/U2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador_4bit/teste/U2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador_4bit/teste/U1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador_4bit/teste/U1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /tb_somador_4bit/teste/U1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /tb_somador_4bit/teste/U1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /tb_somador_4bit/teste/U2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /tb_somador_4bit/teste/U2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /tb_somador_4bit/teste/U3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /tb_somador_4bit/teste/U3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /tb_somador_4bit/teste/U4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /tb_somador_4bit/teste/U4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 3  Instance: /tb_somador_4bit/teste/U1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 3  Instance: /tb_somador_4bit/teste/U1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 3  Instance: /tb_somador_4bit/teste/U2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 3  Instance: /tb_somador_4bit/teste/U2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 3  Instance: /tb_somador_4bit/teste/U3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 3  Instance: /tb_somador_4bit/teste/U3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 3  Instance: /tb_somador_4bit/teste/U4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 3  Instance: /tb_somador_4bit/teste/U4
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of meio_somador.vhd was successful.
+# Compile of somador_4bit.vhd was successful.
+# Compile of somador_completo.vhd was successful.
+# Compile of TB_somador_4bit.vhd was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim +altera -do somador_4bit_run_msim_rtl_vhdl.do -l msim_transcript -gui work.tb_somador_4bit
+# vsim +altera -do somador_4bit_run_msim_rtl_vhdl.do -l msim_transcript -gui work.tb_somador_4bit 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_somador_4bit(behavior)
+# Loading work.somador_4bit(behavior)
+# Loading work.somador_completo(behavior)
+# Loading work.meio_somador(behavioral)
+# WARNING: No extended dataflow license exists
+# do somador_4bit_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying C:/altera/13.1/2017/somador_4bit/simulation/modelsim/CABOS.mpf
+# 
+# vcom -93 -work work {C:/altera/13.1/2017/somador_4bit/somador_4bit.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity somador_4bit
+# -- Compiling architecture behavior of somador_4bit
+# vcom -93 -work work {C:/altera/13.1/2017/somador_4bit/somador_completo.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity somador_completo
+# -- Compiling architecture behavior of somador_completo
+# vcom -93 -work work {C:/altera/13.1/2017/somador_4bit/meio_somador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity meio_somador
+# -- Compiling architecture Behavioral of meio_somador
+# 
+add wave -position insertpoint  \
+sim:/tb_somador_4bit/i_A0 \
+sim:/tb_somador_4bit/i_B0 \
+sim:/tb_somador_4bit/i_C \
+sim:/tb_somador_4bit/i_A1 \
+sim:/tb_somador_4bit/i_B1 \
+sim:/tb_somador_4bit/i_A2 \
+sim:/tb_somador_4bit/i_B2 \
+sim:/tb_somador_4bit/i_A3 \
+sim:/tb_somador_4bit/i_B3 \
+sim:/tb_somador_4bit/o_C \
+sim:/tb_somador_4bit/o_Y0 \
+sim:/tb_somador_4bit/o_Y1 \
+sim:/tb_somador_4bit/o_Y2 \
+sim:/tb_somador_4bit/o_Y3
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador_4bit/teste/U4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador_4bit/teste/U4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador_4bit/teste/U3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador_4bit/teste/U3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador_4bit/teste/U2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador_4bit/teste/U2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador_4bit/teste/U1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador_4bit/teste/U1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /tb_somador_4bit/teste/U2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /tb_somador_4bit/teste/U2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /tb_somador_4bit/teste/U3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /tb_somador_4bit/teste/U3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /tb_somador_4bit/teste/U4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /tb_somador_4bit/teste/U4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 3  Instance: /tb_somador_4bit/teste/U2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 3  Instance: /tb_somador_4bit/teste/U2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 3  Instance: /tb_somador_4bit/teste/U3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 3  Instance: /tb_somador_4bit/teste/U3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 3  Instance: /tb_somador_4bit/teste/U4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 3  Instance: /tb_somador_4bit/teste/U4

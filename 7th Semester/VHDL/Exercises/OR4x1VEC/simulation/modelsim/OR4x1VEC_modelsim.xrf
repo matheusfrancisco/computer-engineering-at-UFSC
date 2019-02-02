@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera/13.1/2017/AND4x1/OR4x1VEC.vhd
+source_file = 1, C:/altera/13.1/2017/OR4x1VEC/db/OR4x1VEC.cbx.xml
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = OR4x1VEC
+instance = comp, \o_B~output\, o_B~output, OR4x1VEC, 1
+instance = comp, \i_A[2]~input\, i_A[2]~input, OR4x1VEC, 1
+instance = comp, \i_A[0]~input\, i_A[0]~input, OR4x1VEC, 1
+instance = comp, \i_A[1]~input\, i_A[1]~input, OR4x1VEC, 1
+instance = comp, \i_A[3]~input\, i_A[3]~input, OR4x1VEC, 1
+instance = comp, \o_B~0\, o_B~0, OR4x1VEC, 1

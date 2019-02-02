@@ -1,0 +1,9 @@
+# Compile of TB_processador.vhd was successful.
+# Compile of processador.vhd was successful.
+# Compile of caminho_controle.vhd was successful.
+# Compile of caminho_dados.vhd was successful.
+# Compile of banco_registrador.vhd was successful.
+# Compile of registrador.vhd was successful.
+# Compile of ula.vhd was successful.
+# 7 compiles, 0 failed with no errors. 
+vsim +altera -do Processador_2017_run_msim_rtl_vhdl.do -l msim_transcript -gui work.tb_processador

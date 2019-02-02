@@ -1,0 +1,42 @@
+C:/altera/13.1/2017/somador_4bit/somador_completo.vhd {1 {vcom -work work -2002 -explicit C:/altera/13.1/2017/somador_4bit/somador_completo.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity somador_completo
+-- Compiling architecture behavior of somador_completo
+
+} {} {}} C:/altera/13.1/2017/somador_4bit/somador_4bit.vhd {1 {vcom -work work -2002 -explicit C:/altera/13.1/2017/somador_4bit/somador_4bit.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity somador_4bit
+-- Compiling architecture behavior of somador_4bit
+
+} {} {}} C:/altera/13.1/2017/somador_4bit/TB_somador_4bit.vhd {1 {vcom -work work -2002 -explicit C:/altera/13.1/2017/somador_4bit/TB_somador_4bit.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity TB_somador_4bit
+-- Compiling architecture behavior of TB_somador_4bit
+
+} {} {}} C:/altera/13.1/2017/somador_4bit/meio_somador.vhd {1 {vcom -work work -2002 -explicit C:/altera/13.1/2017/somador_4bit/meio_somador.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity meio_somador
+-- Compiling architecture Behavioral of meio_somador
+
+} {} {}}

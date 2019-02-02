@@ -1,0 +1,23 @@
+* Z:\home\francisco\Files\College-UFSC\6th semester\Tópicos Especiais I -Microeletronica\Trabalho 5 Espelho de corrente\Parte 7\pt7.asc
+V1 VDD 0 5V
+M1 Vx Vx 0 N001 N_1u l=1.5u w=3u
+I1 VDD Vx 39.3µ
+M2 Vout2 Vx 0 N002 N_1u l=1.5u w=6u
+M3 vout3 Vx 0 N003 N_1u l=1.5u w=6u
+M4 vout4 Vx 0 N004 N_1u l=1.5u w=6u
+R1 VDD Vout2 40k
+R2 VDD vout3 50k
+R3 VDD vout4 10k
+M5 vout5 Vx 0 N005 N_1u l=1.5u w=6u
+R4 VDD vout5 1k
+M6 vout6 Vx 0 N006 N_1u l=1.5u w=6u
+R5 VDD vout6 1Meg
+M7 vout7 Vx 0 N007 N_1u l=1.5u w=6u
+R6 VDD vout7 10
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Program Files (x86)\LTC\LTspiceIV\lib\cmp\standard.mos
+.include cmosedu_models.txt
+.op
+.backanno
+.end

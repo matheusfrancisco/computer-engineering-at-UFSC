@@ -1,0 +1,33 @@
+Circuit: * Z:\home\francisco\Files\College-UFSC\6th semestre\Tópicos Especiais I -Microeletronica\Trabalho_1\trabalho1.asc
+
+.OP point found by inspection.
+.step vgs=0
+.step vgs=0.5
+.step vgs=1
+.step vgs=1.5
+.step vgs=2
+.step vgs=2.5
+.step vgs=3
+.step vgs=3.5
+.step vgs=4
+.step vgs=4.5
+.step vgs=5
+
+Date: Wed Mar 29 08:43:52 2017
+Total elapsed time: 0.218 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 11056
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 4
+fillins = 0
+solver = Normal
+Matrix Compiler1: 118 bytes object code size  0.5/0.5/[0.5]
+Matrix Compiler2: 216 bytes object code size  0.5/0.6/[0.5]
+
+

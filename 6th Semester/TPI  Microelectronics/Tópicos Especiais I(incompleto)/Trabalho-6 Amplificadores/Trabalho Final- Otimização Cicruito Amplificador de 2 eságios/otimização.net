@@ -1,0 +1,23 @@
+* Z:\home\francisco\Files\College-UFSC\6th semester\Tópicos Especiais I -Microeletronica\Trabalho-6 Amplificadores\Trabalho Final- Otimização Cicruito Amplificador de 2 eságios\otimização.asc
+vdd dd 0 2.5
+M8 vg875 vg875 dd dd P_1u l=49.986531u w=49.992332u
+M5 vd5vs23 vg875 dd dd P_1u l=49.986531u w=49.992332u
+m7 out vg875 dd dd P_1u l=49.986531u w=49.992332u
+M1 vg43vd12 0 vd5vs23 vd5vs23 P_1u l=9.069192u w=49.998294u
+M2 vg6vd24 in+ vd5vs23 vd5vs23 P_1u l=9.069192u w=49.998294u
+M3 vg43vd12 vg43vd12 ss ss N_1u l=47.775368u w=41.548244u
+M4 vg6vd24 vg43vd12 ss ss N_1u l=47.775368u w=41.548244u
+Iref vg875 ss 10892.687537n
+M6 out vg6vd24 ss ss N_1u l=28.964298u w=49.906981u
+CC out vg6vd24 0.100001p
+vss 0 ss 2.5
+V§in in+ 0 AC 1
+C1 out 0 1p
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Program Files (x86)\LTC\LTspiceIV\lib\cmp\standard.mos
+.ac dec 100 1 100000000000000000000
+.include cmosedu_models.txt
+.meas AC Gain1Hz FIND V(out) AT 1
+.backanno
+.end

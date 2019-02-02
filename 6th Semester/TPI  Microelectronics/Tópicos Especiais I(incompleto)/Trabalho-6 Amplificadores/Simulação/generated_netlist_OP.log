@@ -1,0 +1,66 @@
+Circuit: .lib C:\users\francisco\My Documents\LTspiceXVII\lib\cmp\standard.mos
+
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- MOSFET Transistors ---
+Name:          m8          m5          m7          m2          m1
+Model:        p_1u        p_1u        p_1u        p_1u        p_1u
+Id:         -6.19e-07   -6.19e-07   -6.19e-07   -3.10e-07   -3.10e-07
+Vgs:        -1.64e+00   -1.64e+00   -1.64e+00   -1.23e+00   -1.23e+00
+Vds:        -1.64e+00   -1.27e+00   -3.71e+00   -2.64e+00   -2.64e+00
+Vbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Vth:        -9.60e-01   -9.60e-01   -9.60e-01   -9.59e-01   -9.59e-01
+Vdsat:      -6.21e-01   -6.21e-01   -6.21e-01   -2.79e-01   -2.79e-01
+Gm:          1.62e-06    1.62e-06    1.62e-06    1.84e-06    1.84e-06
+Gds:         6.94e-11    6.94e-11    6.93e-11    1.65e-11    1.65e-11
+Gmb:         5.38e-07    5.38e-07    5.38e-07    6.38e-07    6.38e-07
+Cbd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgsov:       7.14e-16    7.14e-16    7.14e-16    1.72e-15    1.72e-15
+Cgdov:       7.14e-16    7.14e-16    7.14e-16    1.72e-15    1.72e-15
+Cgbov:       4.89e-15    4.89e-15    4.89e-15    4.94e-15    4.94e-15
+Cgs:         2.01e-13    2.01e-13    2.01e-13    4.89e-13    4.89e-13
+Cgd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgb:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:          m6          m4          m3
+Model:        n_1u        n_1u        n_1u
+Id:          6.19e-07    3.10e-07    3.10e-07
+Vgs:         1.09e+00    1.09e+00    1.09e+00
+Vds:         1.29e+00    1.09e+00    1.09e+00
+Vbs:         0.00e+00    0.00e+00    0.00e+00
+Vth:         8.80e-01    8.97e-01    8.97e-01
+Vdsat:       2.27e-01    2.09e-01    2.09e-01
+Gm:          4.54e-06    2.42e-06    2.42e-06
+Gds:         4.60e-11    2.09e-11    2.09e-11
+Gmb:         1.47e-06    8.41e-07    8.41e-07
+Cbd:         0.00e+00    0.00e+00    0.00e+00
+Cbs:         0.00e+00    0.00e+00    0.00e+00
+Cgsov:       1.72e-15    1.00e-15    1.00e-15
+Cgdov:       1.72e-15    1.00e-15    1.00e-15
+Cgbov:       4.94e-15    4.98e-15    4.98e-15
+Cgs:         4.89e-13    2.87e-13    2.87e-13
+Cgd:         0.00e+00    0.00e+00    0.00e+00
+Cgb:         0.00e+00    0.00e+00    0.00e+00
+
+
+
+
+
+Date: Fri Jun 23 00:56:25 2017
+Total elapsed time: 0.004 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 26
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 11
+fillins = 2
+solver = Normal
+Matrix Compiler1: 672 bytes object code size
+Matrix Compiler2: 1003 bytes object code size
+

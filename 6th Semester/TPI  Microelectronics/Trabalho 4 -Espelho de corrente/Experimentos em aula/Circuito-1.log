@@ -1,0 +1,43 @@
+Circuit: * Z:\run\media\thiagordp\Arquivos\ArquivosUFSC\2017-1\9aFase\TP-I\T5\Experimentos em aula\Circuito-1.asc
+
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- MOSFET Transistors ---
+Name:          m1
+Model:        n_1u
+Id:          4.32e-05
+Vgs:         1.50e+00
+Vds:         1.50e+00
+Vbs:         1.25e-01
+Vth:         8.51e-01
+Vdsat:       4.95e-01
+Gm:          1.04e-04
+Gds:         4.82e-06
+Gmb:         3.13e-05
+Cbd:         0.00e+00
+Cbs:         0.00e+00
+Cgsov:       6.00e-16
+Cgdov:       6.00e-16
+Cgbov:       1.30e-16
+Cgs:         4.49e-15
+Cgd:         0.00e+00
+Cgb:         0.00e+00
+
+
+
+Date: Fri May 19 10:26:42 2017
+Total elapsed time: 0.063 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 25
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 3
+fillins = 0
+solver = Normal
+Matrix Compiler1: 86 bytes object code size
+Matrix Compiler2: 163 bytes object code size

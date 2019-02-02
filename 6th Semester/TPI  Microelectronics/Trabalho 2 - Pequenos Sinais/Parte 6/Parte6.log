@@ -1,0 +1,27 @@
+Circuit: * Z:\home\francisco\Files\College-UFSC\6th semestre\Tópicos Especiais I -Microeletronica\Trabalho 2 - Pequenos Sinais\Parte 6\Parte6.asc
+
+WARNING: Node VOUT is floating.
+WARNING: Node VIN is floating.
+
+WARNING: Less than two connections to node VOUT.  This node is used by C1.
+WARNING: Less than two connections to node VIN.  This node is used by C2.
+Direct Newton iteration for .op point succeeded.
+
+Date: Thu Apr 13 21:04:02 2017
+Total elapsed time: 0.107 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2563
+traniter = 2537
+tranpoints = 1109
+accept = 1092
+rejected = 17
+matrix size = 10
+fillins = 0
+solver = Normal
+Matrix Compiler1: 328 bytes object code size  0.8/0.6/[0.5]
+Matrix Compiler2: off  [0.7]/0.9/0.9
+
+

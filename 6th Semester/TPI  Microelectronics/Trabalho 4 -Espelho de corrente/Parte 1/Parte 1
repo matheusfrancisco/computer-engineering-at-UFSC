@@ -1,0 +1,6 @@
+V(n001):	 1.5	 voltage
+Id(M1):	 3.92966e-005	 device_current
+Ig(M1):	 0	 device_current
+Ib(M1):	 -1.51e-012	 device_current
+ 
+I(Vgs):	 -3.92966e-005	 device_current

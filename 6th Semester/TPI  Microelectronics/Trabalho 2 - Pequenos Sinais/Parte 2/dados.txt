@@ -1,0 +1,24 @@
+ Para qual VGS há a maior transcondutância
+Vgs = 3V temos uma maior transcondutância
+
+id = gm.vgs
+id = 173.499* 3 = 520.497 uA
+vgs = 3 
+
+gm = 173.499u Ohm^-1
+
+
+quando aumenta a derivada da corrente aumenta a transcondutância
+d(ID)/d(Vgs) = gm
+
+
+Vgs = 0.8 
+vgs - vto = 0 estamos na região de corte  ou seja vgs <= vto 
+região.
+
+
+Vgs > Vto  = Vout = Vgs -Vth 
+estamos na região de saturação 
+
+Na região de triodo vds < vgs- vth
+

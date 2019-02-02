@@ -1,0 +1,22 @@
+Circuit: * Z:\home\francisco\Files\College-UFSC\6th semestre\Tópicos Especiais I -Microeletronica\Trabalho 2 - Pequenos Sinais\Parte 6\Draft1.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Sat Apr 22 19:31:07 2017
+Total elapsed time: 0.068 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2099
+traniter = 2096
+tranpoints = 1049
+accept = 1049
+rejected = 0
+matrix size = 4
+fillins = 0
+solver = Normal
+Matrix Compiler1: 100 bytes object code size  0.4/0.4/[0.4]
+Matrix Compiler2: off  [0.4]/0.4/0.4
+
+

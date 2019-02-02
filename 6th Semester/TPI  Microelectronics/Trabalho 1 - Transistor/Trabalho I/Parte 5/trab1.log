@@ -1,0 +1,43 @@
+Circuit: * C:\Users\Matheus\Desktop\Topicos I\Parte 5\trab1.asc
+
+.OP point found by inspection.
+.step vgs=0
+.step vgs=0.1
+.step vgs=0.2
+.step vgs=0.3
+.step vgs=0.4
+.step vgs=0.5
+.step vgs=0.6
+.step vgs=0.7
+.step vgs=0.8
+.step vgs=0.9
+.step vgs=1
+.step vgs=1.1
+.step vgs=1.2
+.step vgs=1.3
+.step vgs=1.4
+.step vgs=1.5
+.step vgs=1.6
+.step vgs=1.7
+.step vgs=1.8
+.step vgs=1.9
+.step vgs=2
+
+Date: Thu Mar 30 12:24:42 2017
+Total elapsed time: 1.185 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 21091
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 4
+fillins = 0
+solver = Normal
+Matrix Compiler1:       7 opcodes  0.1/[0.0]/0.1
+Matrix Compiler2: off  [0.0]/0.1/0.1
+
+

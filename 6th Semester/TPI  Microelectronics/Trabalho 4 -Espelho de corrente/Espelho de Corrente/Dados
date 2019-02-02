@@ -1,0 +1,65 @@
+Experimento 1
+Id = 39.3uA
+
+=================
+Experimento 2
+Vd(vgs) = 1.5V
+
+=====================
+Experimento 3
+Vgs = 1V
+Id(M1) = 2.981uA
+Exp2-
+Vd(vgs)=0.999982V
+
+
+===============================
+
+Experimento 4 Espelho de corrente
+
+Id(M5) - 29.3uA
+Vd2 = 1.109V
+
+R=100K
+
+(Vdd - Vd2) /R  = 39.3u
+
+Vd2 não esta em triodo nem esta afastado de 1.5
+
+===========================
+Experimento 5
+
+Quando Vds2 = Vgs, qual sera a corrente
+39.298854µA?s
+
+O que devo garantir para poder usar este transistor como fonte de corrente?
+Saturação
+
+
+
+==========================
+Experimento 6
+
+Id_100k = 38.90u
+Id_50K = 40.41u
+Id_10k = 41.34u
+Id_1k =  46.64u
+
+
+triodo vdd< vgs- vth
+Id_1M = 4.97u
+
+V(100k) = 1.10983
+V(50k) = 2.97806
+V(10k) = 4.586
+V(1k) = 4.9533V
+V(1m) =0.029
+====================
+Experimento 7
+Id = dobro
+
+
+
+
+
+

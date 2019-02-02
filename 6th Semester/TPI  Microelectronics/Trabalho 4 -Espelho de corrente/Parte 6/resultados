@@ -1,0 +1,27 @@
+# Circuito 6
+
+Medir Vds para cada caso
+Vx = 1.46354
+
+Id2 = 3.93e-005A
+Vout2 = 1.12604V
+
+Id3 = 4.09958e-005A
+Vout3 = 2.95023V
+
+Id4 = 4.22939e-005A
+Vout4 = 4.57706V
+
+Id5 = 4.25571e-005A
+Vout5 = 4.95744V
+
+Id6 =  4.25571e-005A
+Vout6 = 0.0313868V
+
+Id7 = 4.25856e-005A
+Vout7 = 4.99957V
+
+
+* Explique o porquê das diferenças ou similaridades nos valores.
+Quanto maior a resistência, menor será a tensão de saída, já que qualquer corrente no resistor gerará uma tensão alta. Assim o transistor sai da região de saturação e assim a corrente de dreno também reduz.
+Quando se tem uma resistência baixa, a queda de tensão no resistor é pequena e portanto a tensão de dreno é alta.

@@ -1,0 +1,63 @@
+Circuit: * Z:\run\media\thiagordp\Arquivos\ArquivosUFSC\2017-1\9aFase\TP-I\T5\Experimentos em aula\Circuito-6.asc
+
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- MOSFET Transistors ---
+Name:          m7          m6          m5          m4          m3
+Model:        n_1u        n_1u        n_1u        n_1u        n_1u
+Id:          4.26e-05    4.97e-06    4.26e-05    4.23e-05    4.10e-05
+Vgs:         1.46e+00    1.46e+00    1.46e+00    1.46e+00    1.46e+00
+Vds:         5.00e+00    3.14e-02    4.96e+00    4.58e+00    2.95e+00
+Vbs:         1.59e-01    1.44e-02    1.59e-01    1.57e-01    1.45e-01
+Vth:         8.41e-01    8.85e-01    8.41e-01    8.42e-01    8.45e-01
+Vdsat:       4.77e-01    4.54e-01    4.77e-01    4.77e-01    4.75e-01
+Gm:          1.08e-04    7.59e-06    1.08e-04    1.07e-04    1.04e-04
+Gds:         4.16e-06    1.51e-04    4.16e-06    4.15e-06    4.15e-06
+Gmb:         3.14e-05    2.79e-06    3.14e-05    3.13e-05    3.08e-05
+Cbd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgsov:       6.00e-16    6.00e-16    6.00e-16    6.00e-16    6.00e-16
+Cgdov:       6.00e-16    6.00e-16    6.00e-16    6.00e-16    6.00e-16
+Cgbov:       1.30e-16    1.30e-16    1.30e-16    1.30e-16    1.30e-16
+Cgs:         4.49e-15    3.45e-15    4.49e-15    4.49e-15    4.49e-15
+Cgd:         0.00e+00    3.29e-15    0.00e+00    0.00e+00    0.00e+00
+Cgb:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:          m2          m1
+Model:        n_1u        n_1u
+Id:          3.87e-05    3.93e-05
+Vgs:         1.46e+00    1.46e+00
+Vds:         1.13e+00    1.46e+00
+Vbs:         1.17e-01    1.25e-01
+Vth:         8.53e-01    8.51e-01
+Vdsat:       4.71e-01    4.72e-01
+Gm:          9.97e-05    1.01e-04
+Gds:         4.40e-06    4.28e-06
+Gmb:         3.02e-05    3.03e-05
+Cbd:         0.00e+00    0.00e+00
+Cbs:         0.00e+00    0.00e+00
+Cgsov:       6.00e-16    6.00e-16
+Cgdov:       6.00e-16    6.00e-16
+Cgbov:       1.30e-16    1.30e-16
+Cgs:         4.49e-15    4.49e-15
+Cgd:         0.00e+00    0.00e+00
+Cgb:         0.00e+00    0.00e+00
+
+
+
+Date: Fri May 19 11:24:30 2017
+Total elapsed time: 0.065 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 26
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 16
+fillins = 0
+solver = Normal
+Matrix Compiler1: 1.24 KB object code size
+Matrix Compiler2: 1.47 KB object code size

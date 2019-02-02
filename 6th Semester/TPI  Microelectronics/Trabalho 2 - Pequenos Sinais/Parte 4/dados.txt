@@ -1,0 +1,15 @@
+gm = 414.00199µOhm-1
+Vgs = 1.9145803V
+
+
+Vds para Vgs maximo
+1.7858314V
+
+vds = vgs-vth
+vds = 1.785831 - 0.8
+vds = 0.985831	
+
+Resistencia incremental
+
+77886,2465081914
+

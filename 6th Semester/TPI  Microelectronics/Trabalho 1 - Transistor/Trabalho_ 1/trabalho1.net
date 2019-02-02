@@ -1,0 +1,11 @@
+* Z:\home\francisco\Files\College-UFSC\6th semestre\Tópicos Especiais I -Microeletronica\Trabalho_1\trabalho1.asc
+M1 N001 N002 0 0 N_1u l=1.5u w=9.6u
+Vgs N002 0 1
+Vds N001 0 2
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\users\francisco\My Documents\LTspiceXVII\lib\cmp\standard.mos
+.include cmosedu_models.txt
+.dc Vds 0 5 0.01 Vgs 0 5 1
+.backanno
+.end

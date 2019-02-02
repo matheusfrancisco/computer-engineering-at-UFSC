@@ -1,0 +1,66 @@
+Questionable use of curly braces in ".model sir870adp vdmos(rg=3 vto=2.9 rd=3.2m rs=1.5m rb={m} kp=100 mtriode=1.85 cgdmax=1.4n cgdmin=70p cgs=2.9n cjo=3.6n m=.4 a=.7 vj=.7 lambda=20m is=3p ksubthres=.08 mfg=siliconix vds=100 ron=5.5m qg=53.5n)"
+    Error: undefined symbol in: "[m]"
+Circuit: * Z:\home\francisco\Files\College-UFSC\6th semester\Tópicos Especiais I -Microeletronica\Trabalho 5 Espelho de corrente\Parte 7\pt7.asc
+
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- MOSFET Transistors ---
+Name:          m7          m6          m5          m4          m3
+Model:        n_1u        n_1u        n_1u        n_1u        n_1u
+Id:          9.40e-05    4.99e-06    9.38e-05    9.26e-05    8.43e-05
+Vgs:         1.46e+00    1.46e+00    1.46e+00    1.46e+00    1.46e+00
+Vds:         5.00e+00    1.47e-02    4.91e+00    4.07e+00    7.83e-01
+Vbs:         1.59e-01    7.06e-03    1.59e-01    1.54e-01    1.06e-01
+Vth:         8.14e-01    8.55e-01    8.14e-01    8.15e-01    8.27e-01
+Vdsat:       5.10e-01    4.89e-01    5.10e-01    5.09e-01    5.03e-01
+Gm:          2.27e-04    7.12e-06    2.27e-04    2.24e-04    2.06e-04
+Gds:         9.60e-06    3.32e-04    9.59e-06    9.57e-06    1.10e-05
+Gmb:         5.47e-05    2.29e-06    5.46e-05    5.43e-05    5.29e-05
+Cbd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgsov:       1.20e-15    1.20e-15    1.20e-15    1.20e-15    1.20e-15
+Cgdov:       1.20e-15    1.20e-15    1.20e-15    1.20e-15    1.20e-15
+Cgbov:       1.30e-16    1.30e-16    1.30e-16    1.30e-16    1.30e-16
+Cgs:         8.98e-15    6.80e-15    8.98e-15    8.98e-15    8.98e-15
+Cgd:         0.00e+00    6.66e-15    0.00e+00    0.00e+00    0.00e+00
+Cgb:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:          m2          m1
+Model:        n_1u        n_1u
+Id:          8.72e-05    3.93e-05
+Vgs:         1.46e+00    1.46e+00
+Vds:         1.51e+00    1.46e+00
+Vbs:         1.26e-01    1.25e-01
+Vth:         8.22e-01    8.51e-01
+Vdsat:       5.06e-01    4.72e-01
+Gm:          2.13e-04    1.01e-04
+Gds:         9.88e-06    4.28e-06
+Gmb:         5.32e-05    3.03e-05
+Cbd:         0.00e+00    0.00e+00
+Cbs:         0.00e+00    0.00e+00
+Cgsov:       1.20e-15    6.00e-16
+Cgdov:       1.20e-15    6.00e-16
+Cgbov:       1.30e-16    1.30e-16
+Cgs:         8.98e-15    4.49e-15
+Cgd:         0.00e+00    0.00e+00
+Cgb:         0.00e+00    0.00e+00
+
+
+
+Date: Mon Jun 05 21:50:51 2017
+Total elapsed time: 0.067 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 26
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 16
+fillins = 0
+solver = Normal
+Matrix Compiler1: 1.24 KB object code size
+Matrix Compiler2: 1.47 KB object code size
+

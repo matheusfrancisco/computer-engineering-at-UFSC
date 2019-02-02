@@ -1,0 +1,87 @@
+Questionable use of curly braces in ".model sir870adp vdmos(rg=3 vto=2.9 rd=3.2m rs=1.5m rb={m} kp=100 mtriode=1.85 cgdmax=1.4n cgdmin=70p cgs=2.9n cjo=3.6n m=.4 a=.7 vj=.7 lambda=20m is=3p ksubthres=.08 mfg=siliconix vds=100 ron=5.5m qg=53.5n)"
+    Error: undefined symbol in: "[m]"
+Circuit: * Z:\home\francisco\Files\College-UFSC\6th semester\Tópicos Especiais I\Trabalho 5 Espelho de corrente\Espelho de Corrente\exe1.asc
+
+Vds2: Missing value, assumed 0V @ DC
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- MOSFET Transistors ---
+Name:          m12         m11         m10         m9          m8
+Model:        n_1u        n_1u        n_1u        n_1u        n_1u
+Id:          4.97e-06    3.93e-05    4.66e-05    4.13e-05    4.04e-05
+Vgs:         1.50e+00    1.50e+00    1.50e+00    1.50e+00    1.50e+00
+Vds:         2.97e-02    1.50e+00    4.95e+00    4.59e+00    2.98e+00
+Vbs:         1.37e-02    0.00e+00    1.59e-01    0.00e+00    0.00e+00
+Vth:         8.86e-01    8.90e-01    8.41e-01    8.90e-01    8.90e-01
+Vdsat:       4.77e-01    4.74e-01    4.99e-01    4.74e-01    4.74e-01
+Gm:          7.14e-06    1.01e-04    1.11e-04    1.07e-04    1.05e-04
+Gds:         1.60e-04    4.28e-06    4.69e-06    4.05e-06    4.09e-06
+Gmb:         2.63e-06    3.45e-05    3.24e-05    3.64e-05    3.56e-05
+Cbd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgsov:       6.00e-16    6.00e-16    6.00e-16    6.00e-16    6.00e-16
+Cgdov:       6.00e-16    6.00e-16    6.00e-16    6.00e-16    6.00e-16
+Cgbov:       1.30e-16    1.30e-16    1.30e-16    1.30e-16    1.30e-16
+Cgs:         3.44e-15    4.49e-15    4.49e-15    4.49e-15    4.49e-15
+Cgd:         3.29e-15    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgb:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:          m7          m6          m4          m5          m3
+Model:        n_1u        n_1u        n_1u        n_1u        n_1u
+Id:          3.89e-05    0.00e+00   -3.93e-05    8.82e-05   -3.93e-05
+Vgs:         1.50e+00    1.50e+00    0.00e+00    1.50e+00    0.00e+00
+Vds:         1.11e+00    0.00e+00   -1.50e+00    1.47e+00   -1.50e+00
+Vbs:         0.00e+00    0.00e+00   -1.50e+00    0.00e+00   -1.50e+00
+Vth:         8.90e-01    8.90e-01    8.90e-01    8.57e-01    8.90e-01
+Vdsat:       4.74e-01    4.74e-01    4.74e-01    5.11e-01    4.74e-01
+Gm:          1.00e-04    0.00e+00    1.01e-04    2.14e-04    1.01e-04
+Gds:         4.45e-06    1.73e-04    4.28e-06    1.01e-05    4.28e-06
+Gmb:         3.41e-05    0.00e+00    3.45e-05    6.22e-05    3.45e-05
+Cbd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgsov:       6.00e-16    6.00e-16    6.00e-16    1.20e-15    6.00e-16
+Cgdov:       6.00e-16    6.00e-16    6.00e-16    1.20e-15    6.00e-16
+Cgbov:       1.30e-16    1.30e-16    1.30e-16    1.30e-16    1.30e-16
+Cgs:         4.49e-15    3.37e-15    0.00e+00    8.98e-15    0.00e+00
+Cgd:         0.00e+00    3.37e-15    4.49e-15    0.00e+00    4.49e-15
+Cgb:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:          m2          m1
+Model:        n_1u        n_1u
+Id:          3.93e-05    3.93e-05
+Vgs:         1.50e+00    1.50e+00
+Vds:         1.50e+00    1.50e+00
+Vbs:         0.00e+00    0.00e+00
+Vth:         8.90e-01    8.90e-01
+Vdsat:       4.74e-01    4.74e-01
+Gm:          1.01e-04    1.01e-04
+Gds:         4.28e-06    4.28e-06
+Gmb:         3.45e-05    3.45e-05
+Cbd:         0.00e+00    0.00e+00
+Cbs:         0.00e+00    0.00e+00
+Cgsov:       6.00e-16    6.00e-16
+Cgdov:       6.00e-16    6.00e-16
+Cgbov:       1.30e-16    1.30e-16
+Cgs:         4.49e-15    4.49e-15
+Cgd:         0.00e+00    0.00e+00
+Cgb:         0.00e+00    0.00e+00
+
+
+
+Date: Wed May 31 10:48:58 2017
+Total elapsed time: 0.153 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 26
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 28
+fillins = 0
+solver = Normal
+Matrix Compiler1: 956 bytes object code size
+Matrix Compiler2: 1.79 KB object code size
+

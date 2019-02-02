@@ -1,0 +1,86 @@
+Circuit: .lib C:\users\francisco\My Documents\LTspiceXVII\lib\cmp\standard.mos
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+Gmin = 1.89714e-008
+Gmin = 2.03704e-009
+Gmin = 2.18725e-010
+Gmin = 2.34854e-011
+Gmin = 2.52173e-012
+Gmin = 2.70769e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Semiconductor Device Operating Points:
+                        --- MOSFET Transistors ---
+Name:          m8          m5          m7          m2          m1
+Model:        p_1u        p_1u        p_1u        p_1u        p_1u
+Id:         -9.41e-06   -9.41e-06   -9.41e-06   -4.70e-06   -4.70e-06
+Vgs:        -1.87e+00   -1.87e+00   -1.87e+00   -9.95e-01   -9.95e-01
+Vds:        -1.87e+00   -1.50e+00   -8.60e-01   -2.34e+00   -2.34e+00
+Vbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Vth:        -9.58e-01   -9.58e-01   -9.58e-01   -9.36e-01   -9.36e-01
+Vdsat:      -8.22e-01   -8.22e-01   -8.22e-01   -9.92e-02   -9.92e-02
+Gm:          1.84e-05    1.84e-05    1.84e-05    7.91e-05    7.91e-05
+Gds:         1.30e-09    1.30e-09    1.30e-09    4.03e-08    4.03e-08
+Gmb:         5.88e-06    5.88e-06    5.88e-06    2.59e-05    2.59e-05
+Cbd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgsov:       6.41e-15    6.41e-15    6.41e-15    9.56e-15    9.56e-15
+Cgdov:       6.41e-15    6.41e-15    6.41e-15    9.56e-15    9.56e-15
+Cgbov:       4.94e-15    4.94e-15    4.94e-15    2.34e-16    2.34e-16
+Cgs:         1.82e-12    1.82e-12    1.82e-12    1.29e-13    1.29e-13
+Cgd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgb:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:          m6          m4          m3
+Model:        n_1u        n_1u        n_1u
+Id:          9.41e-06    4.70e-06    4.70e-06
+Vgs:         1.15e+00    1.15e+00    1.15e+00
+Vds:         4.14e+00    1.15e+00    1.15e+00
+Vbs:         0.00e+00    0.00e+00    0.00e+00
+Vth:         8.61e-01    8.63e-01    8.63e-01
+Vdsat:       3.01e-01    3.00e-01    3.00e-01
+Gm:          5.28e-05    2.65e-05    2.65e-05
+Gds:         3.24e-09    5.88e-10    5.88e-10
+Gmb:         1.54e-05    7.83e-06    7.83e-06
+Cbd:         0.00e+00    0.00e+00    0.00e+00
+Cbs:         0.00e+00    0.00e+00    0.00e+00
+Cgsov:       8.02e-15    6.76e-15    6.76e-15
+Cgdov:       8.02e-15    6.76e-15    6.76e-15
+Cgbov:       2.59e-15    4.34e-15    4.34e-15
+Cgs:         1.20e-12    1.69e-12    1.69e-12
+Cgd:         0.00e+00    0.00e+00    0.00e+00
+Cgb:         0.00e+00    0.00e+00    0.00e+00
+
+
+
+
+
+Date: Sat Jun 24 22:16:23 2017
+Total elapsed time: 0.813 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 630
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 11
+fillins = 3
+solver = Normal
+Matrix Compiler1: 726 bytes object code size
+Matrix Compiler2: off  [0.5]/0.7/0.6
+
+

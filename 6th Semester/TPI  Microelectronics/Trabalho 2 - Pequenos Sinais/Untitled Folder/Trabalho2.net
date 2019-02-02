@@ -1,0 +1,12 @@
+* C:\Users\Matheus\Desktop\Topicos I\Trabalho 2 - Pequenos Sinais\Trabalho2.asc
+M1 Vout N002 0 N003 N_1u l=1.5u w=3u
+Vgs N002 0 SINE(0 200mv 1k)
+Rd N001 Vout 10k
+Vd N001 0 5
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\Matheus\Documents\LTspiceXVII\lib\cmp\standard.mos
+.dc Vgs 0 5 0.01
+.include cmosedu_models.txt
+.backanno
+.end

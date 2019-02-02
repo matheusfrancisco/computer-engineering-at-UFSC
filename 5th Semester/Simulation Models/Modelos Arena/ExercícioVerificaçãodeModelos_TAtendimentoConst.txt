@@ -1,0 +1,90 @@
+
+                                      ARENA Simulation Results
+                                           Morgana Sartor
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 6/ 2/2016
+Analyst: Morgana Sartor                                              Model revision date: 6/ 2/2016
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Processo A.VATimePerEntity                  5.0000     (Insuf)    5.0000     5.0000         96    
+Processo B.TotalTimePerEntity               103.24     (Insuf)    5.0000     206.20         96    
+Processo A.WaitTimePerEntity                99.999     (Insuf)    .00000     198.83         96    
+Processo B.VATimePerEntity                  5.0000     (Insuf)    5.0000     5.0000         96    
+Tempo Sistema 1                             166.74     (Insuf)    25.000     309.23         36    
+Tempo Sistema 2                             164.66     (Insuf)    25.000     318.20         34    
+Processo A.TotalTimePerEntity               104.99     (Insuf)    5.0000     203.83         96    
+Processo B.WaitTimePerEntity                98.247     (Insuf)    .00000     201.20         96    
+Entity 1.VATime                             10.000     (Insuf)    10.000     10.000         34    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         34    
+Entity 1.WaitTime                           154.66     (Insuf)    15.000     308.20         34    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         34    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         34    
+Entity 1.TotalTime                          164.66     (Insuf)    25.000     318.20         34    
+Entity 2.VATime                             10.000     (Insuf)    10.000     10.000         36    
+Entity 2.NVATime                            .00000     (Insuf)    .00000     .00000         36    
+Entity 2.WaitTime                           156.74     (Insuf)    15.000     299.23         36    
+Entity 2.TranTime                           .00000     (Insuf)    .00000     .00000         36    
+Entity 2.OtherTime                          .00000     (Insuf)    .00000     .00000         36    
+Entity 2.TotalTime                          166.74     (Insuf)    25.000     309.23         36    
+Processo A.Queue.WaitingTime                101.04     (Insuf)    .00000     201.82         97    
+Processo B.Queue.WaitingTime                99.338     (Insuf)    .00000     204.01         97    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                36.592     (Insuf)    .00000     76.000     76.000    
+Entity 2.WIP                                34.559     (Insuf)    .00000     70.000     70.000    
+Resource 1.NumberBusy                       1.0000     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      1.0000     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       1.0000     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      1.0000     (Insuf)    .00000     1.0000     1.0000    
+Processo A.Queue.NumberInQueue              35.592     (Insuf)    .00000     76.000     75.000    
+Processo B.Queue.NumberInQueue              33.559     (Insuf)    .00000     69.000     69.000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Contador 1                                       36  Infinite
+Contador 2                                       34  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Processo B Number In                        166.00    
+Processo B Accum Wait Time                  9431.7    
+Processo A Number Out                       96.000    
+Processo B Accum VA Time                    480.00    
+Processo A Number In                        172.00    
+Processo A Accum Wait Time                  9599.9    
+Processo B Number Out                       96.000    
+Processo A Accum VA Time                    480.00    
+Entity 1.NumberIn                           110.00    
+Entity 1.NumberOut                          34.000    
+Entity 2.NumberIn                           106.00    
+Entity 2.NumberOut                          36.000    
+Resource 1.NumberSeized                     97.000    
+Resource 1.ScheduledUtilization             1.0000    
+Resource 2.NumberSeized                     97.000    
+Resource 2.ScheduledUtilization             1.0000    
+System.NumberOut                            70.000    
+
+
+Simulation run time: 0.08 minutes.
+Simulation run complete.

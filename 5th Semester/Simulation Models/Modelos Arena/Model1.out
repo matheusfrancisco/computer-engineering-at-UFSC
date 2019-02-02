@@ -1,0 +1,65 @@
+
+                                      ARENA Simulation Results
+                                           Morgana Sartor
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 6/21/2016
+Analyst: Morgana Sartor                                              Model revision date: 6/21/2016
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Verifica CEP.VATimePerEntity                .15718     (Insuf)    .00192     .79164         33    
+Verifica CEP.WaitTimePerEntity              .00000     (Insuf)    .00000     .00000         33    
+Verifica CEP.TotalTimePerEntity             .15718     (Insuf)    .00192     .79164         33    
+Entity 1.VATime                             .15718     (Insuf)    .00192     .79164         33    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         33    
+Entity 1.WaitTime                           .00000     (Insuf)    .00000     .00000         33    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         33    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         33    
+Entity 1.TotalTime                          .15718     (Insuf)    .00192     .79164         33    
+Verifica CEP.Queue.WaitingTime              .00000     (Insuf)    .00000     .00000         33    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .01081     (Insuf)    .00000     1.0000     .00000    
+Funcionario.NumberBusy                      .01081     (Insuf)    .00000     1.0000     .00000    
+Funcionario.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario.Utilization                     .01081     (Insuf)    .00000     1.0000     .00000    
+Verifica CEP.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Conta Incorretos                                  1  Infinite
+Conta Corretos                                   32  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Verifica CEP Number Out                     33.000    
+Verifica CEP Number In                      33.000    
+Verifica CEP Accum VA Time                  5.1870    
+Verifica CEP Accum Wait Time                .00000    
+Entity 1.NumberIn                           33.000    
+Entity 1.NumberOut                          33.000    
+Funcionario.NumberSeized                    33.000    
+Funcionario.ScheduledUtilization            .01081    
+System.NumberOut                            33.000    
+
+
+Simulation run time: 0.02 minutes.
+Simulation run complete.

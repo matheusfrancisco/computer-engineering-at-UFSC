@@ -1,0 +1,11 @@
+[RESOURCES]
+Funcionario
+[VARIABLES]
+Saida.NumberOut
+Encaminhamento aos escaninhos.NumberOut True
+Verifica CEP.NumberOut
+Verifica CEP.NumberIn
+Encaminhamento aos escaninhos.NumberOut False
+Verifica CEP.VATime
+Verifica CEP.WaitTime
+Chegada de Cartas.NumberOut

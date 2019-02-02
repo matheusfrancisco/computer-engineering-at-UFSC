@@ -1,0 +1,3783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_60" class="java.beans.XMLDecoder">
+ <object class="com.mathworks.toolbox.comm.SessionBean">
+  <void property="YAxis">
+   <array class="double" length="2">
+    <void index="0">
+     <double>1.0E-8</double>
+    </void>
+    <void index="1">
+     <double>1.0</double>
+    </void>
+   </array>
+  </void>
+  <void property="colors">
+   <array class="java.lang.Object" length="7">
+    <void index="0">
+     <array class="double" length="3">
+      <void index="2">
+       <double>1.0</double>
+      </void>
+     </array>
+    </void>
+    <void index="1">
+     <array class="double" length="3">
+      <void index="1">
+       <double>0.9</double>
+      </void>
+     </array>
+    </void>
+    <void index="2">
+     <array class="double" length="3">
+      <void index="0">
+       <double>0.7</double>
+      </void>
+      <void index="2">
+       <double>0.7</double>
+      </void>
+     </array>
+    </void>
+    <void index="3">
+     <array class="double" length="3">
+      <void index="1">
+       <double>0.7</double>
+      </void>
+      <void index="2">
+       <double>0.7</double>
+      </void>
+     </array>
+    </void>
+    <void index="4">
+     <array class="double" length="3">
+      <void index="0">
+       <double>1.0</double>
+      </void>
+     </array>
+    </void>
+    <void index="5">
+     <array class="double" length="3">
+      <void index="0">
+       <double>0.7</double>
+      </void>
+      <void index="1">
+       <double>0.7</double>
+      </void>
+     </array>
+    </void>
+    <void index="6">
+     <array class="double" length="3"/>
+    </void>
+   </array>
+  </void>
+  <void property="confLevelEditabilities">
+   <object class="java.util.Vector">
+    <void method="add">
+     <boolean>false</boolean>
+    </void>
+    <void method="add">
+     <boolean>true</boolean>
+    </void>
+    <void method="add">
+     <boolean>false</boolean>
+    </void>
+    <void method="add">
+     <boolean>true</boolean>
+    </void>
+    <void method="add">
+     <boolean>false</boolean>
+    </void>
+    <void method="add">
+     <boolean>true</boolean>
+    </void>
+    <void method="add">
+     <boolean>false</boolean>
+    </void>
+    <void method="add">
+     <boolean>true</boolean>
+    </void>
+    <void method="add">
+     <boolean>false</boolean>
+    </void>
+    <void method="add">
+     <boolean>true</boolean>
+    </void>
+    <void method="add">
+     <boolean>true</boolean>
+    </void>
+   </object>
+  </void>
+  <void property="data">
+   <array class="java.lang.Object" length="11">
+    <void index="0">
+     <array class="java.lang.Object" length="3">
+      <void index="0">
+       <array class="double" length="19">
+        <void index="1">
+         <double>1.0</double>
+        </void>
+        <void index="2">
+         <double>2.0</double>
+        </void>
+        <void index="3">
+         <double>3.0</double>
+        </void>
+        <void index="4">
+         <double>4.0</double>
+        </void>
+        <void index="5">
+         <double>5.0</double>
+        </void>
+        <void index="6">
+         <double>6.0</double>
+        </void>
+        <void index="7">
+         <double>7.0</double>
+        </void>
+        <void index="8">
+         <double>8.0</double>
+        </void>
+        <void index="9">
+         <double>9.0</double>
+        </void>
+        <void index="10">
+         <double>10.0</double>
+        </void>
+        <void index="11">
+         <double>11.0</double>
+        </void>
+        <void index="12">
+         <double>12.0</double>
+        </void>
+        <void index="13">
+         <double>13.0</double>
+        </void>
+        <void index="14">
+         <double>14.0</double>
+        </void>
+        <void index="15">
+         <double>15.0</double>
+        </void>
+        <void index="16">
+         <double>16.0</double>
+        </void>
+        <void index="17">
+         <double>17.0</double>
+        </void>
+        <void index="18">
+         <double>18.0</double>
+        </void>
+       </array>
+      </void>
+      <void index="1">
+       <array class="double" length="19">
+        <void index="0">
+         <double>0.07864960352514257</double>
+        </void>
+        <void index="1">
+         <double>0.056281951976541456</double>
+        </void>
+        <void index="2">
+         <double>0.03750612835892598</double>
+        </void>
+        <void index="3">
+         <double>0.02287840756108534</double>
+        </void>
+        <void index="4">
+         <double>0.012500818040737566</double>
+        </void>
+        <void index="5">
+         <double>0.00595386714777866</double>
+        </void>
+        <void index="6">
+         <double>0.0023882907809328075</double>
+        </void>
+        <void index="7">
+         <double>7.726748153784444E-4</double>
+        </void>
+        <void index="8">
+         <double>1.9090777407599314E-4</double>
+        </void>
+        <void index="9">
+         <double>3.362722841961758E-5</double>
+        </void>
+        <void index="10">
+         <double>3.872108215522048E-6</double>
+        </void>
+        <void index="11">
+         <double>2.6130679535752067E-7</double>
+        </void>
+        <void index="12">
+         <double>9.006010350628784E-9</double>
+        </void>
+        <void index="13">
+         <double>1.33293101753005E-10</double>
+        </void>
+        <void index="14">
+         <double>6.810189128780764E-13</double>
+        </void>
+        <void index="15">
+         <double>9.123957362628184E-16</double>
+        </void>
+        <void index="16">
+         <double>2.2673958444544388E-19</double>
+        </void>
+        <void index="17">
+         <double>6.75896977065478E-24</double>
+        </void>
+        <void index="18">
+         <double>1.3960143109067493E-29</double>
+        </void>
+       </array>
+      </void>
+      <void index="2">
+       <array class="double" length="19">
+        <void index="0">
+         <double>0.07864960352514257</double>
+        </void>
+        <void index="1">
+         <double>0.056281951976541456</double>
+        </void>
+        <void index="2">
+         <double>0.03750612835892598</double>
+        </void>
+        <void index="3">
+         <double>0.02287840756108534</double>
+        </void>
+        <void index="4">
+         <double>0.012500818040737566</double>
+        </void>
+        <void index="5">
+         <double>0.00595386714777866</double>
+        </void>
+        <void index="6">
+         <double>0.0023882907809328075</double>
+        </void>
+        <void index="7">
+         <double>7.726748153784444E-4</double>
+        </void>
+        <void index="8">
+         <double>1.9090777407599314E-4</double>
+        </void>
+        <void index="9">
+         <double>3.362722841961758E-5</double>
+        </void>
+        <void index="10">
+         <double>3.872108215522048E-6</double>
+        </void>
+        <void index="11">
+         <double>2.6130679535752067E-7</double>
+        </void>
+        <void index="12">
+         <double>9.006010350628784E-9</double>
+        </void>
+        <void index="13">
+         <double>1.33293101753005E-10</double>
+        </void>
+        <void index="14">
+         <double>6.810189128780764E-13</double>
+        </void>
+        <void index="15">
+         <double>9.123957362628184E-16</double>
+        </void>
+        <void index="16">
+         <double>2.2673958444544388E-19</double>
+        </void>
+        <void index="17">
+         <double>6.75896977065478E-24</double>
+        </void>
+        <void index="18">
+         <double>1.3960143109067493E-29</double>
+        </void>
+       </array>
+      </void>
+     </array>
+    </void>
+    <void index="1">
+     <array class="java.lang.Object" length="3">
+      <void index="0">
+       <array class="double" length="19">
+        <void index="1">
+         <double>1.0</double>
+        </void>
+        <void index="2">
+         <double>2.0</double>
+        </void>
+        <void index="3">
+         <double>3.0</double>
+        </void>
+        <void index="4">
+         <double>4.0</double>
+        </void>
+        <void index="5">
+         <double>5.0</double>
+        </void>
+        <void index="6">
+         <double>6.0</double>
+        </void>
+        <void index="7">
+         <double>7.0</double>
+        </void>
+        <void index="8">
+         <double>8.0</double>
+        </void>
+        <void index="9">
+         <double>9.0</double>
+        </void>
+        <void index="10">
+         <double>10.0</double>
+        </void>
+        <void index="11">
+         <double>11.0</double>
+        </void>
+        <void index="12">
+         <double>12.0</double>
+        </void>
+        <void index="13">
+         <double>13.0</double>
+        </void>
+        <void index="14">
+         <double>14.0</double>
+        </void>
+        <void index="15">
+         <double>15.0</double>
+        </void>
+        <void index="16">
+         <double>16.0</double>
+        </void>
+        <void index="17">
+         <double>17.0</double>
+        </void>
+        <void index="18">
+         <double>18.0</double>
+        </void>
+       </array>
+      </void>
+      <void index="1">
+       <array class="double" length="19">
+        <void index="0">
+         <double>0.07899210078992101</double>
+        </void>
+        <void index="1">
+         <double>0.057694230576942306</double>
+        </void>
+        <void index="2">
+         <double>0.038946105389461055</double>
+        </void>
+        <void index="3">
+         <double>0.023797620237976203</double>
+        </void>
+        <void index="4">
+         <double>0.012348765123487652</double>
+        </void>
+        <void index="5">
+         <double>0.00614938506149385</double>
+        </void>
+        <void index="6">
+         <double>0.0025997400259974</double>
+        </void>
+        <void index="7">
+         <double>9.499050094990501E-4</double>
+        </void>
+        <void index="8">
+         <double>2.4997500249975E-4</double>
+        </void>
+        <void index="9">
+         <double>4.999500049995001E-5</double>
+        </void>
+       </array>
+      </void>
+      <void index="2">
+       <array class="double" length="19">
+        <void index="0">
+         <double>20002.0</double>
+        </void>
+        <void index="1">
+         <double>20002.0</double>
+        </void>
+        <void index="2">
+         <double>20002.0</double>
+        </void>
+        <void index="3">
+         <double>20002.0</double>
+        </void>
+        <void index="4">
+         <double>20002.0</double>
+        </void>
+        <void index="5">
+         <double>20002.0</double>
+        </void>
+        <void index="6">
+         <double>20002.0</double>
+        </void>
+        <void index="7">
+         <double>20002.0</double>
+        </void>
+        <void index="8">
+         <double>20002.0</double>
+        </void>
+        <void index="9">
+         <double>20002.0</double>
+        </void>
+        <void index="10">
+         <double>20002.0</double>
+        </void>
+        <void index="11">
+         <double>20002.0</double>
+        </void>
+        <void index="12">
+         <double>20002.0</double>
+        </void>
+        <void index="13">
+         <double>20002.0</double>
+        </void>
+        <void index="14">
+         <double>20002.0</double>
+        </void>
+        <void index="15">
+         <double>20002.0</double>
+        </void>
+        <void index="16">
+         <double>20002.0</double>
+        </void>
+        <void index="17">
+         <double>20002.0</double>
+        </void>
+        <void index="18">
+         <double>20002.0</double>
+        </void>
+       </array>
+      </void>
+     </array>
+    </void>
+    <void index="2">
+     <array class="java.lang.Object" length="3">
+      <void index="0">
+       <array class="double" length="19">
+        <void index="1">
+         <double>1.0</double>
+        </void>
+        <void index="2">
+         <double>2.0</double>
+        </void>
+        <void index="3">
+         <double>3.0</double>
+        </void>
+        <void index="4">
+         <double>4.0</double>
+        </void>
+        <void index="5">
+         <double>5.0</double>
+        </void>
+        <void index="6">
+         <double>6.0</double>
+        </void>
+        <void index="7">
+         <double>7.0</double>
+        </void>
+        <void index="8">
+         <double>8.0</double>
+        </void>
+        <void index="9">
+         <double>9.0</double>
+        </void>
+        <void index="10">
+         <double>10.0</double>
+        </void>
+        <void index="11">
+         <double>11.0</double>
+        </void>
+        <void index="12">
+         <double>12.0</double>
+        </void>
+        <void index="13">
+         <double>13.0</double>
+        </void>
+        <void index="14">
+         <double>14.0</double>
+        </void>
+        <void index="15">
+         <double>15.0</double>
+        </void>
+        <void index="16">
+         <double>16.0</double>
+        </void>
+        <void index="17">
+         <double>17.0</double>
+        </void>
+        <void index="18">
+         <double>18.0</double>
+        </void>
+       </array>
+      </void>
+      <void index="1">
+       <array class="double" length="19">
+        <void index="0">
+         <double>0.13266262984482893</double>
+        </void>
+        <void index="1">
+         <double>0.10923316461576676</double>
+        </void>
+        <void index="2">
+         <double>0.08671700943581057</double>
+        </void>
+        <void index="3">
+         <double>0.06575032513623115</double>
+        </void>
+        <void index="4">
+         <double>0.047079749393471114</double>
+        </void>
+        <void index="5">
+         <double>0.031399172727848736</double>
+        </void>
+        <void index="6">
+         <double>0.019172616090465208</double>
+        </void>
+        <void index="7">
+         <double>0.010489194271563376</double>
+        </void>
+        <void index="8">
+         <double>0.005003655333477737</double>
+        </void>
+        <void index="9">
+         <double>0.0020110920163615583</double>
+        </void>
+        <void index="10">
+         <double>6.522509408343954E-4</double>
+        </void>
+        <void index="11">
+         <double>1.6165456004821723E-4</double>
+        </void>
+        <void index="12">
+         <double>2.8585519888679485E-5</double>
+        </void>
+        <void index="13">
+         <double>3.307706996952378E-6</double>
+        </void>
+        <void index="14">
+         <double>2.245956764472271E-7</double>
+        </void>
+        <void index="15">
+         <double>7.800866658904253E-9</double>
+        </void>
+        <void index="16">
+         <double>1.1658565078314076E-10</double>
+        </void>
+        <void index="17">
+         <double>6.029979757113814E-13</double>
+        </void>
+        <void index="18">
+         <double>8.204168698998326E-16</double>
+        </void>
+       </array>
+      </void>
+      <void index="2">
+       <array class="double" length="19">
+        <void index="0">
+         <double>0.13266262984482893</double>
+        </void>
+        <void index="1">
+         <double>0.10923316461576676</double>
+        </void>
+        <void index="2">
+         <double>0.08671700943581057</double>
+        </void>
+        <void index="3">
+         <double>0.06575032513623115</double>
+        </void>
+        <void index="4">
+         <double>0.047079749393471114</double>
+        </void>
+        <void index="5">
+         <double>0.031399172727848736</double>
+        </void>
+        <void index="6">
+         <double>0.019172616090465208</double>
+        </void>
+        <void index="7">
+         <double>0.010489194271563376</double>
+        </void>
+        <void index="8">
+         <double>0.005003655333477737</double>
+        </void>
+        <void index="9">
+         <double>0.0020110920163615583</double>
+        </void>
+        <void index="10">
+         <double>6.522509408343954E-4</double>
+        </void>
+        <void index="11">
+         <double>1.6165456004821723E-4</double>
+        </void>
+        <void index="12">
+         <double>2.8585519888679485E-5</double>
+        </void>
+        <void index="13">
+         <double>3.307706996952378E-6</double>
+        </void>
+        <void index="14">
+         <double>2.245956764472271E-7</double>
+        </void>
+        <void index="15">
+         <double>7.800866658904253E-9</double>
+        </void>
+        <void index="16">
+         <double>1.1658565078314076E-10</double>
+        </void>
+        <void index="17">
+         <double>6.029979757113814E-13</double>
+        </void>
+        <void index="18">
+         <double>8.204168698998326E-16</double>
+        </void>
+       </array>
+      </void>
+     </array>
+    </void>
+    <void index="3">
+     <array class="java.lang.Object" length="3">
+      <void index="0">
+       <array class="double" length="19">
+        <void index="1">
+         <double>1.0</double>
+        </void>
+        <void index="2">
+         <double>2.0</double>
+        </void>
+        <void index="3">
+         <double>3.0</double>
+        </void>
+        <void index="4">
+         <double>4.0</double>
+        </void>
+        <void index="5">
+         <double>5.0</double>
+        </void>
+        <void index="6">
+         <double>6.0</double>
+        </void>
+        <void index="7">
+         <double>7.0</double>
+        </void>
+        <void index="8">
+         <double>8.0</double>
+        </void>
+        <void index="9">
+         <double>9.0</double>
+        </void>
+        <void index="10">
+         <double>10.0</double>
+        </void>
+        <void index="11">
+         <double>11.0</double>
+        </void>
+        <void index="12">
+         <double>12.0</double>
+        </void>
+        <void index="13">
+         <double>13.0</double>
+        </void>
+        <void index="14">
+         <double>14.0</double>
+        </void>
+        <void index="15">
+         <double>15.0</double>
+        </void>
+        <void index="16">
+         <double>16.0</double>
+        </void>
+        <void index="17">
+         <double>17.0</double>
+        </void>
+        <void index="18">
+         <double>18.0</double>
+        </void>
+       </array>
+      </void>
+      <void index="1">
+       <array class="double" length="19">
+        <void index="0">
+         <double>0.13038696130386962</double>
+        </void>
+        <void index="1">
+         <double>0.10825584108255841</double>
+        </void>
+        <void index="2">
+         <double>0.0848248508482485</double>
+        </void>
+        <void index="3">
+         <double>0.06522681065226811</double>
+        </void>
+        <void index="4">
+         <double>0.04712862047128621</double>
+        </void>
+        <void index="5">
+         <double>0.0319301403193014</double>
+        </void>
+        <void index="6">
+         <double>0.0199313401993134</double>
+        </void>
+        <void index="7">
+         <double>0.010932240109322401</double>
+        </void>
+        <void index="8">
+         <double>0.0052994700529947</double>
+        </void>
+        <void index="9">
+         <double>0.0020997900209979003</double>
+        </void>
+        <void index="10">
+         <double>7.665900076659001E-4</double>
+        </void>
+        <void index="11">
+         <double>1.3332000133320002E-4</double>
+        </void>
+        <void index="12">
+         <double>3.3330000333300005E-5</double>
+        </void>
+       </array>
+      </void>
+      <void index="2">
+       <array class="double" length="19">
+        <void index="0">
+         <double>30003.0</double>
+        </void>
+        <void index="1">
+         <double>30003.0</double>
+        </void>
+        <void index="2">
+         <double>30003.0</double>
+        </void>
+        <void index="3">
+         <double>30003.0</double>
+        </void>
+        <void index="4">
+         <double>30003.0</double>
+        </void>
+        <void index="5">
+         <double>30003.0</double>
+        </void>
+        <void index="6">
+         <double>30003.0</double>
+        </void>
+        <void index="7">
+         <double>30003.0</double>
+        </void>
+        <void index="8">
+         <double>30003.0</double>
+        </void>
+        <void index="9">
+         <double>30003.0</double>
+        </void>
+        <void index="10">
+         <double>30003.0</double>
+        </void>
+        <void index="11">
+         <double>30003.0</double>
+        </void>
+        <void index="12">
+         <double>30003.0</double>
+        </void>
+        <void index="13">
+         <double>30003.0</double>
+        </void>
+        <void index="14">
+         <double>30003.0</double>
+        </void>
+        <void index="15">
+         <double>30003.0</double>
+        </void>
+        <void index="16">
+         <double>30003.0</double>
+        </void>
+        <void index="17">
+         <double>30003.0</double>
+        </void>
+        <void index="18">
+         <double>30003.0</double>
+        </void>
+       </array>
+      </void>
+     </array>
+    </void>
+    <void index="4">
+     <array class="java.lang.Object" length="3">
+      <void index="0">
+       <array class="double" length="19">
+        <void index="1">
+         <double>1.0</double>
+        </void>
+        <void index="2">
+         <double>2.0</double>
+        </void>
+        <void index="3">
+         <double>3.0</double>
+        </void>
+        <void index="4">
+         <double>4.0</double>
+        </void>
+        <void index="5">
+         <double>5.0</double>
+        </void>
+        <void index="6">
+         <double>6.0</double>
+        </void>
+        <void index="7">
+         <double>7.0</double>
+        </void>
+        <void index="8">
+         <double>8.0</double>
+        </void>
+        <void index="9">
+         <double>9.0</double>
+        </void>
+        <void index="10">
+         <double>10.0</double>
+        </void>
+        <void index="11">
+         <double>11.0</double>
+        </void>
+        <void index="12">
+         <double>12.0</double>
+        </void>
+        <void index="13">
+         <double>13.0</double>
+        </void>
+        <void index="14">
+         <double>14.0</double>
+        </void>
+        <void index="15">
+         <double>15.0</double>
+        </void>
+        <void index="16">
+         <double>16.0</double>
+        </void>
+        <void index="17">
+         <double>17.0</double>
+        </void>
+        <void index="18">
+         <double>18.0</double>
+        </void>
+       </array>
+      </void>
+      <void index="1">
+       <array class="double" length="19">
+        <void index="0">
+         <double>0.14098163506684167</double>
+        </void>
+        <void index="1">
+         <double>0.11899740746592448</double>
+        </void>
+        <void index="2">
+         <double>0.09774185373748695</double>
+        </void>
+        <void index="3">
+         <double>0.07745306029254896</double>
+        </void>
+        <void index="4">
+         <double>0.058623737283404385</double>
+        </void>
+        <void index="5">
+         <double>0.04189276004646232</double>
+        </void>
+        <void index="6">
+         <double>0.027871327845150284</double>
+        </void>
+        <void index="7">
+         <double>0.016966734368760363</double>
+        </void>
+        <void index="8">
+         <double>0.009247213741474416</double>
+        </void>
+        <void index="9">
+         <double>0.00439033608735211</double>
+        </void>
+        <void index="10">
+         <double>0.0017541506178927301</double>
+        </void>
+        <void index="11">
+         <double>5.647061064817435E-4</double>
+        </void>
+        <void index="12">
+         <double>1.38658688812619E-4</double>
+        </void>
+        <void index="13">
+         <double>2.4233785466315867E-5</double>
+        </void>
+        <void index="14">
+         <double>2.763208001687778E-6</double>
+        </void>
+        <void index="15">
+         <double>1.8418555110944843E-7</double>
+        </void>
+        <void index="16">
+         <double>6.250200827741961E-9</double>
+        </void>
+        <void index="17">
+         <double>9.071625389565103E-11</double>
+        </void>
+        <void index="18">
+         <double>4.522309004818443E-13</double>
+        </void>
+       </array>
+      </void>
+      <void index="2">
+       <array class="double" length="19">
+        <void index="0">
+         <double>0.14098163506684167</double>
+        </void>
+        <void index="1">
+         <double>0.11899740746592448</double>
+        </void>
+        <void index="2">
+         <double>0.09774185373748695</double>
+        </void>
+        <void index="3">
+         <double>0.07745306029254896</double>
+        </void>
+        <void index="4">
+         <double>0.058623737283404385</double>
+        </void>
+        <void index="5">
+         <double>0.04189276004646232</double>
+        </void>
+        <void index="6">
+         <double>0.027871327845150284</double>
+        </void>
+        <void index="7">
+         <double>0.016966734368760363</double>
+        </void>
+        <void index="8">
+         <double>0.009247213741474416</double>
+        </void>
+        <void index="9">
+         <double>0.00439033608735211</double>
+        </void>
+        <void index="10">
+         <double>0.0017541506178927301</double>
+        </void>
+        <void index="11">
+         <double>5.647061064817435E-4</double>
+        </void>
+        <void index="12">
+         <double>1.38658688812619E-4</double>
+        </void>
+        <void index="13">
+         <double>2.4233785466315867E-5</double>
+        </void>
+        <void index="14">
+         <double>2.763208001687778E-6</double>
+        </void>
+        <void index="15">
+         <double>1.8418555110944843E-7</double>
+        </void>
+        <void index="16">
+         <double>6.250200827741961E-9</double>
+        </void>
+        <void index="17">
+         <double>9.071625389565103E-11</double>
+        </void>
+        <void index="18">
+         <double>4.522309004818443E-13</double>
+        </void>
+       </array>
+      </void>
+     </array>
+    </void>
+    <void index="5">
+     <array class="java.lang.Object" length="3">
+      <void index="0">
+       <array class="double" length="19">
+        <void index="1">
+         <double>1.0</double>
+        </void>
+        <void index="2">
+         <double>2.0</double>
+        </void>
+        <void index="3">
+         <double>3.0</double>
+        </void>
+        <void index="4">
+         <double>4.0</double>
+        </void>
+        <void index="5">
+         <double>5.0</double>
+        </void>
+        <void index="6">
+         <double>6.0</double>
+        </void>
+        <void index="7">
+         <double>7.0</double>
+        </void>
+        <void index="8">
+         <double>8.0</double>
+        </void>
+        <void index="9">
+         <double>9.0</double>
+        </void>
+        <void index="10">
+         <double>10.0</double>
+        </void>
+        <void index="11">
+         <double>11.0</double>
+        </void>
+        <void index="12">
+         <double>12.0</double>
+        </void>
+        <void index="13">
+         <double>13.0</double>
+        </void>
+        <void index="14">
+         <double>14.0</double>
+        </void>
+        <void index="15">
+         <double>15.0</double>
+        </void>
+        <void index="16">
+         <double>16.0</double>
+        </void>
+        <void index="17">
+         <double>17.0</double>
+        </void>
+        <void index="18">
+         <double>18.0</double>
+        </void>
+       </array>
+      </void>
+      <void index="1">
+       <array class="double" length="19">
+        <void index="0">
+         <double>0.14006099390060994</double>
+        </void>
+        <void index="1">
+         <double>0.11648835116488351</double>
+        </void>
+        <void index="2">
+         <double>0.09696530346965304</double>
+        </void>
+        <void index="3">
+         <double>0.07591740825917408</double>
+        </void>
+        <void index="4">
+         <double>0.057894210578942104</double>
+        </void>
+        <void index="5">
+         <double>0.04152084791520848</double>
+        </void>
+        <void index="6">
+         <double>0.02802219778022198</double>
+        </void>
+        <void index="7">
+         <double>0.017373262673732626</double>
+        </void>
+        <void index="8">
+         <double>0.009374062593740625</double>
+        </void>
+        <void index="9">
+         <double>0.004549545045495451</double>
+        </void>
+        <void index="10">
+         <double>0.0018998100189981002</double>
+        </void>
+        <void index="11">
+         <double>7.24927507249275E-4</double>
+        </void>
+        <void index="12">
+         <double>1.4998500149985002E-4</double>
+        </void>
+        <void index="13">
+         <double>2.4997500249975004E-5</double>
+        </void>
+       </array>
+      </void>
+      <void index="2">
+       <array class="double" length="19">
+        <void index="0">
+         <double>40004.0</double>
+        </void>
+        <void index="1">
+         <double>40004.0</double>
+        </void>
+        <void index="2">
+         <double>40004.0</double>
+        </void>
+        <void index="3">
+         <double>40004.0</double>
+        </void>
+        <void index="4">
+         <double>40004.0</double>
+        </void>
+        <void index="5">
+         <double>40004.0</double>
+        </void>
+        <void index="6">
+         <double>40004.0</double>
+        </void>
+        <void index="7">
+         <double>40004.0</double>
+        </void>
+        <void index="8">
+         <double>40004.0</double>
+        </void>
+        <void index="9">
+         <double>40004.0</double>
+        </void>
+        <void index="10">
+         <double>40004.0</double>
+        </void>
+        <void index="11">
+         <double>40004.0</double>
+        </void>
+        <void index="12">
+         <double>40004.0</double>
+        </void>
+        <void index="13">
+         <double>40004.0</double>
+        </void>
+        <void index="14">
+         <double>40004.0</double>
+        </void>
+        <void index="15">
+         <double>40004.0</double>
+        </void>
+        <void index="16">
+         <double>40004.0</double>
+        </void>
+        <void index="17">
+         <double>40004.0</double>
+        </void>
+        <void index="18">
+         <double>40004.0</double>
+        </void>
+       </array>
+      </void>
+     </array>
+    </void>
+    <void index="6">
+     <array class="java.lang.Object" length="3">
+      <void index="0">
+       <array class="double" length="19">
+        <void index="1">
+         <double>1.0</double>
+        </void>
+        <void index="2">
+         <double>2.0</double>
+        </void>
+        <void index="3">
+         <double>3.0</double>
+        </void>
+        <void index="4">
+         <double>4.0</double>
+        </void>
+        <void index="5">
+         <double>5.0</double>
+        </void>
+        <void index="6">
+         <double>6.0</double>
+        </void>
+        <void index="7">
+         <double>7.0</double>
+        </void>
+        <void index="8">
+         <double>8.0</double>
+        </void>
+        <void index="9">
+         <double>9.0</double>
+        </void>
+        <void index="10">
+         <double>10.0</double>
+        </void>
+        <void index="11">
+         <double>11.0</double>
+        </void>
+        <void index="12">
+         <double>12.0</double>
+        </void>
+        <void index="13">
+         <double>13.0</double>
+        </void>
+        <void index="14">
+         <double>14.0</double>
+        </void>
+        <void index="15">
+         <double>15.0</double>
+        </void>
+        <void index="16">
+         <double>16.0</double>
+        </void>
+        <void index="17">
+         <double>17.0</double>
+        </void>
+        <void index="18">
+         <double>18.0</double>
+        </void>
+       </array>
+      </void>
+      <void index="1">
+       <array class="double" length="19">
+        <void index="0">
+         <double>0.18947986896852156</double>
+        </void>
+        <void index="1">
+         <double>0.1672928007825767</double>
+        </void>
+        <void index="2">
+         <double>0.14614291668789609</double>
+        </void>
+        <void index="3">
+         <double>0.12597744626642107</double>
+        </void>
+        <void index="4">
+         <double>0.10663461616567452</double>
+        </void>
+        <void index="5">
+         <double>0.08801558826371259</double>
+        </void>
+        <void index="6">
+         <double>0.07023030740641109</double>
+        </void>
+        <void index="7">
+         <double>0.05363814665833553</double>
+        </void>
+        <void index="8">
+         <double>0.038766507408503924</double>
+        </void>
+        <void index="9">
+         <double>0.026157214121915923</double>
+        </void>
+        <void index="10">
+         <double>0.016204567225291795</double>
+        </void>
+        <void index="11">
+         <double>0.00902665713688131</double>
+        </void>
+        <void index="12">
+         <double>0.004404007775172519</double>
+        </void>
+        <void index="13">
+         <double>0.0018206326596141588</double>
+        </void>
+        <void index="14">
+         <double>6.116848410734844E-4</double>
+        </void>
+        <void index="15">
+         <double>1.584608864342853E-4</double>
+        </void>
+        <void index="16">
+         <double>2.9622027814668085E-5</double>
+        </void>
+        <void index="17">
+         <double>3.6755472624871108E-6</double>
+        </void>
+        <void index="18">
+         <double>2.724732511009255E-7</double>
+        </void>
+       </array>
+      </void>
+      <void index="2">
+       <array class="double" length="19">
+        <void index="0">
+         <double>0.18947986896852156</double>
+        </void>
+        <void index="1">
+         <double>0.1672928007825767</double>
+        </void>
+        <void index="2">
+         <double>0.14614291668789609</double>
+        </void>
+        <void index="3">
+         <double>0.12597744626642107</double>
+        </void>
+        <void index="4">
+         <double>0.10663461616567452</double>
+        </void>
+        <void index="5">
+         <double>0.08801558826371259</double>
+        </void>
+        <void index="6">
+         <double>0.07023030740641109</double>
+        </void>
+        <void index="7">
+         <double>0.05363814665833553</double>
+        </void>
+        <void index="8">
+         <double>0.038766507408503924</double>
+        </void>
+        <void index="9">
+         <double>0.026157214121915923</double>
+        </void>
+        <void index="10">
+         <double>0.016204567225291795</double>
+        </void>
+        <void index="11">
+         <double>0.00902665713688131</double>
+        </void>
+        <void index="12">
+         <double>0.004404007775172519</double>
+        </void>
+        <void index="13">
+         <double>0.0018206326596141588</double>
+        </void>
+        <void index="14">
+         <double>6.116848410734844E-4</double>
+        </void>
+        <void index="15">
+         <double>1.584608864342853E-4</double>
+        </void>
+        <void index="16">
+         <double>2.9622027814668085E-5</double>
+        </void>
+        <void index="17">
+         <double>3.6755472624871108E-6</double>
+        </void>
+        <void index="18">
+         <double>2.724732511009255E-7</double>
+        </void>
+       </array>
+      </void>
+     </array>
+    </void>
+    <void index="7">
+     <array class="java.lang.Object" length="3">
+      <void index="0">
+       <array class="double" length="19">
+        <void index="1">
+         <double>1.0</double>
+        </void>
+        <void index="2">
+         <double>2.0</double>
+        </void>
+        <void index="3">
+         <double>3.0</double>
+        </void>
+        <void index="4">
+         <double>4.0</double>
+        </void>
+        <void index="5">
+         <double>5.0</double>
+        </void>
+        <void index="6">
+         <double>6.0</double>
+        </void>
+        <void index="7">
+         <double>7.0</double>
+        </void>
+        <void index="8">
+         <double>8.0</double>
+        </void>
+        <void index="9">
+         <double>9.0</double>
+        </void>
+        <void index="10">
+         <double>10.0</double>
+        </void>
+        <void index="11">
+         <double>11.0</double>
+        </void>
+        <void index="12">
+         <double>12.0</double>
+        </void>
+        <void index="13">
+         <double>13.0</double>
+        </void>
+        <void index="14">
+         <double>14.0</double>
+        </void>
+        <void index="15">
+         <double>15.0</double>
+        </void>
+        <void index="16">
+         <double>16.0</double>
+        </void>
+        <void index="17">
+         <double>17.0</double>
+        </void>
+        <void index="18">
+         <double>18.0</double>
+        </void>
+       </array>
+      </void>
+      <void index="1">
+       <array class="double" length="19">
+        <void index="0">
+         <double>0.18026197380261974</double>
+        </void>
+        <void index="1">
+         <double>0.1598840115988401</double>
+        </void>
+        <void index="2">
+         <double>0.13620637936206378</double>
+        </void>
+        <void index="3">
+         <double>0.11466853314668533</double>
+        </void>
+        <void index="4">
+         <double>0.09577042295770423</double>
+        </void>
+        <void index="5">
+         <double>0.07551244875512449</double>
+        </void>
+        <void index="6">
+         <double>0.057874212578742125</double>
+        </void>
+        <void index="7">
+         <double>0.04213578642135787</double>
+        </void>
+        <void index="8">
+         <double>0.028897110288971104</double>
+        </void>
+        <void index="9">
+         <double>0.018018198180181983</double>
+        </void>
+        <void index="10">
+         <double>0.009599040095990401</double>
+        </void>
+        <void index="11">
+         <double>0.0045995400459954</double>
+        </void>
+        <void index="12">
+         <double>0.0019398060193980603</double>
+        </void>
+        <void index="13">
+         <double>7.999200079992001E-4</double>
+        </void>
+        <void index="14">
+         <double>1.5998400159984E-4</double>
+        </void>
+       </array>
+      </void>
+      <void index="2">
+       <array class="double" length="19">
+        <void index="0">
+         <double>50005.0</double>
+        </void>
+        <void index="1">
+         <double>50005.0</double>
+        </void>
+        <void index="2">
+         <double>50005.0</double>
+        </void>
+        <void index="3">
+         <double>50005.0</double>
+        </void>
+        <void index="4">
+         <double>50005.0</double>
+        </void>
+        <void index="5">
+         <double>50005.0</double>
+        </void>
+        <void index="6">
+         <double>50005.0</double>
+        </void>
+        <void index="7">
+         <double>50005.0</double>
+        </void>
+        <void index="8">
+         <double>50005.0</double>
+        </void>
+        <void index="9">
+         <double>50005.0</double>
+        </void>
+        <void index="10">
+         <double>50005.0</double>
+        </void>
+        <void index="11">
+         <double>50005.0</double>
+        </void>
+        <void index="12">
+         <double>50005.0</double>
+        </void>
+        <void index="13">
+         <double>50005.0</double>
+        </void>
+        <void index="14">
+         <double>50005.0</double>
+        </void>
+        <void index="15">
+         <double>50005.0</double>
+        </void>
+        <void index="16">
+         <double>50005.0</double>
+        </void>
+        <void index="17">
+         <double>50005.0</double>
+        </void>
+        <void index="18">
+         <double>50005.0</double>
+        </void>
+       </array>
+      </void>
+     </array>
+    </void>
+    <void index="8">
+     <array class="java.lang.Object" length="3">
+      <void index="0">
+       <array class="double" length="19">
+        <void index="1">
+         <double>1.0</double>
+        </void>
+        <void index="2">
+         <double>2.0</double>
+        </void>
+        <void index="3">
+         <double>3.0</double>
+        </void>
+        <void index="4">
+         <double>4.0</double>
+        </void>
+        <void index="5">
+         <double>5.0</double>
+        </void>
+        <void index="6">
+         <double>6.0</double>
+        </void>
+        <void index="7">
+         <double>7.0</double>
+        </void>
+        <void index="8">
+         <double>8.0</double>
+        </void>
+        <void index="9">
+         <double>9.0</double>
+        </void>
+        <void index="10">
+         <double>10.0</double>
+        </void>
+        <void index="11">
+         <double>11.0</double>
+        </void>
+        <void index="12">
+         <double>12.0</double>
+        </void>
+        <void index="13">
+         <double>13.0</double>
+        </void>
+        <void index="14">
+         <double>14.0</double>
+        </void>
+        <void index="15">
+         <double>15.0</double>
+        </void>
+        <void index="16">
+         <double>16.0</double>
+        </void>
+        <void index="17">
+         <double>17.0</double>
+        </void>
+        <void index="18">
+         <double>18.0</double>
+        </void>
+       </array>
+      </void>
+      <void index="1">
+       <array class="double" length="19">
+        <void index="0">
+         <double>0.19984135230015018</double>
+        </void>
+        <void index="1">
+         <double>0.1779132574233997</double>
+        </void>
+        <void index="2">
+         <double>0.1569695389644395</double>
+        </void>
+        <void index="3">
+         <double>0.13718681645985076</double>
+        </void>
+        <void index="4">
+         <double>0.1185226970083112</double>
+        </void>
+        <void index="5">
+         <double>0.10079160729511384</double>
+        </void>
+        <void index="6">
+         <double>0.0838167831472671</double>
+        </void>
+        <void index="7">
+         <double>0.06758726338752177</double>
+        </void>
+        <void index="8">
+         <double>0.052333862848892174</double>
+        </void>
+        <void index="9">
+         <double>0.03848453911233876</double>
+        </void>
+        <void index="10">
+         <double>0.02653270879756517</double>
+        </void>
+        <void index="11">
+         <double>0.016883532222059114</double>
+        </void>
+        <void index="12">
+         <double>0.009723985083124267</double>
+        </void>
+        <void index="13">
+         <double>0.004945987195175404</double>
+        </void>
+        <void index="14">
+         <double>0.002154003757180127</double>
+        </void>
+        <void index="15">
+         <double>7.724721804204566E-4</double>
+        </void>
+        <void index="16">
+         <double>2.1717395915942027E-4</double>
+        </void>
+        <void index="17">
+         <double>4.498887344039631E-5</double>
+        </void>
+        <void index="18">
+         <double>6.351148071986569E-6</double>
+        </void>
+       </array>
+      </void>
+      <void index="2">
+       <array class="double" length="19">
+        <void index="0">
+         <double>0.19984135230015018</double>
+        </void>
+        <void index="1">
+         <double>0.1779132574233997</double>
+        </void>
+        <void index="2">
+         <double>0.1569695389644395</double>
+        </void>
+        <void index="3">
+         <double>0.13718681645985076</double>
+        </void>
+        <void index="4">
+         <double>0.1185226970083112</double>
+        </void>
+        <void index="5">
+         <double>0.10079160729511384</double>
+        </void>
+        <void index="6">
+         <double>0.0838167831472671</double>
+        </void>
+        <void index="7">
+         <double>0.06758726338752177</double>
+        </void>
+        <void index="8">
+         <double>0.052333862848892174</double>
+        </void>
+        <void index="9">
+         <double>0.03848453911233876</double>
+        </void>
+        <void index="10">
+         <double>0.02653270879756517</double>
+        </void>
+        <void index="11">
+         <double>0.016883532222059114</double>
+        </void>
+        <void index="12">
+         <double>0.009723985083124267</double>
+        </void>
+        <void index="13">
+         <double>0.004945987195175404</double>
+        </void>
+        <void index="14">
+         <double>0.002154003757180127</double>
+        </void>
+        <void index="15">
+         <double>7.724721804204566E-4</double>
+        </void>
+        <void index="16">
+         <double>2.1717395915942027E-4</double>
+        </void>
+        <void index="17">
+         <double>4.498887344039631E-5</double>
+        </void>
+        <void index="18">
+         <double>6.351148071986569E-6</double>
+        </void>
+       </array>
+      </void>
+     </array>
+    </void>
+    <void index="9">
+     <array class="java.lang.Object" length="3">
+      <void index="0">
+       <array class="double" length="19">
+        <void index="1">
+         <double>1.0</double>
+        </void>
+        <void index="2">
+         <double>2.0</double>
+        </void>
+        <void index="3">
+         <double>3.0</double>
+        </void>
+        <void index="4">
+         <double>4.0</double>
+        </void>
+        <void index="5">
+         <double>5.0</double>
+        </void>
+        <void index="6">
+         <double>6.0</double>
+        </void>
+        <void index="7">
+         <double>7.0</double>
+        </void>
+        <void index="8">
+         <double>8.0</double>
+        </void>
+        <void index="9">
+         <double>9.0</double>
+        </void>
+        <void index="10">
+         <double>10.0</double>
+        </void>
+        <void index="11">
+         <double>11.0</double>
+        </void>
+        <void index="12">
+         <double>12.0</double>
+        </void>
+        <void index="13">
+         <double>13.0</double>
+        </void>
+        <void index="14">
+         <double>14.0</double>
+        </void>
+        <void index="15">
+         <double>15.0</double>
+        </void>
+        <void index="16">
+         <double>16.0</double>
+        </void>
+        <void index="17">
+         <double>17.0</double>
+        </void>
+        <void index="18">
+         <double>18.0</double>
+        </void>
+       </array>
+      </void>
+      <void index="1">
+       <array class="double" length="19">
+        <void index="0">
+         <double>0.19946338699463387</double>
+        </void>
+        <void index="1">
+         <double>0.178648801786488</double>
+        </void>
+        <void index="2">
+         <double>0.15786754657867547</double>
+        </void>
+        <void index="3">
+         <double>0.137986201379862</double>
+        </void>
+        <void index="4">
+         <double>0.11798820117988201</double>
+        </void>
+        <void index="5">
+         <double>0.09960670599606707</double>
+        </void>
+        <void index="6">
+         <double>0.08335833083358331</double>
+        </void>
+        <void index="7">
+         <double>0.06614338566143385</double>
+        </void>
+        <void index="8">
+         <double>0.0512615405126154</double>
+        </void>
+        <void index="9">
+         <double>0.0380295303802953</double>
+        </void>
+        <void index="10">
+         <double>0.026530680265306802</double>
+        </void>
+        <void index="11">
+         <double>0.016998300169983</double>
+        </void>
+        <void index="12">
+         <double>0.00971569509715695</double>
+        </void>
+        <void index="13">
+         <double>0.005032830050328301</double>
+        </void>
+        <void index="14">
+         <double>0.0024497550244975503</double>
+        </void>
+        <void index="15">
+         <double>8.1658500816585E-4</double>
+        </void>
+        <void index="16">
+         <double>2.8330500283305E-4</double>
+        </void>
+        <void index="17">
+         <double>1.1665500116655001E-4</double>
+        </void>
+       </array>
+      </void>
+      <void index="2">
+       <array class="double" length="19">
+        <void index="0">
+         <double>60006.0</double>
+        </void>
+        <void index="1">
+         <double>60006.0</double>
+        </void>
+        <void index="2">
+         <double>60006.0</double>
+        </void>
+        <void index="3">
+         <double>60006.0</double>
+        </void>
+        <void index="4">
+         <double>60006.0</double>
+        </void>
+        <void index="5">
+         <double>60006.0</double>
+        </void>
+        <void index="6">
+         <double>60006.0</double>
+        </void>
+        <void index="7">
+         <double>60006.0</double>
+        </void>
+        <void index="8">
+         <double>60006.0</double>
+        </void>
+        <void index="9">
+         <double>60006.0</double>
+        </void>
+        <void index="10">
+         <double>60006.0</double>
+        </void>
+        <void index="11">
+         <double>60006.0</double>
+        </void>
+        <void index="12">
+         <double>60006.0</double>
+        </void>
+        <void index="13">
+         <double>60006.0</double>
+        </void>
+        <void index="14">
+         <double>60006.0</double>
+        </void>
+        <void index="15">
+         <double>60006.0</double>
+        </void>
+        <void index="16">
+         <double>60006.0</double>
+        </void>
+        <void index="17">
+         <double>60006.0</double>
+        </void>
+        <void index="18">
+         <double>60006.0</double>
+        </void>
+       </array>
+      </void>
+     </array>
+    </void>
+    <void index="10">
+     <array class="java.lang.Object" length="3">
+      <void index="0">
+       <array class="double" length="19">
+        <void index="1">
+         <double>1.0</double>
+        </void>
+        <void index="2">
+         <double>2.0</double>
+        </void>
+        <void index="3">
+         <double>3.0</double>
+        </void>
+        <void index="4">
+         <double>4.0</double>
+        </void>
+        <void index="5">
+         <double>5.0</double>
+        </void>
+        <void index="6">
+         <double>6.0</double>
+        </void>
+        <void index="7">
+         <double>7.0</double>
+        </void>
+        <void index="8">
+         <double>8.0</double>
+        </void>
+        <void index="9">
+         <double>9.0</double>
+        </void>
+        <void index="10">
+         <double>10.0</double>
+        </void>
+        <void index="11">
+         <double>11.0</double>
+        </void>
+        <void index="12">
+         <double>12.0</double>
+        </void>
+        <void index="13">
+         <double>13.0</double>
+        </void>
+        <void index="14">
+         <double>14.0</double>
+        </void>
+        <void index="15">
+         <double>15.0</double>
+        </void>
+        <void index="16">
+         <double>16.0</double>
+        </void>
+        <void index="17">
+         <double>17.0</double>
+        </void>
+        <void index="18">
+         <double>18.0</double>
+        </void>
+       </array>
+      </void>
+      <void index="1">
+       <array class="double" length="19">
+        <void index="0">
+         <double>0.18026197380261974</double>
+        </void>
+        <void index="1">
+         <double>0.1598840115988401</double>
+        </void>
+        <void index="2">
+         <double>0.13620637936206378</double>
+        </void>
+        <void index="3">
+         <double>0.11466853314668533</double>
+        </void>
+        <void index="4">
+         <double>0.09577042295770423</double>
+        </void>
+        <void index="5">
+         <double>0.07551244875512449</double>
+        </void>
+        <void index="6">
+         <double>0.057874212578742125</double>
+        </void>
+        <void index="7">
+         <double>0.04213578642135787</double>
+        </void>
+        <void index="8">
+         <double>0.028897110288971104</double>
+        </void>
+        <void index="9">
+         <double>0.018018198180181983</double>
+        </void>
+        <void index="10">
+         <double>0.009599040095990401</double>
+        </void>
+        <void index="11">
+         <double>0.0045995400459954</double>
+        </void>
+        <void index="12">
+         <double>0.0019398060193980603</double>
+        </void>
+        <void index="13">
+         <double>7.999200079992001E-4</double>
+        </void>
+        <void index="14">
+         <double>1.5998400159984E-4</double>
+        </void>
+       </array>
+      </void>
+      <void index="2">
+       <array class="double" length="19">
+        <void index="0">
+         <double>50005.0</double>
+        </void>
+        <void index="1">
+         <double>50005.0</double>
+        </void>
+        <void index="2">
+         <double>50005.0</double>
+        </void>
+        <void index="3">
+         <double>50005.0</double>
+        </void>
+        <void index="4">
+         <double>50005.0</double>
+        </void>
+        <void index="5">
+         <double>50005.0</double>
+        </void>
+        <void index="6">
+         <double>50005.0</double>
+        </void>
+        <void index="7">
+         <double>50005.0</double>
+        </void>
+        <void index="8">
+         <double>50005.0</double>
+        </void>
+        <void index="9">
+         <double>50005.0</double>
+        </void>
+        <void index="10">
+         <double>50005.0</double>
+        </void>
+        <void index="11">
+         <double>50005.0</double>
+        </void>
+        <void index="12">
+         <double>50005.0</double>
+        </void>
+        <void index="13">
+         <double>50005.0</double>
+        </void>
+        <void index="14">
+         <double>50005.0</double>
+        </void>
+        <void index="15">
+         <double>50005.0</double>
+        </void>
+        <void index="16">
+         <double>50005.0</double>
+        </void>
+        <void index="17">
+         <double>50005.0</double>
+        </void>
+        <void index="18">
+         <double>50005.0</double>
+        </void>
+       </array>
+      </void>
+     </array>
+    </void>
+   </array>
+  </void>
+  <void property="dataView">
+   <object class="java.util.Vector">
+    <void method="add">
+     <array class="java.lang.Object" length="7">
+      <void index="0">
+       <string></string>
+      </void>
+      <void index="1">
+       <boolean>false</boolean>
+      </void>
+      <void index="2">
+       <boolean>true</boolean>
+      </void>
+      <void index="3">
+       <string>QAM teórica</string>
+      </void>
+      <void index="4">
+       <string>[0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18]</string>
+      </void>
+      <void index="5">
+       <string>[0.0786  0.0562  0.0375  0.0228  0.0125  0.0059  0.0023  7.72E-4  1.90E-4  3.36E-5  3.87E-6  2.61E-7  9.00E-9  1.33E-10  6.81E-13  9.12E-16  2.26E-19  6.75E-24  1.39E-29]</string>
+      </void>
+      <void index="6">
+       <string>N/A</string>
+      </void>
+     </array>
+    </void>
+    <void method="add">
+     <array class="java.lang.Object" length="7">
+      <void index="0">
+       <string>off</string>
+      </void>
+      <void index="1">
+       <boolean>false</boolean>
+      </void>
+      <void index="2">
+       <boolean>true</boolean>
+      </void>
+      <void index="3">
+       <string>QAM simulada</string>
+      </void>
+      <void index="4">
+       <string>[0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18]</string>
+      </void>
+      <void index="5">
+       <string>[0.0789  0.0576  0.0389  0.0237  0.0123  0.0061  0.0025  9.49E-4  2.49E-4  4.99E-5  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0]</string>
+      </void>
+      <void index="6">
+       <string>[20002  20002  20002  20002  20002  20002  20002  20002  20002  20002  20002  20002  20002  20002  20002  20002  20002  20002  20002]</string>
+      </void>
+     </array>
+    </void>
+    <void method="add">
+     <array class="java.lang.Object" length="7">
+      <void index="0">
+       <string></string>
+      </void>
+      <void index="1">
+       <boolean>false</boolean>
+      </void>
+      <void index="2">
+       <boolean>true</boolean>
+      </void>
+      <void index="3">
+       <string>8QAM teórica</string>
+      </void>
+      <void index="4">
+       <string>[0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18]</string>
+      </void>
+      <void index="5">
+       <string>[0.1326  0.1092  0.0867  0.0657  0.0470  0.0313  0.0191  0.0104  0.0050  0.0020  6.52E-4  1.61E-4  2.85E-5  3.30E-6  2.24E-7  7.80E-9  1.16E-10  6.02E-13  8.20E-16]</string>
+      </void>
+      <void index="6">
+       <string>N/A</string>
+      </void>
+     </array>
+    </void>
+    <void method="add">
+     <array class="java.lang.Object" length="7">
+      <void index="0">
+       <string>off</string>
+      </void>
+      <void index="1">
+       <boolean>false</boolean>
+      </void>
+      <void index="2">
+       <boolean>true</boolean>
+      </void>
+      <void index="3">
+       <string>8QAM simulada</string>
+      </void>
+      <void index="4">
+       <string>[0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18]</string>
+      </void>
+      <void index="5">
+       <string>[0.1303  0.1082  0.0848  0.0652  0.0471  0.0319  0.0199  0.0109  0.0052  0.0020  7.66E-4  1.33E-4  3.33E-5  0.0  0.0  0.0  0.0  0.0  0.0]</string>
+      </void>
+      <void index="6">
+       <string>[30003  30003  30003  30003  30003  30003  30003  30003  30003  30003  30003  30003  30003  30003  30003  30003  30003  30003  30003]</string>
+      </void>
+     </array>
+    </void>
+    <void method="add">
+     <array class="java.lang.Object" length="7">
+      <void index="0">
+       <string></string>
+      </void>
+      <void index="1">
+       <boolean>false</boolean>
+      </void>
+      <void index="2">
+       <boolean>true</boolean>
+      </void>
+      <void index="3">
+       <string>16QAM teórica</string>
+      </void>
+      <void index="4">
+       <string>[0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18]</string>
+      </void>
+      <void index="5">
+       <string>[0.1409  0.1189  0.0977  0.0774  0.0586  0.0418  0.0278  0.0169  0.0092  0.0043  0.0017  5.64E-4  1.38E-4  2.42E-5  2.76E-6  1.84E-7  6.25E-9  9.07E-11  4.52E-13]</string>
+      </void>
+      <void index="6">
+       <string>N/A</string>
+      </void>
+     </array>
+    </void>
+    <void method="add">
+     <array class="java.lang.Object" length="7">
+      <void index="0">
+       <string>off</string>
+      </void>
+      <void index="1">
+       <boolean>false</boolean>
+      </void>
+      <void index="2">
+       <boolean>true</boolean>
+      </void>
+      <void index="3">
+       <string>16QAM simulada</string>
+      </void>
+      <void index="4">
+       <string>[0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18]</string>
+      </void>
+      <void index="5">
+       <string>[0.1400  0.1164  0.0969  0.0759  0.0578  0.0415  0.0280  0.0173  0.0093  0.0045  0.0018  7.24E-4  1.49E-4  2.49E-5  0.0  0.0  0.0  0.0  0.0]</string>
+      </void>
+      <void index="6">
+       <string>[40004  40004  40004  40004  40004  40004  40004  40004  40004  40004  40004  40004  40004  40004  40004  40004  40004  40004  40004]</string>
+      </void>
+     </array>
+    </void>
+    <void method="add">
+     <array class="java.lang.Object" length="7">
+      <void index="0">
+       <string></string>
+      </void>
+      <void index="1">
+       <boolean>false</boolean>
+      </void>
+      <void index="2">
+       <boolean>true</boolean>
+      </void>
+      <void index="3">
+       <string>32QAM teórica</string>
+      </void>
+      <void index="4">
+       <string>[0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18]</string>
+      </void>
+      <void index="5">
+       <string>[0.1894  0.1672  0.1461  0.1259  0.1066  0.0880  0.0702  0.0536  0.0387  0.0261  0.0162  0.0090  0.0044  0.0018  6.11E-4  1.58E-4  2.96E-5  3.67E-6  2.72E-7]</string>
+      </void>
+      <void index="6">
+       <string>N/A</string>
+      </void>
+     </array>
+    </void>
+    <void method="add">
+     <array class="java.lang.Object" length="7">
+      <void index="0">
+       <string>off</string>
+      </void>
+      <void index="1">
+       <boolean>false</boolean>
+      </void>
+      <void index="2">
+       <boolean>true</boolean>
+      </void>
+      <void index="3">
+       <string>32QAM simulada</string>
+      </void>
+      <void index="4">
+       <string>[0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18]</string>
+      </void>
+      <void index="5">
+       <string>[0.1802  0.1598  0.1362  0.1146  0.0957  0.0755  0.0578  0.0421  0.0288  0.0180  0.0095  0.0045  0.0019  7.99E-4  1.59E-4  0.0  0.0  0.0  0.0]</string>
+      </void>
+      <void index="6">
+       <string>[50005  50005  50005  50005  50005  50005  50005  50005  50005  50005  50005  50005  50005  50005  50005  50005  50005  50005  50005]</string>
+      </void>
+     </array>
+    </void>
+    <void method="add">
+     <array class="java.lang.Object" length="7">
+      <void index="0">
+       <string></string>
+      </void>
+      <void index="1">
+       <boolean>false</boolean>
+      </void>
+      <void index="2">
+       <boolean>true</boolean>
+      </void>
+      <void index="3">
+       <string>64QAM teórica</string>
+      </void>
+      <void index="4">
+       <string>[0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18]</string>
+      </void>
+      <void index="5">
+       <string>[0.1998  0.1779  0.1569  0.1371  0.1185  0.1007  0.0838  0.0675  0.0523  0.0384  0.0265  0.0168  0.0097  0.0049  0.0021  7.72E-4  2.17E-4  4.49E-5  6.35E-6]</string>
+      </void>
+      <void index="6">
+       <string>N/A</string>
+      </void>
+     </array>
+    </void>
+    <void method="add">
+     <array class="java.lang.Object" length="7">
+      <void index="0">
+       <string>off</string>
+      </void>
+      <void index="1">
+       <boolean>false</boolean>
+      </void>
+      <void index="2">
+       <boolean>true</boolean>
+      </void>
+      <void index="3">
+       <string>64QAM simulada</string>
+      </void>
+      <void index="4">
+       <string>[0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18]</string>
+      </void>
+      <void index="5">
+       <string>[0.1994  0.1786  0.1578  0.1379  0.1179  0.0996  0.0833  0.0661  0.0512  0.0380  0.0265  0.0169  0.0097  0.0050  0.0024  8.16E-4  2.83E-4  1.16E-4  0.0]</string>
+      </void>
+      <void index="6">
+       <string>[60006  60006  60006  60006  60006  60006  60006  60006  60006  60006  60006  60006  60006  60006  60006  60006  60006  60006  60006]</string>
+      </void>
+     </array>
+    </void>
+    <void method="add">
+     <array class="java.lang.Object" length="7">
+      <void index="0">
+       <string>off</string>
+      </void>
+      <void index="1">
+       <boolean>false</boolean>
+      </void>
+      <void index="2">
+       <boolean>true</boolean>
+      </void>
+      <void index="3">
+       <string>simulation10</string>
+      </void>
+      <void index="4">
+       <string>[0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18]</string>
+      </void>
+      <void index="5">
+       <string>[0.1802  0.1598  0.1362  0.1146  0.0957  0.0755  0.0578  0.0421  0.0288  0.0180  0.0095  0.0045  0.0019  7.99E-4  1.59E-4  0.0  0.0  0.0  0.0]</string>
+      </void>
+      <void index="6">
+       <string>[50005  50005  50005  50005  50005  50005  50005  50005  50005  50005  50005  50005  50005  50005  50005  50005  50005  50005  50005]</string>
+      </void>
+     </array>
+    </void>
+   </object>
+  </void>
+  <void property="exportFlags">
+   <object class="java.util.Vector">
+    <void method="add">
+     <boolean>false</boolean>
+    </void>
+    <void method="add">
+     <boolean>false</boolean>
+    </void>
+    <void method="add">
+     <boolean>false</boolean>
+    </void>
+    <void method="add">
+     <boolean>false</boolean>
+    </void>
+    <void method="add">
+     <boolean>false</boolean>
+    </void>
+    <void method="add">
+     <boolean>false</boolean>
+    </void>
+    <void method="add">
+     <boolean>false</boolean>
+    </void>
+    <void method="add">
+     <boolean>false</boolean>
+    </void>
+    <void method="add">
+     <boolean>false</boolean>
+    </void>
+    <void method="add">
+     <boolean>false</boolean>
+    </void>
+    <void method="add">
+     <boolean>false</boolean>
+    </void>
+   </object>
+  </void>
+  <void property="fitEditabilities">
+   <object class="java.util.Vector">
+    <void method="add">
+     <boolean>false</boolean>
+    </void>
+    <void method="add">
+     <boolean>true</boolean>
+    </void>
+    <void method="add">
+     <boolean>false</boolean>
+    </void>
+    <void method="add">
+     <boolean>true</boolean>
+    </void>
+    <void method="add">
+     <boolean>false</boolean>
+    </void>
+    <void method="add">
+     <boolean>true</boolean>
+    </void>
+    <void method="add">
+     <boolean>false</boolean>
+    </void>
+    <void method="add">
+     <boolean>true</boolean>
+    </void>
+    <void method="add">
+     <boolean>false</boolean>
+    </void>
+    <void method="add">
+     <boolean>true</boolean>
+    </void>
+    <void method="add">
+     <boolean>true</boolean>
+    </void>
+   </object>
+  </void>
+  <void property="marks">
+   <array class="java.lang.String" length="7">
+    <void index="0">
+     <string>+</string>
+    </void>
+    <void index="1">
+     <string>d</string>
+    </void>
+    <void index="2">
+     <string>o</string>
+    </void>
+    <void index="3">
+     <string>s</string>
+    </void>
+    <void index="4">
+     <string>^</string>
+    </void>
+    <void index="5">
+     <string>*</string>
+    </void>
+    <void index="6">
+     <string>v</string>
+    </void>
+   </array>
+  </void>
+  <void property="paramsEvaled">
+   <array class="java.lang.Object" length="11">
+    <void index="0">
+     <array class="java.lang.Object" length="3">
+      <void index="0">
+       <array class="double" length="19">
+        <void index="1">
+         <double>1.0</double>
+        </void>
+        <void index="2">
+         <double>2.0</double>
+        </void>
+        <void index="3">
+         <double>3.0</double>
+        </void>
+        <void index="4">
+         <double>4.0</double>
+        </void>
+        <void index="5">
+         <double>5.0</double>
+        </void>
+        <void index="6">
+         <double>6.0</double>
+        </void>
+        <void index="7">
+         <double>7.0</double>
+        </void>
+        <void index="8">
+         <double>8.0</double>
+        </void>
+        <void index="9">
+         <double>9.0</double>
+        </void>
+        <void index="10">
+         <double>10.0</double>
+        </void>
+        <void index="11">
+         <double>11.0</double>
+        </void>
+        <void index="12">
+         <double>12.0</double>
+        </void>
+        <void index="13">
+         <double>13.0</double>
+        </void>
+        <void index="14">
+         <double>14.0</double>
+        </void>
+        <void index="15">
+         <double>15.0</double>
+        </void>
+        <void index="16">
+         <double>16.0</double>
+        </void>
+        <void index="17">
+         <double>17.0</double>
+        </void>
+        <void index="18">
+         <double>18.0</double>
+        </void>
+       </array>
+      </void>
+      <void index="1">
+       <string>QAM</string>
+      </void>
+      <void index="2">
+       <array class="double" length="1">
+        <void index="0">
+         <double>4.0</double>
+        </void>
+       </array>
+      </void>
+     </array>
+    </void>
+    <void index="1">
+     <array class="java.lang.Object" length="4">
+      <void index="0">
+       <string>/media/francisco/Malena/Comunicacao de Dados/Parte 2/test.slx</string>
+      </void>
+      <void index="1">
+       <array class="double" length="19">
+        <void index="1">
+         <double>1.0</double>
+        </void>
+        <void index="2">
+         <double>2.0</double>
+        </void>
+        <void index="3">
+         <double>3.0</double>
+        </void>
+        <void index="4">
+         <double>4.0</double>
+        </void>
+        <void index="5">
+         <double>5.0</double>
+        </void>
+        <void index="6">
+         <double>6.0</double>
+        </void>
+        <void index="7">
+         <double>7.0</double>
+        </void>
+        <void index="8">
+         <double>8.0</double>
+        </void>
+        <void index="9">
+         <double>9.0</double>
+        </void>
+        <void index="10">
+         <double>10.0</double>
+        </void>
+        <void index="11">
+         <double>11.0</double>
+        </void>
+        <void index="12">
+         <double>12.0</double>
+        </void>
+        <void index="13">
+         <double>13.0</double>
+        </void>
+        <void index="14">
+         <double>14.0</double>
+        </void>
+        <void index="15">
+         <double>15.0</double>
+        </void>
+        <void index="16">
+         <double>16.0</double>
+        </void>
+        <void index="17">
+         <double>17.0</double>
+        </void>
+        <void index="18">
+         <double>18.0</double>
+        </void>
+       </array>
+      </void>
+      <void index="2">
+       <array class="double" length="1">
+        <void index="0">
+         <double>100.0</double>
+        </void>
+       </array>
+      </void>
+      <void index="3">
+       <array class="double" length="1">
+        <void index="0">
+         <double>1.0E8</double>
+        </void>
+       </array>
+      </void>
+     </array>
+    </void>
+    <void index="2">
+     <array class="java.lang.Object" length="3">
+      <void index="0">
+       <array class="double" length="19">
+        <void index="1">
+         <double>1.0</double>
+        </void>
+        <void index="2">
+         <double>2.0</double>
+        </void>
+        <void index="3">
+         <double>3.0</double>
+        </void>
+        <void index="4">
+         <double>4.0</double>
+        </void>
+        <void index="5">
+         <double>5.0</double>
+        </void>
+        <void index="6">
+         <double>6.0</double>
+        </void>
+        <void index="7">
+         <double>7.0</double>
+        </void>
+        <void index="8">
+         <double>8.0</double>
+        </void>
+        <void index="9">
+         <double>9.0</double>
+        </void>
+        <void index="10">
+         <double>10.0</double>
+        </void>
+        <void index="11">
+         <double>11.0</double>
+        </void>
+        <void index="12">
+         <double>12.0</double>
+        </void>
+        <void index="13">
+         <double>13.0</double>
+        </void>
+        <void index="14">
+         <double>14.0</double>
+        </void>
+        <void index="15">
+         <double>15.0</double>
+        </void>
+        <void index="16">
+         <double>16.0</double>
+        </void>
+        <void index="17">
+         <double>17.0</double>
+        </void>
+        <void index="18">
+         <double>18.0</double>
+        </void>
+       </array>
+      </void>
+      <void index="1">
+       <string>QAM</string>
+      </void>
+      <void index="2">
+       <array class="double" length="1">
+        <void index="0">
+         <double>8.0</double>
+        </void>
+       </array>
+      </void>
+     </array>
+    </void>
+    <void index="3">
+     <array class="java.lang.Object" length="4">
+      <void index="0">
+       <string>/media/francisco/Malena/Comunicacao de Dados/Parte 2/test.slx</string>
+      </void>
+      <void index="1">
+       <array class="double" length="19">
+        <void index="1">
+         <double>1.0</double>
+        </void>
+        <void index="2">
+         <double>2.0</double>
+        </void>
+        <void index="3">
+         <double>3.0</double>
+        </void>
+        <void index="4">
+         <double>4.0</double>
+        </void>
+        <void index="5">
+         <double>5.0</double>
+        </void>
+        <void index="6">
+         <double>6.0</double>
+        </void>
+        <void index="7">
+         <double>7.0</double>
+        </void>
+        <void index="8">
+         <double>8.0</double>
+        </void>
+        <void index="9">
+         <double>9.0</double>
+        </void>
+        <void index="10">
+         <double>10.0</double>
+        </void>
+        <void index="11">
+         <double>11.0</double>
+        </void>
+        <void index="12">
+         <double>12.0</double>
+        </void>
+        <void index="13">
+         <double>13.0</double>
+        </void>
+        <void index="14">
+         <double>14.0</double>
+        </void>
+        <void index="15">
+         <double>15.0</double>
+        </void>
+        <void index="16">
+         <double>16.0</double>
+        </void>
+        <void index="17">
+         <double>17.0</double>
+        </void>
+        <void index="18">
+         <double>18.0</double>
+        </void>
+       </array>
+      </void>
+      <void index="2">
+       <array class="double" length="1">
+        <void index="0">
+         <double>100.0</double>
+        </void>
+       </array>
+      </void>
+      <void index="3">
+       <array class="double" length="1">
+        <void index="0">
+         <double>1.0E8</double>
+        </void>
+       </array>
+      </void>
+     </array>
+    </void>
+    <void index="4">
+     <array class="java.lang.Object" length="3">
+      <void index="0">
+       <array class="double" length="19">
+        <void index="1">
+         <double>1.0</double>
+        </void>
+        <void index="2">
+         <double>2.0</double>
+        </void>
+        <void index="3">
+         <double>3.0</double>
+        </void>
+        <void index="4">
+         <double>4.0</double>
+        </void>
+        <void index="5">
+         <double>5.0</double>
+        </void>
+        <void index="6">
+         <double>6.0</double>
+        </void>
+        <void index="7">
+         <double>7.0</double>
+        </void>
+        <void index="8">
+         <double>8.0</double>
+        </void>
+        <void index="9">
+         <double>9.0</double>
+        </void>
+        <void index="10">
+         <double>10.0</double>
+        </void>
+        <void index="11">
+         <double>11.0</double>
+        </void>
+        <void index="12">
+         <double>12.0</double>
+        </void>
+        <void index="13">
+         <double>13.0</double>
+        </void>
+        <void index="14">
+         <double>14.0</double>
+        </void>
+        <void index="15">
+         <double>15.0</double>
+        </void>
+        <void index="16">
+         <double>16.0</double>
+        </void>
+        <void index="17">
+         <double>17.0</double>
+        </void>
+        <void index="18">
+         <double>18.0</double>
+        </void>
+       </array>
+      </void>
+      <void index="1">
+       <string>QAM</string>
+      </void>
+      <void index="2">
+       <array class="double" length="1">
+        <void index="0">
+         <double>16.0</double>
+        </void>
+       </array>
+      </void>
+     </array>
+    </void>
+    <void index="5">
+     <array class="java.lang.Object" length="4">
+      <void index="0">
+       <string>/media/francisco/Malena/Comunicacao de Dados/Parte 2/test.slx</string>
+      </void>
+      <void index="1">
+       <array class="double" length="19">
+        <void index="1">
+         <double>1.0</double>
+        </void>
+        <void index="2">
+         <double>2.0</double>
+        </void>
+        <void index="3">
+         <double>3.0</double>
+        </void>
+        <void index="4">
+         <double>4.0</double>
+        </void>
+        <void index="5">
+         <double>5.0</double>
+        </void>
+        <void index="6">
+         <double>6.0</double>
+        </void>
+        <void index="7">
+         <double>7.0</double>
+        </void>
+        <void index="8">
+         <double>8.0</double>
+        </void>
+        <void index="9">
+         <double>9.0</double>
+        </void>
+        <void index="10">
+         <double>10.0</double>
+        </void>
+        <void index="11">
+         <double>11.0</double>
+        </void>
+        <void index="12">
+         <double>12.0</double>
+        </void>
+        <void index="13">
+         <double>13.0</double>
+        </void>
+        <void index="14">
+         <double>14.0</double>
+        </void>
+        <void index="15">
+         <double>15.0</double>
+        </void>
+        <void index="16">
+         <double>16.0</double>
+        </void>
+        <void index="17">
+         <double>17.0</double>
+        </void>
+        <void index="18">
+         <double>18.0</double>
+        </void>
+       </array>
+      </void>
+      <void index="2">
+       <array class="double" length="1">
+        <void index="0">
+         <double>100.0</double>
+        </void>
+       </array>
+      </void>
+      <void index="3">
+       <array class="double" length="1">
+        <void index="0">
+         <double>1.0E8</double>
+        </void>
+       </array>
+      </void>
+     </array>
+    </void>
+    <void index="6">
+     <array class="java.lang.Object" length="3">
+      <void index="0">
+       <array class="double" length="19">
+        <void index="1">
+         <double>1.0</double>
+        </void>
+        <void index="2">
+         <double>2.0</double>
+        </void>
+        <void index="3">
+         <double>3.0</double>
+        </void>
+        <void index="4">
+         <double>4.0</double>
+        </void>
+        <void index="5">
+         <double>5.0</double>
+        </void>
+        <void index="6">
+         <double>6.0</double>
+        </void>
+        <void index="7">
+         <double>7.0</double>
+        </void>
+        <void index="8">
+         <double>8.0</double>
+        </void>
+        <void index="9">
+         <double>9.0</double>
+        </void>
+        <void index="10">
+         <double>10.0</double>
+        </void>
+        <void index="11">
+         <double>11.0</double>
+        </void>
+        <void index="12">
+         <double>12.0</double>
+        </void>
+        <void index="13">
+         <double>13.0</double>
+        </void>
+        <void index="14">
+         <double>14.0</double>
+        </void>
+        <void index="15">
+         <double>15.0</double>
+        </void>
+        <void index="16">
+         <double>16.0</double>
+        </void>
+        <void index="17">
+         <double>17.0</double>
+        </void>
+        <void index="18">
+         <double>18.0</double>
+        </void>
+       </array>
+      </void>
+      <void index="1">
+       <string>QAM</string>
+      </void>
+      <void index="2">
+       <array class="double" length="1">
+        <void index="0">
+         <double>32.0</double>
+        </void>
+       </array>
+      </void>
+     </array>
+    </void>
+    <void index="7">
+     <array class="java.lang.Object" length="4">
+      <void index="0">
+       <string>/media/francisco/Malena/Comunicacao de Dados/Parte 2/test.slx</string>
+      </void>
+      <void index="1">
+       <array class="double" length="19">
+        <void index="1">
+         <double>1.0</double>
+        </void>
+        <void index="2">
+         <double>2.0</double>
+        </void>
+        <void index="3">
+         <double>3.0</double>
+        </void>
+        <void index="4">
+         <double>4.0</double>
+        </void>
+        <void index="5">
+         <double>5.0</double>
+        </void>
+        <void index="6">
+         <double>6.0</double>
+        </void>
+        <void index="7">
+         <double>7.0</double>
+        </void>
+        <void index="8">
+         <double>8.0</double>
+        </void>
+        <void index="9">
+         <double>9.0</double>
+        </void>
+        <void index="10">
+         <double>10.0</double>
+        </void>
+        <void index="11">
+         <double>11.0</double>
+        </void>
+        <void index="12">
+         <double>12.0</double>
+        </void>
+        <void index="13">
+         <double>13.0</double>
+        </void>
+        <void index="14">
+         <double>14.0</double>
+        </void>
+        <void index="15">
+         <double>15.0</double>
+        </void>
+        <void index="16">
+         <double>16.0</double>
+        </void>
+        <void index="17">
+         <double>17.0</double>
+        </void>
+        <void index="18">
+         <double>18.0</double>
+        </void>
+       </array>
+      </void>
+      <void index="2">
+       <array class="double" length="1">
+        <void index="0">
+         <double>100.0</double>
+        </void>
+       </array>
+      </void>
+      <void index="3">
+       <array class="double" length="1">
+        <void index="0">
+         <double>1.0E8</double>
+        </void>
+       </array>
+      </void>
+     </array>
+    </void>
+    <void index="8">
+     <array class="java.lang.Object" length="3">
+      <void index="0">
+       <array class="double" length="19">
+        <void index="1">
+         <double>1.0</double>
+        </void>
+        <void index="2">
+         <double>2.0</double>
+        </void>
+        <void index="3">
+         <double>3.0</double>
+        </void>
+        <void index="4">
+         <double>4.0</double>
+        </void>
+        <void index="5">
+         <double>5.0</double>
+        </void>
+        <void index="6">
+         <double>6.0</double>
+        </void>
+        <void index="7">
+         <double>7.0</double>
+        </void>
+        <void index="8">
+         <double>8.0</double>
+        </void>
+        <void index="9">
+         <double>9.0</double>
+        </void>
+        <void index="10">
+         <double>10.0</double>
+        </void>
+        <void index="11">
+         <double>11.0</double>
+        </void>
+        <void index="12">
+         <double>12.0</double>
+        </void>
+        <void index="13">
+         <double>13.0</double>
+        </void>
+        <void index="14">
+         <double>14.0</double>
+        </void>
+        <void index="15">
+         <double>15.0</double>
+        </void>
+        <void index="16">
+         <double>16.0</double>
+        </void>
+        <void index="17">
+         <double>17.0</double>
+        </void>
+        <void index="18">
+         <double>18.0</double>
+        </void>
+       </array>
+      </void>
+      <void index="1">
+       <string>QAM</string>
+      </void>
+      <void index="2">
+       <array class="double" length="1">
+        <void index="0">
+         <double>64.0</double>
+        </void>
+       </array>
+      </void>
+     </array>
+    </void>
+    <void index="9">
+     <array class="java.lang.Object" length="4">
+      <void index="0">
+       <string>/media/francisco/Malena/Comunicacao de Dados/Parte 2/test.slx</string>
+      </void>
+      <void index="1">
+       <array class="double" length="19">
+        <void index="1">
+         <double>1.0</double>
+        </void>
+        <void index="2">
+         <double>2.0</double>
+        </void>
+        <void index="3">
+         <double>3.0</double>
+        </void>
+        <void index="4">
+         <double>4.0</double>
+        </void>
+        <void index="5">
+         <double>5.0</double>
+        </void>
+        <void index="6">
+         <double>6.0</double>
+        </void>
+        <void index="7">
+         <double>7.0</double>
+        </void>
+        <void index="8">
+         <double>8.0</double>
+        </void>
+        <void index="9">
+         <double>9.0</double>
+        </void>
+        <void index="10">
+         <double>10.0</double>
+        </void>
+        <void index="11">
+         <double>11.0</double>
+        </void>
+        <void index="12">
+         <double>12.0</double>
+        </void>
+        <void index="13">
+         <double>13.0</double>
+        </void>
+        <void index="14">
+         <double>14.0</double>
+        </void>
+        <void index="15">
+         <double>15.0</double>
+        </void>
+        <void index="16">
+         <double>16.0</double>
+        </void>
+        <void index="17">
+         <double>17.0</double>
+        </void>
+        <void index="18">
+         <double>18.0</double>
+        </void>
+       </array>
+      </void>
+      <void index="2">
+       <array class="double" length="1">
+        <void index="0">
+         <double>100.0</double>
+        </void>
+       </array>
+      </void>
+      <void index="3">
+       <array class="double" length="1">
+        <void index="0">
+         <double>1.0E8</double>
+        </void>
+       </array>
+      </void>
+     </array>
+    </void>
+    <void index="10">
+     <array class="java.lang.Object" length="4">
+      <void index="0">
+       <string>/media/francisco/Malena/Comunicacao de Dados/Parte 2/test.slx</string>
+      </void>
+      <void index="1">
+       <array class="double" length="19">
+        <void index="1">
+         <double>1.0</double>
+        </void>
+        <void index="2">
+         <double>2.0</double>
+        </void>
+        <void index="3">
+         <double>3.0</double>
+        </void>
+        <void index="4">
+         <double>4.0</double>
+        </void>
+        <void index="5">
+         <double>5.0</double>
+        </void>
+        <void index="6">
+         <double>6.0</double>
+        </void>
+        <void index="7">
+         <double>7.0</double>
+        </void>
+        <void index="8">
+         <double>8.0</double>
+        </void>
+        <void index="9">
+         <double>9.0</double>
+        </void>
+        <void index="10">
+         <double>10.0</double>
+        </void>
+        <void index="11">
+         <double>11.0</double>
+        </void>
+        <void index="12">
+         <double>12.0</double>
+        </void>
+        <void index="13">
+         <double>13.0</double>
+        </void>
+        <void index="14">
+         <double>14.0</double>
+        </void>
+        <void index="15">
+         <double>15.0</double>
+        </void>
+        <void index="16">
+         <double>16.0</double>
+        </void>
+        <void index="17">
+         <double>17.0</double>
+        </void>
+        <void index="18">
+         <double>18.0</double>
+        </void>
+       </array>
+      </void>
+      <void index="2">
+       <array class="double" length="1">
+        <void index="0">
+         <double>100.0</double>
+        </void>
+       </array>
+      </void>
+      <void index="3">
+       <array class="double" length="1">
+        <void index="0">
+         <double>1.0E8</double>
+        </void>
+       </array>
+      </void>
+     </array>
+    </void>
+   </array>
+  </void>
+  <void property="paramsList">
+   <object class="java.util.Vector">
+    <void method="add">
+     <array class="java.lang.String" length="19">
+      <void index="0">
+       <string>0:18</string>
+      </void>
+      <void index="1">
+       <string>AWGN</string>
+      </void>
+      <void index="2">
+       <string>0</string>
+      </void>
+      <void index="3">
+       <string>1</string>
+      </void>
+      <void index="4">
+       <string>QAM</string>
+      </void>
+      <void index="5">
+       <string>4</string>
+      </void>
+      <void index="6">
+       <string>0.5</string>
+      </void>
+      <void index="7">
+       <string>nondiff</string>
+      </void>
+      <void index="8">
+       <string>coherent</string>
+      </void>
+      <void index="9">
+       <string>none</string>
+      </void>
+      <void index="10">
+       <string>hard</string>
+      </void>
+      <void index="11">
+       <string>poly2trellis(7, [171 133])</string>
+      </void>
+      <void index="12">
+       <string>7</string>
+      </void>
+      <void index="13">
+       <string>3</string>
+      </void>
+      <void index="14">
+       <string>5</string>
+      </void>
+      <void index="15">
+       <string>perfect</string>
+      </void>
+      <void index="16">
+       <string>0</string>
+      </void>
+      <void index="17">
+       <string>0</string>
+      </void>
+      <void index="18">
+       <string>0</string>
+      </void>
+     </array>
+    </void>
+    <void method="add">
+     <array class="java.lang.Object" length="6">
+      <void index="0">
+       <string>0:18</string>
+      </void>
+      <void index="1">
+       <string>/media/francisco/Malena/Comunicacao de Dados/Parte 2/test.slx</string>
+      </void>
+      <void index="2">
+       <string>test.slx</string>
+      </void>
+      <void index="3">
+       <string>ber</string>
+      </void>
+      <void index="4">
+       <string>100</string>
+      </void>
+      <void index="5">
+       <string>1e8</string>
+      </void>
+     </array>
+    </void>
+    <void method="add">
+     <array class="java.lang.String" length="19">
+      <void index="0">
+       <string>0:18</string>
+      </void>
+      <void index="1">
+       <string>AWGN</string>
+      </void>
+      <void index="2">
+       <string>0</string>
+      </void>
+      <void index="3">
+       <string>1</string>
+      </void>
+      <void index="4">
+       <string>QAM</string>
+      </void>
+      <void index="5">
+       <string>8</string>
+      </void>
+      <void index="6">
+       <string>0.5</string>
+      </void>
+      <void index="7">
+       <string>nondiff</string>
+      </void>
+      <void index="8">
+       <string>coherent</string>
+      </void>
+      <void index="9">
+       <string>none</string>
+      </void>
+      <void index="10">
+       <string>hard</string>
+      </void>
+      <void index="11">
+       <string>poly2trellis(7, [171 133])</string>
+      </void>
+      <void index="12">
+       <string>7</string>
+      </void>
+      <void index="13">
+       <string>3</string>
+      </void>
+      <void index="14">
+       <string>5</string>
+      </void>
+      <void index="15">
+       <string>perfect</string>
+      </void>
+      <void index="16">
+       <string>0</string>
+      </void>
+      <void index="17">
+       <string>0</string>
+      </void>
+      <void index="18">
+       <string>0</string>
+      </void>
+     </array>
+    </void>
+    <void method="add">
+     <array class="java.lang.Object" length="6">
+      <void index="0">
+       <string>0:18</string>
+      </void>
+      <void index="1">
+       <string>/media/francisco/Malena/Comunicacao de Dados/Parte 2/test.slx</string>
+      </void>
+      <void index="2">
+       <string>test.slx</string>
+      </void>
+      <void index="3">
+       <string>ber</string>
+      </void>
+      <void index="4">
+       <string>100</string>
+      </void>
+      <void index="5">
+       <string>1e8</string>
+      </void>
+     </array>
+    </void>
+    <void method="add">
+     <array class="java.lang.String" length="19">
+      <void index="0">
+       <string>0:18</string>
+      </void>
+      <void index="1">
+       <string>AWGN</string>
+      </void>
+      <void index="2">
+       <string>0</string>
+      </void>
+      <void index="3">
+       <string>1</string>
+      </void>
+      <void index="4">
+       <string>QAM</string>
+      </void>
+      <void index="5">
+       <string>16</string>
+      </void>
+      <void index="6">
+       <string>0.5</string>
+      </void>
+      <void index="7">
+       <string>nondiff</string>
+      </void>
+      <void index="8">
+       <string>coherent</string>
+      </void>
+      <void index="9">
+       <string>none</string>
+      </void>
+      <void index="10">
+       <string>hard</string>
+      </void>
+      <void index="11">
+       <string>poly2trellis(7, [171 133])</string>
+      </void>
+      <void index="12">
+       <string>7</string>
+      </void>
+      <void index="13">
+       <string>3</string>
+      </void>
+      <void index="14">
+       <string>5</string>
+      </void>
+      <void index="15">
+       <string>perfect</string>
+      </void>
+      <void index="16">
+       <string>0</string>
+      </void>
+      <void index="17">
+       <string>0</string>
+      </void>
+      <void index="18">
+       <string>0</string>
+      </void>
+     </array>
+    </void>
+    <void method="add">
+     <array class="java.lang.Object" length="6">
+      <void index="0">
+       <string>0:18</string>
+      </void>
+      <void index="1">
+       <string>/media/francisco/Malena/Comunicacao de Dados/Parte 2/test.slx</string>
+      </void>
+      <void index="2">
+       <string>test.slx</string>
+      </void>
+      <void index="3">
+       <string>ber</string>
+      </void>
+      <void index="4">
+       <string>100</string>
+      </void>
+      <void index="5">
+       <string>1e8</string>
+      </void>
+     </array>
+    </void>
+    <void method="add">
+     <array class="java.lang.String" length="19">
+      <void index="0">
+       <string>0:18</string>
+      </void>
+      <void index="1">
+       <string>AWGN</string>
+      </void>
+      <void index="2">
+       <string>0</string>
+      </void>
+      <void index="3">
+       <string>1</string>
+      </void>
+      <void index="4">
+       <string>QAM</string>
+      </void>
+      <void index="5">
+       <string>32</string>
+      </void>
+      <void index="6">
+       <string>0.5</string>
+      </void>
+      <void index="7">
+       <string>nondiff</string>
+      </void>
+      <void index="8">
+       <string>coherent</string>
+      </void>
+      <void index="9">
+       <string>none</string>
+      </void>
+      <void index="10">
+       <string>hard</string>
+      </void>
+      <void index="11">
+       <string>poly2trellis(7, [171 133])</string>
+      </void>
+      <void index="12">
+       <string>7</string>
+      </void>
+      <void index="13">
+       <string>3</string>
+      </void>
+      <void index="14">
+       <string>5</string>
+      </void>
+      <void index="15">
+       <string>perfect</string>
+      </void>
+      <void index="16">
+       <string>0</string>
+      </void>
+      <void index="17">
+       <string>0</string>
+      </void>
+      <void index="18">
+       <string>0</string>
+      </void>
+     </array>
+    </void>
+    <void method="add">
+     <array class="java.lang.Object" length="6">
+      <void index="0">
+       <string>0:18</string>
+      </void>
+      <void index="1">
+       <string>/media/francisco/Malena/Comunicacao de Dados/Parte 2/test.slx</string>
+      </void>
+      <void index="2">
+       <string>test.slx</string>
+      </void>
+      <void index="3">
+       <string>ber</string>
+      </void>
+      <void index="4">
+       <string>100</string>
+      </void>
+      <void index="5">
+       <string>1e8</string>
+      </void>
+     </array>
+    </void>
+    <void method="add">
+     <array class="java.lang.String" length="19">
+      <void index="0">
+       <string>0:18</string>
+      </void>
+      <void index="1">
+       <string>AWGN</string>
+      </void>
+      <void index="2">
+       <string>0</string>
+      </void>
+      <void index="3">
+       <string>1</string>
+      </void>
+      <void index="4">
+       <string>QAM</string>
+      </void>
+      <void index="5">
+       <string>64</string>
+      </void>
+      <void index="6">
+       <string>0.5</string>
+      </void>
+      <void index="7">
+       <string>nondiff</string>
+      </void>
+      <void index="8">
+       <string>coherent</string>
+      </void>
+      <void index="9">
+       <string>none</string>
+      </void>
+      <void index="10">
+       <string>hard</string>
+      </void>
+      <void index="11">
+       <string>poly2trellis(7, [171 133])</string>
+      </void>
+      <void index="12">
+       <string>7</string>
+      </void>
+      <void index="13">
+       <string>3</string>
+      </void>
+      <void index="14">
+       <string>5</string>
+      </void>
+      <void index="15">
+       <string>perfect</string>
+      </void>
+      <void index="16">
+       <string>0</string>
+      </void>
+      <void index="17">
+       <string>0</string>
+      </void>
+      <void index="18">
+       <string>0</string>
+      </void>
+     </array>
+    </void>
+    <void method="add">
+     <array class="java.lang.Object" length="6">
+      <void index="0">
+       <string>0:18</string>
+      </void>
+      <void index="1">
+       <string>/media/francisco/Malena/Comunicacao de Dados/Parte 2/test.slx</string>
+      </void>
+      <void index="2">
+       <string>test.slx</string>
+      </void>
+      <void index="3">
+       <string>ber</string>
+      </void>
+      <void index="4">
+       <string>100</string>
+      </void>
+      <void index="5">
+       <string>1e8</string>
+      </void>
+     </array>
+    </void>
+    <void method="add">
+     <array class="java.lang.Object" length="6">
+      <void index="0">
+       <string>0:18</string>
+      </void>
+      <void index="1">
+       <string>/media/francisco/Malena/Comunicacao de Dados/Parte 2/test.slx</string>
+      </void>
+      <void index="2">
+       <string>test.slx</string>
+      </void>
+      <void index="3">
+       <string>ber</string>
+      </void>
+      <void index="4">
+       <string>100</string>
+      </void>
+      <void index="5">
+       <string>1e8</string>
+      </void>
+     </array>
+    </void>
+   </object>
+  </void>
+  <void property="semiAnalytic">
+   <object class="com.mathworks.toolbox.comm.SemiAnalytic">
+    <void property="dataEnc">
+     <string>nondiff</string>
+    </void>
+    <void property="denominator">
+     <string>1</string>
+    </void>
+    <void property="ebno">
+     <string>0:18</string>
+    </void>
+    <void property="modOrder">
+     <string>2</string>
+    </void>
+    <void property="modType">
+     <string>PSK</string>
+    </void>
+    <void property="numerator">
+     <string>ones(16, 1) / 16</string>
+    </void>
+    <void property="rxSignal">
+     <string>rectpulse(step(comm.BPSKModulator, [0 1 1 0 0 1 1 1 1 0 1 1 0 0 0 0].&apos;), 16)</string>
+    </void>
+    <void property="samplesPerSymbol">
+     <string>16</string>
+    </void>
+    <void property="txSignal">
+     <string>rectpulse(step(comm.BPSKModulator, [0 1 1 0 0 1 1 1 1 0 1 1 0 0 0 0].&apos;), 16)</string>
+    </void>
+   </object>
+  </void>
+  <void property="simulation">
+   <object class="com.mathworks.toolbox.comm.Simulation">
+    <void property="berName">
+     <string>ber</string>
+    </void>
+    <void property="count">
+     <int>11</int>
+    </void>
+    <void property="ebno">
+     <string>0:18</string>
+    </void>
+    <void property="maxNumBits">
+     <string>1e8</string>
+    </void>
+    <void property="maxNumErrs">
+     <string>100</string>
+    </void>
+    <void property="modelName">
+     <string>test.slx</string>
+    </void>
+    <void property="modelPath">
+     <string>/media/francisco/Malena/Comunicacao de Dados/Parte 2/test.slx</string>
+    </void>
+   </object>
+  </void>
+  <void property="theoretical">
+   <object class="com.mathworks.toolbox.comm.Theoretical">
+    <void property="count">
+     <int>5</int>
+    </void>
+    <void property="dataEnc">
+     <string>nondiff</string>
+    </void>
+    <void property="ebno">
+     <string>0:18</string>
+    </void>
+    <void property="modOrder">
+     <string>64</string>
+    </void>
+    <void property="modType">
+     <string>QAM</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

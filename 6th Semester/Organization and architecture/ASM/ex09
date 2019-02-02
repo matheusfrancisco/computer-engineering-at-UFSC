@@ -1,0 +1,36 @@
+
+####################################################################
+# Exercício 08 - Patterson pag. 74
+# Mostra a compilação de um procedimento que chama outro, neste caso,
+# o fatorial recursivo
+####################################################################
+# Trecho em C:
+# int fact (int n) {
+#    if (n<1)
+#        return 1;
+#    else
+#        return (n * fact(n-1));
+#
+      .text   # segmento de código (programa)
+
+
+main:
+       addi $a0, $zero, 2   # inicialize aqui o parâmetro para o fatorial
+       jal  fact            # chama o fatorial
+       nop                  # não faz nada. $v0 tem o resultado
+fact:
+       sub  $sp, $sp, 8     # ajusta a pilha para receber 2 valores
+       sw   $ra, 4($sp)     # salva $ra na pilha
+       sw   $a0, 0($sp)     # salva $a0 na pilha
+       slti $t0, $a0, 1     # testa se n < 1
+       beq  $t0, $zero, L1  # se n>=1 goto L1 
+       add  $v0, $zero, 1   # return 1
+       add  $sp, $sp, 8     # elimina dois valores da pilha (não precisou ler os valores)
+       jr   $ra             # retorna 
+L1:    sub  $a0, $a0, 1     # n -1  (antigo valor de n está guardado na pilha)
+       jal  fact            # chama fact com argumento n-1 (chamada recursiva)
+       lw   $a0, 0($sp)     # restaura n da pilha
+       lw   $ra, 4($sp)     # restaura end. retorno da pilha
+       add  $sp, $sp, 8     # elimina 2 valores da pilha
+       mul  $v0, $a0, $v0   # fact = n * fact (n-1)    ("mul" é uma pseudo-instrução)
+       jr $ra               # retorna 

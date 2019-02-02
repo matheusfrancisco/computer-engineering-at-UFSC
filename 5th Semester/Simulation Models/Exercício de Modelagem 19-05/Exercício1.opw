@@ -1,0 +1,17 @@
+[RESOURCES]
+Resource A
+[VARIABLES]
+A3.VATime
+Saida.NumberOut
+A1.VATime
+A2.NumberIn
+A2.NumberOut
+A2.WaitTime
+TEC 2.NumberOut
+A2.VATime
+A1.NumberOut
+A1.NumberIn
+A3.NumberIn
+TEC 1.NumberOut
+A3.NumberOut
+A1.WaitTime

@@ -1,0 +1,21 @@
+[RESOURCES]
+Costureira
+Operario
+Inspetor
+[VARIABLES]
+Saida.NumberOut
+Costura.NumberOut
+Inspecao.NumberIn
+Costura.VATime
+Inspecao.WaitTime
+Corte.NumberOut
+Chegada de Pedidos.NumberOut
+Corte.VATime
+Inspecao.VATime
+Verifica.NumberOut False
+Costura.NumberIn
+Verifica.NumberOut True
+Corte.NumberIn
+Inspecao.NumberOut
+Costura.WaitTime
+Corte.WaitTime

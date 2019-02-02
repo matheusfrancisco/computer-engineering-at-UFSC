@@ -1,0 +1,19 @@
+load('ber0.mat');
+load('ebno0.mat');
+err = comm.ErrorRate;
+data= randi([0 1],1,10);
+SNR=0:1:18;  
+
+for n=1:length(SNR)   
+  modS = pskmod(data,2);
+  %scatterplot(bpskModulator,10)
+  y= awgn(modS,SNR);
+  demoS = pskdemod(y,2);
+  [num,ratio]= biterr(data,demoS);
+  %err = comm.ErrorRate;
+  %ber = err(data,demoS);
+  
+  
+end 
+ 
+%semilogy(ebno0,ber0,'k');

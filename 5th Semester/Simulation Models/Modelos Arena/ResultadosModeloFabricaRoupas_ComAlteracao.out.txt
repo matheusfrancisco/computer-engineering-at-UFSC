@@ -1,0 +1,111 @@
+
+                                      ARENA Simulation Results
+                                           Morgana Sartor
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 5/12/2016
+Analyst: Morgana Sartor                                              Model revision date: 5/12/2016
+
+Replication ended at time      : 600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Corte.WaitTimePerEntity                     7.2705     (Insuf)    .00000     29.015         32    
+Deslocamento3.TranTimePerEntity             2.0000     (Insuf)    2.0000     2.0000          9    
+Deslocamento1.TotalTimePerEntity            2.0000     (Insuf)    2.0000     2.0000         32    
+Corte.VATimePerEntity                       10.204     (Insuf)    8.3162     11.896         32    
+Corte.TotalTimePerEntity                    17.474     (Insuf)    8.3381     39.090         32    
+Deslocamento4.TotalTimePerEntity            2.0000     (Insuf)    2.0000     2.0000         31    
+Inspecao.VATimePerEntity                    2.0000     (Insuf)    2.0000     2.0000         40    
+Deslocamento1.TranTimePerEntity             2.0000     (Insuf)    2.0000     2.0000         32    
+Deslocamento4.TranTimePerEntity             2.0000     (Insuf)    2.0000     2.0000         31    
+Inspecao.WaitTimePerEntity                  .00000     (Insuf)    .00000     .00000         40    
+Inspecao.TotalTimePerEntity                 2.0000     (Insuf)    2.0000     2.0000         40    
+Record 2                                    51.980     (Insuf)    26.573     89.573         31    
+Deslocamento3.TotalTimePerEntity            2.0000     (Insuf)    2.0000     2.0000          9    
+Costura.TotalTimePerEntity                  19.044     (Insuf)    9.1867     41.660         40    
+Costura.VATimePerEntity                     11.485     (Insuf)    9.1759     13.607         40    
+Deslocamento2.TranTimePerEntity             2.0000     (Insuf)    2.0000     2.0000         40    
+Deslocamento2.TotalTimePerEntity            2.0000     (Insuf)    2.0000     2.0000         40    
+Costura.WaitTimePerEntity                   7.5589     (Insuf)    .00000     30.504         40    
+Pecas.VATime                                27.560     (Insuf)    20.573     51.343         31    
+Pecas.NVATime                               .00000     (Insuf)    .00000     .00000         31    
+Pecas.WaitTime                              17.258     (Insuf)    .00000     57.718         31    
+Pecas.TranTime                              7.1612     (Insuf)    6.0000     14.000         31    
+Pecas.OtherTime                             .00000     (Insuf)    .00000     .00000         31    
+Pecas.TotalTime                             51.980     (Insuf)    26.573     89.573         31    
+Costura.Queue.WaitingTime                   7.3745     (Insuf)    .00000     30.504         41    
+Corte.Queue.WaitingTime                     7.3296     (Insuf)    .00000     29.015         33    
+Inspecao.Queue.WaitingTime                  .00000     (Insuf)    .00000     .00000         40    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Pecas.WIP                                   2.7537     (Insuf)    .00000     6.0000     2.0000    
+Costureira1.NumberBusy                      .77906     (Insuf)    .00000     1.0000     1.0000    
+Costureira1.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Costureira1.Utilization                     .77906     (Insuf)    .00000     1.0000     1.0000    
+Costureira2.NumberBusy                      .77906     (Insuf)    .00000     1.0000     1.0000    
+Costureira2.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Costureira2.Utilization                     .77906     (Insuf)    .00000     1.0000     1.0000    
+Operario.NumberBusy                         .56094     (Insuf)    .00000     1.0000     1.0000    
+Operario.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operario.Utilization                        .56094     (Insuf)    .00000     1.0000     1.0000    
+Inspetor.NumberBusy                         .13333     (Insuf)    .00000     1.0000     .00000    
+Inspetor.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Inspetor.Utilization                        .13333     (Insuf)    .00000     1.0000     .00000    
+Costura.Queue.NumberInQueue                 .50393     (Insuf)    .00000     3.0000     .00000    
+Corte.Queue.NumberInQueue                   .40313     (Insuf)    .00000     3.0000     .00000    
+Inspecao.Queue.NumberInQueue                .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Deslocamento1 Number Out                    32.000    
+Deslocamento4 Number Out                    31.000    
+Deslocamento1 Accum Transfer Time           64.000    
+Costura Number Out                          40.000    
+Inspecao Number In                          40.000    
+Deslocamento3 Accum Transfer Time           18.000    
+Deslocamento2 Number In                     40.000    
+Costura Accum VA Time                       459.41    
+Deslocamento4 Number In                     31.000    
+Inspecao Accum Wait Time                    .00000    
+Corte Number Out                            32.000    
+Deslocamento3 Number Out                    9.0000    
+Corte Accum VA Time                         326.54    
+Deslocamento2 Accum Transfer Time           80.000    
+Inspecao Accum VA Time                      80.000    
+Deslocamento4 Accum Transfer Time           62.000    
+Costura Number In                           41.000    
+Deslocamento1 Number In                     32.000    
+Deslocamento3 Number In                     9.0000    
+Deslocamento2 Number Out                    40.000    
+Corte Number In                             33.000    
+Inspecao Number Out                         40.000    
+Costura Accum Wait Time                     302.35    
+Corte Accum Wait Time                       232.65    
+Pecas.NumberIn                              33.000    
+Pecas.NumberOut                             31.000    
+Costureira1.NumberSeized                    41.000    
+Costureira1.ScheduledUtilization            .77906    
+Costureira2.NumberSeized                    41.000    
+Costureira2.ScheduledUtilization            .77906    
+Operario.NumberSeized                       33.000    
+Operario.ScheduledUtilization               .56094    
+Inspetor.NumberSeized                       40.000    
+Inspetor.ScheduledUtilization               .13333    
+System.NumberOut                            31.000    
+
+
+Simulation run time: 0.03 minutes.
+Simulation run complete.

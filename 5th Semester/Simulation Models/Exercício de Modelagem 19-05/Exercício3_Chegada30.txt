@@ -1,0 +1,191 @@
+
+                                      ARENA Simulation Results
+                                           Morgana Sartor
+
+                                  Summary for Replication 1 of 3
+
+Project: Unnamed Project                                             Run execution date : 5/28/2016
+Analyst: Morgana Sartor                                              Model revision date: 5/28/2016
+
+Replication ended at time      : 3600.0 Seconds 
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Cobranca.VATimePerEntity                    23.766     (Insuf)    .06202     132.29        117    
+Cobranca.WaitTimePerEntity                  46.118     (Insuf)    .00000     228.25        117    
+Cobranca.TotalTimePerEntity                 69.885     (Insuf)    .06202     243.23        117    
+Entity 1.VATime                             23.766     (Insuf)    .06202     132.29        117    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        117    
+Entity 1.WaitTime                           46.118     (Insuf)    .00000     228.25        117    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        117    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        117    
+Entity 1.TotalTime                          69.885     (Insuf)    .06202     243.23        117    
+Cobranca.Queue.WaitingTime                  45.951     (Insuf)    .00000     228.25        118    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                2.2949     (Insuf)    .00000     9.0000     3.0000    
+Atendente1.NumberBusy                       .77624     (Insuf)    .00000     1.0000     1.0000    
+Atendente1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Atendente1.Utilization                      .77624     (Insuf)    .00000     1.0000     1.0000    
+Cobranca.Queue.NumberInQueue                1.5187     (Insuf)    .00000     8.0000     2.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Cobranca Number In                          120.00    
+Cobranca Accum Wait Time                    5395.8    
+Cobranca Number Out                         117.00    
+Cobranca Accum VA Time                      2780.7    
+Entity 1.NumberIn                           120.00    
+Entity 1.NumberOut                          117.00    
+Atendente1.NumberSeized                     118.00    
+Atendente1.ScheduledUtilization             .77624    
+System.NumberOut                            117.00    
+
+Beginning replication 2 of 3
+
+                                      ARENA Simulation Results
+                                           Morgana Sartor
+
+                                  Summary for Replication 2 of 3
+
+Project: Unnamed Project                                             Run execution date : 5/28/2016
+Analyst: Morgana Sartor                                              Model revision date: 5/28/2016
+
+Replication ended at time      : 3600.0 Seconds 
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Cobranca.VATimePerEntity                    21.422     (Insuf)    .19252     161.65        125    
+Cobranca.WaitTimePerEntity                  37.682     (Insuf)    .00000     183.61        125    
+Cobranca.TotalTimePerEntity                 59.105     (Insuf)    .19252     221.04        125    
+Entity 1.VATime                             21.422     (Insuf)    .19252     161.65        125    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        125    
+Entity 1.WaitTime                           37.682     (Insuf)    .00000     183.61        125    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        125    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        125    
+Entity 1.TotalTime                          59.105     (Insuf)    .19252     221.04        125    
+Cobranca.Queue.WaitingTime                  37.682     (Insuf)    .00000     183.61        125    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                2.0522     (Insuf)    .00000     10.000     .00000    
+Atendente1.NumberBusy                       .74384     (Insuf)    .00000     1.0000     .00000    
+Atendente1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Atendente1.Utilization                      .74384     (Insuf)    .00000     1.0000     .00000    
+Cobranca.Queue.NumberInQueue                1.3084     (Insuf)    .00000     9.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Cobranca Number In                          125.00    
+Cobranca Accum Wait Time                    4710.3    
+Cobranca Number Out                         125.00    
+Cobranca Accum VA Time                      2677.8    
+Entity 1.NumberIn                           125.00    
+Entity 1.NumberOut                          125.00    
+Atendente1.NumberSeized                     125.00    
+Atendente1.ScheduledUtilization             .74384    
+System.NumberOut                            125.00    
+
+Beginning replication 3 of 3
+
+                                      ARENA Simulation Results
+                                           Morgana Sartor
+
+                                  Summary for Replication 3 of 3
+
+Project: Unnamed Project                                             Run execution date : 5/28/2016
+Analyst: Morgana Sartor                                              Model revision date: 5/28/2016
+
+Replication ended at time      : 3600.0 Seconds 
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Cobranca.VATimePerEntity                    19.459     (Insuf)    .08198     137.53        122    
+Cobranca.WaitTimePerEntity                  45.024     (Insuf)    .00000     208.34        122    
+Cobranca.TotalTimePerEntity                 64.484     (Insuf)    .08198     221.02        122    
+Entity 1.VATime                             19.459     (Insuf)    .08198     137.53        122    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        122    
+Entity 1.WaitTime                           45.024     (Insuf)    .00000     208.34        122    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        122    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        122    
+Entity 1.TotalTime                          64.484     (Insuf)    .08198     221.02        122    
+Cobranca.Queue.WaitingTime                  44.658     (Insuf)    .00000     208.34        123    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                2.2340     (Insuf)    .00000     10.000     6.0000    
+Atendente1.NumberBusy                       .67627     (Insuf)    .00000     1.0000     1.0000    
+Atendente1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Atendente1.Utilization                      .67627     (Insuf)    .00000     1.0000     1.0000    
+Cobranca.Queue.NumberInQueue                1.5577     (Insuf)    .00000     9.0000     5.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Cobranca Number In                          128.00    
+Cobranca Accum Wait Time                    5492.9    
+Cobranca Number Out                         122.00    
+Cobranca Accum VA Time                      2374.0    
+Entity 1.NumberIn                           128.00    
+Entity 1.NumberOut                          122.00    
+Atendente1.NumberSeized                     123.00    
+Atendente1.ScheduledUtilization             .67627    
+System.NumberOut                            122.00    
+
+
+                                      ARENA Simulation Results
+                                           Morgana Sartor
+
+                                  Output Summary for 3 Replications
+
+Project: Unnamed Project                                             Run execution date : 5/28/2016
+Analyst: Morgana Sartor                                              Model revision date: 5/28/2016
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Cobranca Number In                          124.33     10.040     120.00     128.00     3
+Cobranca Accum Wait Time                    5199.7     1059.7     4710.3     5492.9     3
+Cobranca Number Out                         121.33     10.040     117.00     125.00     3
+Cobranca Accum VA Time                      2610.8     525.24     2374.0     2780.7     3
+Entity 1.NumberIn                           124.33     10.040     120.00     128.00     3
+Entity 1.NumberOut                          121.33     10.040     117.00     125.00     3
+Atendente1.NumberSeized                     122.00     8.9574     118.00     125.00     3
+Atendente1.ScheduledUtilization             .73211     .12672     .67627     .77624     3
+System.NumberOut                            121.33     10.040     117.00     125.00     3
+
+Simulation run time: 0.05 minutes.
+Simulation run complete.

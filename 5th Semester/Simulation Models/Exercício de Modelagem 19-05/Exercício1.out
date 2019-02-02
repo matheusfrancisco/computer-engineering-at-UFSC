@@ -1,0 +1,71 @@
+
+                                      ARENA Simulation Results
+                                           Morgana Sartor
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 5/29/2016
+Analyst: Morgana Sartor                                              Model revision date: 5/29/2016
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+A2.TotalTimePerEntity                       9.3928     (Insuf)    .67765     25.557         28    
+A1.VATimePerEntity                          4.2765     (Insuf)    1.1197     11.549         77    
+A2.VATimePerEntity                          2.1150     (Insuf)    .67765     3.6004         28    
+A1.TotalTimePerEntity                       12.205     (Insuf)    1.1791     37.361         77    
+A1.WaitTimePerEntity                        7.9289     (Insuf)    .00000     27.489         77    
+A3.VATimePerEntity                          2.9157     (Insuf)    .67067     6.1161        105    
+A2.WaitTimePerEntity                        7.2777     (Insuf)    .00000     21.957         28    
+A3.TotalTimePerEntity                       2.9157     (Insuf)    .67067     6.1161        105    
+Entity 1.VATime                             6.6159     (Insuf)    2.3949     15.166        105    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        105    
+Entity 1.WaitTime                           7.7552     (Insuf)    .00000     27.489        105    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        105    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        105    
+Entity 1.TotalTime                          14.371     (Insuf)    2.3949     42.656        105    
+A1.Queue.WaitingTime                        7.8272     (Insuf)    .00000     27.489         78    
+A2.Queue.WaitingTime                        7.2777     (Insuf)    .00000     21.957         28    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                3.1488     (Insuf)    .00000     10.000     1.0000    
+Resource A.NumberBusy                       1.4523     (Insuf)    .00000     2.0000     1.0000    
+Resource A.NumberScheduled                  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Resource A.Utilization                      .72617     (Insuf)    .00000     1.0000     .50000    
+A1.Queue.NumberInQueue                      1.2719     (Insuf)    .00000     8.0000     .00000    
+A2.Queue.NumberInQueue                      .42453     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+A3 Accum VA Time                            306.15    
+A1 Accum VA Time                            329.29    
+A2 Number In                                28.000    
+A2 Number Out                               28.000    
+A2 Accum Wait Time                          203.77    
+A2 Accum VA Time                            59.222    
+A1 Number Out                               77.000    
+A1 Number In                                78.000    
+A3 Number In                                105.00    
+A3 Number Out                               105.00    
+A1 Accum Wait Time                          610.52    
+Entity 1.NumberIn                           106.00    
+Entity 1.NumberOut                          105.00    
+Resource A.NumberSeized                     106.00    
+Resource A.ScheduledUtilization             .72617    
+System.NumberOut                            105.00    
+
+
+Simulation run time: 0.03 minutes.
+Simulation run complete.

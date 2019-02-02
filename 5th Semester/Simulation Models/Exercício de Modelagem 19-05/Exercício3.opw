@@ -1,0 +1,9 @@
+[RESOURCES]
+Atendente1
+[VARIABLES]
+Saida.NumberOut
+Cobranca.NumberIn
+Cobranca.WaitTime
+Chegada de Veiculos.NumberOut
+Cobranca.NumberOut
+Cobranca.VATime

@@ -1,0 +1,42 @@
+.data
+
+str: .asciiz "((()))"
+
+.text
+main:
+	la $t0, str #carrega string no registrador t0
+	li $t1, 0  #inicializa o registrador t1 com zero
+	li $s1, 0x00000028 #parenteses abertos
+	li $s2, 0x00000029 #parenteses fechados 
+	
+	
+
+loop: #loop para percorrer a string de parenteses       
+	lb $t2, 0($t0) #carrega o primeiro byte da string em t0
+	beqz $t2, end #se t2 == 0 va para o fim
+	
+	beq $t2, $s1, push #se t2 = s1 parenteses abertos, push na pilha
+return_push:
+	
+	beq $t2, $s2, pop #se t2 = s2 parenteses fechando, pop da pilha
+return_pop:
+	
+	add $t0, $t0, 1 #incdementa o endereço  
+	add $t1, $t1, 1  #incrementa o contador (total de letras na palavra)
+	 
+	j loop  #termina o loop
+
+
+push:
+	sub  $sp, $sp, 4
+	sw   $t2, 4($sp)  
+	j return_push
+
+pop:
+	addiu $sp,$sp,4
+	j return_pop	
+		
+end:
+
+	#beq $s3, $sp, #se isso for true o endereço de sp esta aonde começou, entao a seq eh bem formada
+	

@@ -1,0 +1,33 @@
+[RESOURCES]
+Costureira
+Operario
+Inspetor
+[VARIABLES]
+Deslocamento1.NumberOut
+Deslocamento4.NumberOut
+Deslocamento1.TranTime
+Costura.NumberOut
+Inspecao.NumberIn
+Deslocamento3.TranTime
+Costura.VATime
+Deslocamento2.NumberIn
+Deslocamento4.NumberIn
+Inspecao.WaitTime
+Remessa.NumberOut
+Corte.NumberOut
+Chegada de pedidos.NumberOut
+Ok?.NumberOut False
+Ok?.NumberOut True
+Deslocamento3.NumberOut
+Corte.VATime
+Deslocamento2.TranTime
+Inspecao.VATime
+Costura.NumberIn
+Deslocamento4.TranTime
+Deslocamento1.NumberIn
+Deslocamento3.NumberIn
+Deslocamento2.NumberOut
+Corte.NumberIn
+Inspecao.NumberOut
+Costura.WaitTime
+Corte.WaitTime

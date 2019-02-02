@@ -1,0 +1,101 @@
+.Text
+LDI R0, 10;		--Linha(1)		## QUANTIDADE DE INGREDIENTES
+STO R0, 10;		--Linha(2)		## QUANTIDADE DE CAFE
+STO R0, 11;		--Linha(3)		## QUANTIDADE DE LEITE
+STO R0, 13;		--Linha(4)		## QUANTIDADE DE CHOCOLATE
+IN R0, 0;		--Linha(5)	    ## PEGA ENTRADA 
+STO R0, 00;		--Linha(6)	    ## CARREGA ENTRADA
+LDI R1, 1;		--Linha(7)      ## 
+AND R2, R0, R1;	--Linha(8)	  	## FAZ UM AND PARA VERIFICAR SE A ENTRADA E VALIDA
+JZ R2, 4;		--Linha(9)	    ## SE NAO TIVER VOLTA PEDIR UMA ENTRADA
+LDI R1, 2;		--Linha(10)	    ## COPO GRANDE CASO TEN0HA COPO GRANDE [---11]
+AND R2, R0, R1;	--Linha(11)    	## 
+CMP R3, R1, R2;	--Linha(12)    	## 
+JE R1, 26; 		--Linha(13)    	## PULA PARA ROTINA DO COPO GRANDE
+LDI R1, 9; 		--Linha(14)    	## CAFÉ NORMAL [01001]
+AND R2, R0, R1;	--Linha(15)    	##
+CMP R3, R1, R2;	--Linha(16)    	##	
+JE R1, 30;		--Linha(17)	    ## PULA PARA ROTINA CAFÉ NORMAL
+LDI R1, 17;		--Linha(18)	    ## CAFE LEITE [10001]
+AND R2, R0, R1;	--Linha(19)    	##	
+CMP R3, R1, R2;	--Linha(20)    	##
+JE R1, 38 ;		--Linha(21)	    ## Pula para rotina de Café com leite 
+LDI R1, 24 ;	--Linha(22)	    ## CAFE MOCHACCINO [11001]
+AND R2, R0, R1;	--Linha(23)    	##	
+CMP R3, R1, R2;	--Linha(24)    	##
+JE R1, 50;		--Linha(25)	    ## Pula para rotina do mochaccino
+JI 4;			--Linha(26)     ##
+LDI R1,16;		--Linha(27)		## Inicio da rotina de copo grande;	
+OUT R1;			--Linha(28)		##
+JI 13;			--Linha(29) 	## Volta para depois do copo grande;
+LD R0, 10; 		--Linha(30)     ## Inicia de rotina para fazer apenas Café;	
+JZ R0, 66; 		--Linha(31)    	## FALTA CAFÉ
+LDI R1, 1;		--Linha(32)    	## 
+SUB R2, R0, R1; --Linha(33)    	## 
+STO R2, 10;		--Linha(34)     ##
+LDI R1, 1;		--Linha(35)		##
+OUT R1;			--Linha(36)
+JI, 4;			--Linha(37)		## Fazer café
+LD R0, 11;		--Linha(38)	    ## Inicia a Rotina de Inserir Café com Leite
+JZ R0, 82;		--Linha(39)	    ## FALTA LEITE
+LD R1, 10;		--Linha(40)		##
+JZ R1, 64;		--Linha(41)		## FALTA CAFÉ
+LDI R3, 1;		--Linha(42)	    ##
+SUB R2, R0, R3; --Linha(43)	  	##
+STO R2, 11;		--Linha(44)     ##
+SUB R3, R1, R3;	--Linha(45)		##
+STO R3, 10;		--Linha(46)		##
+LDI R1, 2;		--Linha(47)		##
+OUT R1;			--Linha(48)		##
+JI 4;			--Linha(49)	    ## Volta no inicio
+LD R0, 13;		--Linha(50)	    ## Inicia a Fazer Mochaccino
+JZ R0, 74;		--Linha(51)    	## FALTA CHOCOLATE
+LDI R1, 1;		--Linha(52)    	## 
+SUB R2, R0, R1;	--Linha(53)    	##
+STO R2, 13;		--Linha(54)		##
+LD R0, 10;		--Linha(55)		##
+JZ R0, 66;		--Linha(57)		##
+SUB R2, R0, R1;	--Linha(58)		##
+STO R2, 10;		--Linha(59)		##
+LD R0, 11;		--Linha(60)		##
+JZ R0, 82;		--Linha(61)		##
+SUB R2, R0, R1;	--Linha(62)		##
+STO R2, 11; 	--Linha(63)		##
+LDI R1, 4;		--Linha(64)		##
+JI 4;			--Linha(65)	    ## Volta para inserir Leite 
+LDI R3, 64; 	--Linha(66)     ## LED AVISANDO QUE FALTA CAFÉ
+OUT R3, 0;		--Linha(67)	    ##							
+LDI R1, 8;	  	--Linha(68)    	## Botao de reposicao
+IN R0, 0;		--Linha(69)     ## Pego entrada 
+AND R2,R1,R0;   --Linha(70)    	## Faz um and com R1 salva em R2
+CMP R3,R1,R2;	--Linha(71)	    ## Compara
+JE R1, 82;		--Linha(72)	    ## Inseri Café
+JI 66;			--Linha(73)	    ## Se nao espero uma entrada de reposicao
+LDI R3, 32; 	--Linha(74)     ## LED AVISANDO QUE FALTA CHOCOLATE
+OUT R3, 0;		--Linha(75)	    ## 							
+LDI R1, 8;	  	--Linha(76)    	## Botao de reposicao
+IN R0, 0;		--Linha(77)     ## Pego entrada 
+AND R2,R1,R0;   --Linha(78)    	## Faz um and com R1 salva em R2
+CMP R3,R1,R2;	--Linha(79)	    ## Compara
+JE R1, 88;		--Linha(80)	    ## Inseri Chocolate
+JI 74;			--Linha(81)	    ## Se nao espero uma entrada de reposicao
+LDI R3, 63; 	--Linha(82)	    ## LED AVISANDO QUE FALTA LEITE
+OUT R3, 0;		--Linha(83)	    ##							
+LDI R1, 8;	  	--Linha(84)    	## Botao de reposicao
+IN R0, 0;		--Linha(85)     ## Pego entrada 
+AND R2,R1,R0;   --Linha(86)    	## Faz um and com R1 salva em R2
+CMP R3,R1,R2;	--Linha(87)	    ## Compara
+JE R1, 85;		--Linha(88)	    ## Inseri Leite
+JI 82;			--Linha(89)	    ## Se nao espero uma entrada de reposicao
+LDI R0, 10;		--Linha(82)	    ## Ingredientes
+STO R0, 10;		--Linha(83)	    ## Quantidade de café
+JI 4;			--Linha(84)		##
+LDI R0, 10;		--Linha(85)		## Quantidade de leite
+STO R0, 11;		--Linha(86)	    ## 
+JI 4;			--Linha(87)		##
+LDI R0, 10;		--Linha(88)		## Quantidade de chocolate
+STO R0, 13;		--Linha(89)	    ## 
+JI 4;			--Linha(90)		##
+LDI R3, 0;		--Linha(91)		##
+OUT R3, 0;		--Linha(92)		##
+JI 4;			--Linha(93)		## Volta no começo

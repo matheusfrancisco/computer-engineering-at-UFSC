@@ -1,0 +1,8 @@
+|AND4x1
+i_A => o_E.IN0
+i_B => o_E.IN1
+i_C => o_E.IN1
+i_D => o_E.IN1
+o_E <= o_E.DB_MAX_OUTPUT_PORT_TYPE
+
+

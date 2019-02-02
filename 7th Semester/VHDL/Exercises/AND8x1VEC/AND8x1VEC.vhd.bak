@@ -1,0 +1,25 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+
+
+entity AND8x1VEC is 
+
+
+port (
+             i_A  : in STD_LOGIC_vector (7 downto 0);
+				
+				 
+				 o_B  : out std_LOGIC
+				 
+				 );
+				 
+end AND8x1VEC;
+
+architecture  behavioral of AND8x1VEC is
+
+begin 
+o_B <= i_A(0) AND i_A (1) AND i_A(2) AND i_A (3) i_A(4) AND i_A (5) AND i_A(6) AND i_A (7);
+
+end behavioral;

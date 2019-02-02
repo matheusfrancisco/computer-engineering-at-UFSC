@@ -1,0 +1,6 @@
+|or2x1
+i_A => o_C.IN0
+i_B => o_C.IN1
+o_C <= o_C.DB_MAX_OUTPUT_PORT_TYPE
+
+

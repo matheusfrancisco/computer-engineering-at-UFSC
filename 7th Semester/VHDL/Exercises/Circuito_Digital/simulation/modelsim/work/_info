@@ -1,0 +1,79 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.1\2017\Circuito_Digital\simulation\modelsim
+Ecircuito_digital
+Z1 w1489702271
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\altera\13.1\2017\Circuito_Digital\simulation\modelsim
+Z5 8C:/altera/13.1/2017/Circuito_Digital/Circuito_Digital.vhd
+Z6 FC:/altera/13.1/2017/Circuito_Digital/Circuito_Digital.vhd
+l0
+L5
+V^4gXDCbW83Z8m>mR7z]K90
+Z7 OV;C;10.1d;51
+32
+Z8 !s108 1489703314.462000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/altera/13.1/2017/Circuito_Digital/Circuito_Digital.vhd|
+Z10 !s107 C:/altera/13.1/2017/Circuito_Digital/Circuito_Digital.vhd|
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+!s100 h5AAR]o1`26ROPD6Ub6Pb1
+!i10b 1
+Abehavioral
+R2
+R3
+DEx4 work 16 circuito_digital 0 22 ^4gXDCbW83Z8m>mR7z]K90
+l20
+L15
+Vc^mV_=Y8AT1DIXND5@KLZ1
+!s100 OM6TVW12=5z^7YhB0_i]63
+R7
+32
+R8
+R9
+R10
+R11
+R12
+!i10b 1
+Etb_circuito_digital
+Z13 w1489703179
+Z14 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z15 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R2
+R3
+R4
+Z16 8C:/altera/13.1/2017/Circuito_Digital/TB_Circuito_Digital.vhd
+Z17 FC:/altera/13.1/2017/Circuito_Digital/TB_Circuito_Digital.vhd
+l0
+L6
+VoHMzWKZ1fNnR`:z<5TKzb2
+!s100 ll?n2nCz:CThIoN7Tc9Ye2
+R7
+32
+!i10b 1
+Z18 !s108 1489703314.781000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/altera/13.1/2017/Circuito_Digital/TB_Circuito_Digital.vhd|
+Z20 !s107 C:/altera/13.1/2017/Circuito_Digital/TB_Circuito_Digital.vhd|
+R11
+R12
+Abehavior
+R14
+R15
+R2
+R3
+Z21 DEx4 work 19 tb_circuito_digital 0 22 oHMzWKZ1fNnR`:z<5TKzb2
+l30
+L9
+Z22 V^D`:9bXF7jPHQ]]2WL;l]3
+Z23 !s100 4jm50okicB><NQ<O;@b9g0
+R7
+32
+!i10b 1
+R18
+R19
+R20
+R11
+R12

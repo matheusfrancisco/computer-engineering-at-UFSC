@@ -1,0 +1,64 @@
+.Text
+LDI R0, 10;		--Linha(0)		    ## QUANTIDADE DE INGREDIENTES
+STO R0, 10;		--Linha(1)			    ## QUANTIDADE DE CAFE
+STO R0, 11;		--Linha(2)		    ## QUANTIDADE DE LEITE
+STO R0, 13;		--Linha(3)		    ## QUANTIDADE DE CHOCOLATE
+IN R0, 0;		--Linha(4)	      ## PEGA ENTRADA 
+STO R0, 00;		--Linha(5)	    ## CARREGA ENTRADA
+LDI R1, 1;		--Linha(6)      ## 
+AND R2, R0, R1;	--Linha(7)	  ## FAZ UM AND PARA VERIFICAR SE A ENTRADA E VALIDA
+JZ R2, 4;		--Linha(8)	      ## SE NAO TIVER VOLTA PEDIR UMA ENTRADA
+LDI R1, 17;		--Linha(9)	    ## COPO GRANDE CASO TENHA COPO GRANDE [10001]
+AND R2, R0, R1;	--Linha(10)    ## 
+CMP R3, R1, R2;	--Linha(11)    ## 
+JE R1, 36; 		--Linha(12)      ## PULA PARA ROTINA DO COPO GRANDE
+LDI R1, 3; 		--Linha(13)      ## CAFE COM LEITE [00011]
+AND R2, R0, R1;	--Linha(14)    ##
+CMP R3, R1, R2;	--Linha(15)    ##	
+JE R1, 30;		--Linha(16)	    ## PULA PARA ROTINA CAFE COM LEITE
+LDI R1, 5;		--Linha(17)	    ## CAFE MOCHACCINO [00101]
+AND R2, R0, R1;	--Linha(18)    ##	
+CMP R3, R1, R2;	--Linha(19)    ##
+JE R1, 39;		--Linha(20)	    ## PULA PRA ROTINA MOCHACCINO
+LD R0, 10; 		--Linha(21)      ## Inicia a Rotina de inserir Cafe	
+JZ R0, 44; 		--Linha(22)      ## FALTA CAFE
+LDI R1, 1;		--Linha(23)     ## 
+SUB R2, R0, R1; --Linha(24)    ## 
+STO R2, 10;		--Linha(25)      ##
+LDI R1, 1;		--Linha(26)
+AND R2, R0, R1; --Linha(27)
+CMP R3, R1, R2; --Linha(28)
+JE R1, 53;		--Linha(29)
+JI 26;			--Linha(30)	
+LD R0, 11;		--Linha(31)	    ## Inicia a Rotina de Inserir Leite
+JZ R3, 44;		--Lnha(32)	    ## FALTA LEITE
+LDI R1, 1;		--Linha(33)	    ##
+SUB R2, R0, R1; --Linha(34)	  ##
+STO R2, 11;		--Linha(35)      ##
+JI 21;			--Linha(36)	      ## VOLTA PARA COLOCAR CAFE
+LDI R1, 2;		--Linha(37)	    ## INICIO ROTINA DO COPO GRANDE
+OUT R1, 0;		--Linha(38)	    ## ACENDE O LED DO COPO GRANDE
+JI 13;			--Linha(39)	      ## VOLTA  PRA DEPOIS DA ROTINA COPO GRANDE 
+LD R0, 13;		--Linha(40)	    ## Inicia a Rotina de Inserir Chocolate
+JZ R0, 44;		--Linha(41)    	## FALTA CHOCOLATE
+LDI R1, 1;		--Linha(42)    	## 
+SUB R2, R0, R1;	--Linha(43)    ##
+JI 21;			--Linha(44)	      ## VOLTA PARA INSERIR LEITE 
+LDI R3, 6; 		--Linha(45)      ## Led de reposicao e acesso para informar falta
+OUT R3, 0;		--Linha(46)	    ##							
+LDI R1, 8;	  	--Linha(47)    ## Botao de reposicao
+IN R0, 0;		--Linha(48)       ## Pego entrada 
+AND R2,R1,R0;   --Linha(49)    ## Faz um and com R1 salva em R2
+CMP R3,R1,R2;	--Linha(50)	    ## Compara
+JE R1, 56;		--Linha(51)	    ## Se chave e igual vou para ROTINA DE INSERIR INGREDIENTES
+JI 47;			--Linha(52)	      ## Se nao espero uma entrada de reposicao
+LDI R0, 4;		--Linha(53)	    ## Acende o Led para informar o Preparo
+OUT R0, 0;		--Linha(54)    	## 
+JI 62;          --Linha(55)    ##
+LDI R0, 10;		--Linha(56)	    ## Ingredientes
+STO R0, 10;		--Linha(57)	    ## Quantidade de cafe
+STO R0, 11;		--Linha(58)	    ## Quantidade de leite
+STO R0, 13;		--Linha(59)	    ## Coloca quantidade de chocolate
+LDI R3, 0;		--Linha(60)		#
+OUT R3, 0;		--Linha(61)		##
+JI 4;			--Linha(62)		    ## Volta no comeco	

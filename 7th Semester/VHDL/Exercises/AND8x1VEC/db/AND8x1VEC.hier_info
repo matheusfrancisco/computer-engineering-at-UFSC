@@ -1,0 +1,12 @@
+|AND8x1VEC
+i_A[0] => o_B.IN0
+i_A[1] => o_B.IN1
+i_A[2] => o_B.IN1
+i_A[3] => o_B.IN1
+i_A[4] => o_B.IN1
+i_A[5] => o_B.IN1
+i_A[6] => o_B.IN1
+i_A[7] => o_B.IN1
+o_B <= o_B.DB_MAX_OUTPUT_PORT_TYPE
+
+

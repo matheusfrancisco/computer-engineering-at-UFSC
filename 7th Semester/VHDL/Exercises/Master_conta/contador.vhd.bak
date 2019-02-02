@@ -1,0 +1,51 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+
+entity contador is
+ port
+(        
+      i_RST, i_CLK : in STD_LOGIC;
+	   o_ND : in STD_LOGIC;
+		
+end contador;
+
+architecture Behavioral of contador is
+Signal w_CONT :  std_logic_vector(3 downto 0);
+
+begin 
+process (i_CLK)
+begin 
+
+
+if RISING_EDGE (i_CLK) then 
+   
+	if(i_RST = '1') then
+	
+	o_ND <= '0';
+	w_CONT <= "0000";
+	
+	else
+	
+	if (w_CONT = "0100") then
+	
+	o_ND <= '1';
+	w_CONT <= "0000";
+	
+	
+else 
+
+o_ND <= '0';
+w_CONT <= w_CONT +1;
+
+end if;
+end if;
+	
+	
+	
+
+	
+	
+	end process;
+
+end behavioral;

@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera/13.1/2017/meio_somador/meio_somador.vhd
+source_file = 1, C:/altera/13.1/2017/meio_somador/db/meio_somador.cbx.xml
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = meio_somador
+instance = comp, \o_C~output\, o_C~output, meio_somador, 1
+instance = comp, \o_Y~output\, o_Y~output, meio_somador, 1
+instance = comp, \i_A~input\, i_A~input, meio_somador, 1
+instance = comp, \i_B~input\, i_B~input, meio_somador, 1
+instance = comp, \o_C~0\, o_C~0, meio_somador, 1
+instance = comp, \o_Y~0\, o_Y~0, meio_somador, 1

@@ -1,0 +1,18 @@
+Analysis & Synthesis Status : Successful - Tue Mar 21 20:04:28 2017
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Web Edition
+Revision Name : Master_conta
+Top-level Entity Name : Master_conta
+Family : Cyclone IV GX
+Total logic elements : 8
+    Total combinational functions : 8
+    Dedicated logic registers : 5
+Total registers : 5
+Total pins : 3
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total GXB Receiver Channel PCS : 0
+Total GXB Receiver Channel PMA : 0
+Total GXB Transmitter Channel PCS : 0
+Total GXB Transmitter Channel PMA : 0
+Total PLLs : 0

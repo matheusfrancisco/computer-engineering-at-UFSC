@@ -1,0 +1,47 @@
+|circuito_sel
+i_selA[0] => Equal0.IN5
+i_selA[0] => Equal2.IN5
+i_selA[0] => Equal3.IN5
+i_selA[0] => Equal4.IN5
+i_selA[0] => Equal5.IN5
+i_selA[0] => Equal6.IN5
+i_selA[0] => Equal8.IN5
+i_selA[0] => Equal10.IN5
+i_selA[1] => Equal0.IN4
+i_selA[1] => Equal2.IN4
+i_selA[1] => Equal3.IN4
+i_selA[1] => Equal4.IN4
+i_selA[1] => Equal5.IN4
+i_selA[1] => Equal6.IN4
+i_selA[1] => Equal8.IN4
+i_selA[1] => Equal10.IN4
+i_selA[2] => Equal0.IN3
+i_selA[2] => Equal2.IN3
+i_selA[2] => Equal3.IN3
+i_selA[2] => Equal4.IN3
+i_selA[2] => Equal5.IN3
+i_selA[2] => Equal6.IN3
+i_selA[2] => Equal8.IN3
+i_selA[2] => Equal10.IN3
+i_selE[0] => Equal1.IN5
+i_selE[0] => Equal7.IN5
+i_selE[0] => Equal9.IN5
+i_selE[0] => Equal11.IN5
+i_selE[1] => Equal1.IN4
+i_selE[1] => Equal7.IN4
+i_selE[1] => Equal9.IN4
+i_selE[1] => Equal11.IN4
+i_selE[2] => Equal1.IN3
+i_selE[2] => Equal7.IN3
+i_selE[2] => Equal9.IN3
+i_selE[2] => Equal11.IN3
+o_DATA[0] <= o_DATA.DB_MAX_OUTPUT_PORT_TYPE
+o_DATA[1] <= o_DATA.DB_MAX_OUTPUT_PORT_TYPE
+o_DATA[2] <= o_DATA.DB_MAX_OUTPUT_PORT_TYPE
+o_DATA[3] <= o_DATA.DB_MAX_OUTPUT_PORT_TYPE
+o_DATA[4] <= o_DATA.DB_MAX_OUTPUT_PORT_TYPE
+o_DATA[5] <= o_DATA.DB_MAX_OUTPUT_PORT_TYPE
+o_DATA[6] <= o_DATA.DB_MAX_OUTPUT_PORT_TYPE
+o_DATA[7] <= o_DATA.DB_MAX_OUTPUT_PORT_TYPE
+
+

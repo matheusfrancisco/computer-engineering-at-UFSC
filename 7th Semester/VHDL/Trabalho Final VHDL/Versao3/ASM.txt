@@ -1,0 +1,62 @@
+.Text
+LDI R0, 10;			    ## QUANTIDADE DE INGREDIENTES
+STO R0, 10;			    ## QUANTIDADE DE CAFE
+STO R0, 11;			    ## QUANTIDADE DE LEITE
+STO R0, 13;			    ## QUANTIDADE DE CHOCOLATE
+IN R0, 0;			      ## PEGA ENTRADA 
+STO R0, 00;			    ## CARREGA ENTRADA
+LDI R1, 1;		      ## 
+AND R2, R0, R1;		  ## FAZ UM AND PARA VERIFICAR SE A ENTRADA E VALIDA
+JZ R2, 4;			      ## SE NAO TIVER VOLTA PEDIR UMA ENTRADA
+LDI R1, 17;			    ## COPO GRANDE CASO TENHA COPO GRANDE [10001]
+AND R2, R0, R1;	    ## 
+CMP R3, R1, R2;	    ## 
+JE R1, 33; 		      ## PULA PARA ROTINA DO COPO GRANDE
+LDI R1, 3; 		      ## CAFE COM LEITE [00011]
+AND R2, R0, R1;	    ##
+CMP R3, R1, R2;	    ##	
+JE R1, 27;			    ## PULA PARA ROTINA CAFE COM LEITE
+LDI R1, 5;			    ## CAFE MOCHACCINO [00101]
+AND R2, R0, R1;	    ##	
+CMP R3, R1, R2;	    ##
+JE R1, 36;			    ## PULA PRA ROTINA MOCHACCINO
+LD R0, 10; 		      ## Inicia a Rotina de inserir Cafe	
+JZ R0, 41; 		      ## FALTA CAFE
+LDI R1, 1;		      ## 
+SUB R2, R0, R1;     ## 
+STO R2, 10;		      ##
+JI 49;			      	##
+LD R0, 11;			    ## Inicia a Rotina de Inserir Leite
+JZ R0, 41;			    ## FALTA LEITE
+LDI R1, 1;			    ##
+SUB R2, R0, R1; 	  ##
+STO R2, 11;		      ##
+JI 21;				      ## VOLTA PARA COLOCAR CAFE
+LDI R1, 2;			    ## INICIO ROTINA DO COPO GRANDE
+OUT R1, 0;			    ## ACENDE O LED DO COPO GRANDE
+JI 13;				      ## VOLTA  PRA DEPOIS DA ROTINA COPO GRANDE 
+LD R0, 13;			    ## Inicia a Rotina de Inserir Chocolate
+JZ R0, 41;		    	## FALTA CHOCOLATE
+LDI R1, 1;		    	## 
+SUB R2, R0, R1;	    ##
+JI 27;				      ## VOLTA PARA INSERIR LEITE 
+LDI R3, 1; 		      ## Led de reposicao e acesso para informar falta
+OUT R3, 0;			    ##							
+LDI R1, 8;	  	    ## Botao de reposicao
+IN R0, 0;		        ## Pego entrada 
+AND R2,R1,R0;       ## Faz um and com R1 salva em R2
+CMP R3,R1,R2;		    ## Compara
+JE R1, 52;			    ## Se chave e igual vou para ROTINA DE INSERIR INGREDIENTES
+JI 43;				      ## Se nao espero uma entrada de reposicao
+LDI R0, 4;			    ## Acende o Led para informar o Preparo
+OUT R0, 0;		    	## 
+JI 58;              ##
+LDI R0, 10;			    ## Ingredientes
+STO R0, 10;			    ## Quantidade de cafe
+STO R0, 11;			    ## Quantidade de leite
+STO R0, 13;			    ## Coloca quantidade de chocolate
+LDI R3, 0;				##
+OUT R3, 0;				##
+LDI R1, 0;			    ##
+OUT R1, 0;				  ##
+JI 4;					    ## Volta no comeco	

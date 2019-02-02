@@ -1,0 +1,39 @@
+library IEEE;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+use ieee.numeric_std.all;
+use ieee.std_logic_arith.all;
+
+
+ENTITY mux is
+	port (
+		i_sel : in std_logic_vector (1 downto 0);
+		i_entrada : in std_logic_vector (7 downto 0);
+      o_saida : out std_logic_vector (7 downto 0)
+      	
+		
+	);
+end mux;
+
+ARCHITECTURE behavior of mux is
+		
+		
+      
+		
+BEGIN 
+		
+		with i_sel select
+
+o_saida <= i_entrada(0) when "00001111",
+          i_entrada(1) when "00101011",
+			 i_entrada(2) when "01110001",
+			 i_entrada(3) when "01101101",
+			 
+			   '0'    when others;
+				
+
+
+				
+
+	
+end behavior;

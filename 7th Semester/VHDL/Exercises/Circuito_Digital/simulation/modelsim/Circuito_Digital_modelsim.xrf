@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera/13.1/2017/Circuito_Digital/Circuito_Digital.vhd
+source_file = 1, C:/altera/13.1/2017/Circuito_Digital/TB_Circuito_Digital.vhd
+source_file = 1, C:/altera/13.1/2017/Circuito_Digital/db/Circuito_Digital.cbx.xml
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = circuito_digital
+instance = comp, \o_E~output\, o_E~output, circuito_digital, 1
+instance = comp, \i_B~input\, i_B~input, circuito_digital, 1
+instance = comp, \i_D~input\, i_D~input, circuito_digital, 1
+instance = comp, \i_A~input\, i_A~input, circuito_digital, 1
+instance = comp, \i_C~input\, i_C~input, circuito_digital, 1
+instance = comp, \o_E~0\, o_E~0, circuito_digital, 1

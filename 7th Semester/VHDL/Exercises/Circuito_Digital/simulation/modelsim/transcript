@@ -1,0 +1,6 @@
+# Compile of Circuito_Digital.vhd was successful.
+# Compile of TB_Circuito_Digital.vhd was successful.
+# All compile dependencies have been resolved.Compile of Circuito_Digital.vhd was successful.
+# Compile of TB_Circuito_Digital.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim +altera -do Circuito_Digital_run_msim_rtl_vhdl.do -l msim_transcript -gui work.tb_circuito_digital

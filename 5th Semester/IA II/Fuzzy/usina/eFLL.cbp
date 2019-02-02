@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="eFLL" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/eFLL" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/eFLL" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Fuzzy.cpp" />
+		<Unit filename="Fuzzy.h" />
+		<Unit filename="FuzzyComposition.cpp" />
+		<Unit filename="FuzzyComposition.h" />
+		<Unit filename="FuzzyIO.cpp" />
+		<Unit filename="FuzzyIO.h" />
+		<Unit filename="FuzzyInput.cpp" />
+		<Unit filename="FuzzyInput.h" />
+		<Unit filename="FuzzyOutput.cpp" />
+		<Unit filename="FuzzyOutput.h" />
+		<Unit filename="FuzzyRule.cpp" />
+		<Unit filename="FuzzyRule.h" />
+		<Unit filename="FuzzyRuleAntecedent.cpp" />
+		<Unit filename="FuzzyRuleAntecedent.h" />
+		<Unit filename="FuzzyRuleConsequent.cpp" />
+		<Unit filename="FuzzyRuleConsequent.h" />
+		<Unit filename="FuzzySet.cpp" />
+		<Unit filename="FuzzySet.h" />
+		<Unit filename="general_simple_sample.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

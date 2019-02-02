@@ -1,0 +1,85 @@
+
+                                      ARENA Simulation Results
+                                           Morgana Sartor
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 6/14/2016
+Analyst: pf                                                          Model revision date: 6/14/2016
+
+Replication ended at time      : 5000.0 Seconds 
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Roteador.TotalTimePerEntity                 400.25     (Corr)     2.7186     432.34       1684    
+Roteador.VATimePerEntity                    2.9675     .02809     2.0006     3.9990       1684    
+Roteador.WaitTimePerEntity                  397.29     (Corr)     .00000     429.43       1684    
+Entity 1.VATime                             .09902     4.9736E-04 .00000     3.9990      49861    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000      49861    
+Entity 1.WaitTime                           13.273     (Corr)     .00000     429.43      49861    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000      49861    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000      49861    
+Entity 1.TotalTime                          13.372     (Corr)     .00000     432.34      49861    
+Entity 2.VATime                             .05788     .03316     .00000     3.6990        493    
+Entity 2.NVATime                            .00000     .00000     .00000     .00000        493    
+Entity 2.WaitTime                           7.7902     4.5023     .00000     424.24        493    
+Entity 2.TranTime                           .00000     .00000     .00000     .00000        493    
+Entity 2.OtherTime                          .00000     .00000     .00000     .00000        493    
+Entity 2.TotalTime                          7.8480     4.5308     .00000     427.94        493    
+Entity 3.VATime                             .06197     .04353     .00000     3.9578        509    
+Entity 3.NVATime                            .00000     .00000     .00000     .00000        509    
+Entity 3.WaitTime                           6.6097     4.8533     .00000     426.06        509    
+Entity 3.TranTime                           .00000     .00000     .00000     .00000        509    
+Entity 3.OtherTime                          .00000     .00000     .00000     .00000        509    
+Entity 3.TotalTime                          6.6717     4.8897     .00000     429.85        509    
+Roteador.Queue.WaitingTime                  397.30     (Corr)     .00000     429.43       1685    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                139.22     (Corr)     .00000     142.00     139.00    
+Entity 2.WIP                                .89064     (Insuf)    .00000     3.0000     2.0000    
+Entity 3.WIP                                .67918     (Insuf)    .00000     4.0000     .00000    
+Processador.NumberBusy                      1.0000     (Insuf)    .00000     1.0000     1.0000    
+Processador.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Processador.Utilization                     1.0000     (Insuf)    .00000     1.0000     1.0000    
+Roteador.Queue.NumberInQueue                139.79     (Corr)     .00000     140.00     140.00    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+descartes                                     49179  Infinite
+Conta 1                                         808  Infinite
+Conta 2                                         503  Infinite
+Conta 3                                         373  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Roteador Number Out                         1684.0    
+Roteador Number In                          1825.0    
+Roteador Accum VA Time                      4997.3    
+Roteador Accum Wait Time                    6.6904E+05
+Entity 1.NumberIn                           50000.    
+Entity 1.NumberOut                          49861.    
+Entity 2.NumberIn                           495.00    
+Entity 2.NumberOut                          493.00    
+Entity 3.NumberIn                           509.00    
+Entity 3.NumberOut                          509.00    
+Processador.NumberSeized                    1685.0    
+Processador.ScheduledUtilization            1.0000    
+System.NumberOut                            50863.    
+
+
+Simulation run time: 0.02 minutes.
+Simulation run complete.

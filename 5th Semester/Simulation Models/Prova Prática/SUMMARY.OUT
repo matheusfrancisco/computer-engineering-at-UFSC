@@ -1,0 +1,17 @@
+Fit All
+
+Document:  C:\Users\Morgana Sartor\Desktop\Dados.txt
+Data File: C:\Users\Morgana Sartor\Desktop\Dados.txt
+
+
+Function       Sq Error
+-----------------------
+Uniform        0.00534
+Beta           0.00539
+Normal         0.0146
+Weibull        0.0156
+Gamma          0.0183
+Erlang         0.0191
+Exponential    0.027
+Lognormal      0.0288
+Triangular     0.0295

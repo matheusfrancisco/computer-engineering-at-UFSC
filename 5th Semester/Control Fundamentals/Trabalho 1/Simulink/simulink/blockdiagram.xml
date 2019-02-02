@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInformation Version="0.9">
+  <Model>
+    <P Name="SavedCharacterEncoding">windows-1252</P>
+    <GraphicalInterface>
+      <P Name="NumRootInports">0</P>
+      <P Name="NumRootOutports">0</P>
+      <P Name="ParameterArgumentNames"></P>
+      <P Name="ComputedModelVersion">1.1</P>
+      <P Name="NumModelReferences">0</P>
+      <P Name="NumTestPointedSignals">0</P>
+    </GraphicalInterface>
+    <P Name="SaveDefaultBlockParams">on</P>
+    <P Name="ScopeRefreshTime">0.035000</P>
+    <P Name="OverrideScopeRefreshTime">on</P>
+    <P Name="DisableAllScopes">off</P>
+    <P Name="DataTypeOverride">UseLocalSettings</P>
+    <P Name="DataTypeOverrideAppliesTo">AllNumericTypes</P>
+    <P Name="MinMaxOverflowLogging">UseLocalSettings</P>
+    <P Name="MinMaxOverflowArchiveMode">Overwrite</P>
+    <P Name="FPTRunName">Run 1</P>
+    <P Name="MaxMDLFileLineLength">120</P>
+    <Object PropName="BdWindowsInfo" ObjectID="1" ClassName="Simulink.BDWindowsInfo">
+      <Object PropName="WindowsInfo" ObjectID="2" ClassName="Simulink.WindowInfo">
+	<P Name="IsActive" Class="logical">1</P>
+	<P Name="Location" Class="double">[684.0, 31.0, 681.0, 696.0]</P>
+	<Object PropName="ModelBrowserInfo" ObjectID="3" ClassName="Simulink.ModelBrowserInfo">
+	  <P Name="Visible" Class="logical">0</P>
+	  <P Name="DockPosition" Class="char">Left</P>
+	  <P Name="Width" Class="int32">50</P>
+	  <P Name="Height" Class="int32">50</P>
+	  <P Name="Filter" Class="int32">8</P>
+	</Object>
+	<Object PropName="ExplorerBarInfo" ObjectID="4" ClassName="Simulink.ExplorerBarInfo">
+	  <P Name="Visible" Class="logical">1</P>
+	</Object>
+	<Object PropName="EditorsInfo" ObjectID="5" ClassName="Simulink.EditorInfo">
+	  <P Name="IsActive" Class="logical">1</P>
+	  <P Name="ViewObjType" Class="char">SimulinkTopLevel</P>
+	  <P Name="LoadSaveID" Class="char">0</P>
+	  <P Name="Extents" Class="double">[647.0, 560.0]</P>
+	  <P Name="ZoomFactor" Class="double">1.0</P>
+	  <P Name="Offset" Class="double">[223.41634127882813, -22.171637209365542]</P>
+	</Object>
+      </Object>
+    </Object>
+    <ConfigManagerSettings>
+      <P Name="UpdateHistory">UpdateHistoryNever</P>
+      <P Name="ModifiedByFormat">%&lt;Auto&gt;</P>
+      <P Name="ModifiedDateFormat">%&lt;Auto&gt;</P>
+      <P Name="RTWModifiedTimeStamp">413161978</P>
+      <P Name="ModelVersionFormat">1.%&lt;AutoIncrement:1&gt;</P>
+    </ConfigManagerSettings>
+    <EditorSettings>
+      <P Name="SampleTimeColors">off</P>
+      <P Name="SampleTimeAnnotations">off</P>
+      <P Name="LibraryLinkDisplay">disabled</P>
+      <P Name="WideLines">off</P>
+      <P Name="ShowLineDimensions">off</P>
+      <P Name="ShowPortDataTypes">off</P>
+      <P Name="ShowDesignRanges">off</P>
+      <P Name="ShowLoopsOnError">on</P>
+      <P Name="IgnoreBidirectionalLines">off</P>
+      <P Name="ShowStorageClass">off</P>
+      <P Name="ShowTestPointIcons">on</P>
+      <P Name="ShowSignalResolutionIcons">on</P>
+      <P Name="ShowViewerIcons">on</P>
+      <P Name="SortedOrder">off</P>
+      <P Name="ExecutionContextIcon">off</P>
+      <P Name="ShowLinearizationAnnotations">on</P>
+      <P Name="BlockNameDataTip">off</P>
+      <P Name="BlockParametersDataTip">off</P>
+      <P Name="BlockDescriptionStringDataTip">off</P>
+      <P Name="ToolBar">on</P>
+      <P Name="StatusBar">on</P>
+      <P Name="BrowserShowLibraryLinks">off</P>
+      <P Name="BrowserLookUnderMasks">off</P>
+    </EditorSettings>
+    <SimulationSettings>
+      <P Name="SimulationMode">normal</P>
+      <P Name="PauseTimes">5</P>
+      <P Name="NumberOfSteps">1</P>
+      <P Name="SnapshotBufferSize">10</P>
+      <P Name="SnapshotInterval">10</P>
+      <P Name="NumberOfLastSnapshots">0</P>
+      <P Name="LinearizationMsg">none</P>
+      <P Name="Profile">off</P>
+      <P Name="ParamWorkspaceSource">MATLABWorkspace</P>
+      <P Name="AccelSystemTargetFile">accel.tlc</P>
+      <P Name="AccelTemplateMakefile">accel_default_tmf</P>
+      <P Name="AccelMakeCommand">make_rtw</P>
+      <P Name="TryForcingSFcnDF">off</P>
+      <Object PropName="DataLoggingOverride" ObjectID="6" ClassName="Simulink.SimulationData.ModelLoggingInfo">
+	<P Name="model_" Class="char">CHICO</P>
+	<P Name="overrideMode_" Class="uint32">0U</P>
+	<Array PropName="logAsSpecifiedByModels_" Type="Cell" Dimension="1*1">
+	  <Cell Class="char">CHICO</Cell>
+	</Array>
+	<Array PropName="logAsSpecifiedByModelsSSIDs_" Type="Cell" Dimension="1*1">
+	  <Cell>[]</Cell>
+	</Array>
+      </Object>
+    </SimulationSettings>
+    <Verification>
+      <P Name="RecordCoverage">off</P>
+      <P Name="CovPath">/</P>
+      <P Name="CovSaveName">covdata</P>
+      <P Name="CovMetricSettings">dw</P>
+      <P Name="CovNameIncrementing">off</P>
+      <P Name="CovHtmlReporting">on</P>
+      <P Name="CovForceBlockReductionOff">on</P>
+      <P Name="CovEnableCumulative">on</P>
+      <P Name="covSaveCumulativeToWorkspaceVar">on</P>
+      <P Name="CovSaveSingleToWorkspaceVar">on</P>
+      <P Name="CovCumulativeVarName">covCumulativeData</P>
+      <P Name="CovCumulativeReport">off</P>
+      <P Name="CovReportOnPause">on</P>
+      <P Name="CovModelRefEnable">Off</P>
+      <P Name="CovExternalEMLEnable">off</P>
+      <P Name="CovSFcnEnable">off</P>
+      <P Name="CovBoundaryAbsTol">0.000010</P>
+      <P Name="CovBoundaryRelTol">0.010000</P>
+    </Verification>
+    <ExternalMode>
+      <P Name="ExtModeBatchMode">off</P>
+      <P Name="ExtModeEnableFloating">on</P>
+      <P Name="ExtModeTrigType">manual</P>
+      <P Name="ExtModeTrigMode">normal</P>
+      <P Name="ExtModeTrigPort">1</P>
+      <P Name="ExtModeTrigElement">any</P>
+      <P Name="ExtModeTrigDuration">1000</P>
+      <P Name="ExtModeTrigDurationFloating">auto</P>
+      <P Name="ExtModeTrigHoldOff">0</P>
+      <P Name="ExtModeTrigDelay">0</P>
+      <P Name="ExtModeTrigDirection">rising</P>
+      <P Name="ExtModeTrigLevel">0</P>
+      <P Name="ExtModeArchiveMode">off</P>
+      <P Name="ExtModeAutoIncOneShot">off</P>
+      <P Name="ExtModeIncDirWhenArm">off</P>
+      <P Name="ExtModeAddSuffixToVar">off</P>
+      <P Name="ExtModeWriteAllDataToWs">off</P>
+      <P Name="ExtModeArmWhenConnect">on</P>
+      <P Name="ExtModeSkipDownloadWhenConnect">off</P>
+      <P Name="ExtModeLogAll">on</P>
+      <P Name="ExtModeAutoUpdateStatusClock">on</P>
+    </ExternalMode>
+    <EngineSettings>
+      <P Name="BufferReuse">on</P>
+    </EngineSettings>
+    <ModelReferenceSettings>
+      <P Name="ShowModelReferenceBlockVersion">off</P>
+      <P Name="ShowModelReferenceBlockIO">off</P>
+    </ModelReferenceSettings>
+    <ConfigurationSet>
+      <Array PropName="ConfigurationSets" Type="Handle" Dimension="1*1">
+	<Object ObjectID="7" Version="1.14.2" ClassName="Simulink.ConfigSet">
+	  <Array PropName="Components" Type="Handle" Dimension="1*9">
+	    <Object ObjectID="8" Version="1.14.2" ClassName="Simulink.SolverCC">
+	      <P Name="StartTime">0.0</P>
+	      <P Name="StopTime">10.0</P>
+	      <P Name="AbsTol">auto</P>
+	      <P Name="FixedStep">auto</P>
+	      <P Name="InitialStep">auto</P>
+	      <P Name="MaxNumMinSteps">-1</P>
+	      <P Name="MaxOrder">5</P>
+	      <P Name="ZcThreshold">auto</P>
+	      <P Name="ConsecutiveZCsStepRelTol">10*128*eps</P>
+	      <P Name="MaxConsecutiveZCs">1000</P>
+	      <P Name="ExtrapolationOrder">4</P>
+	      <P Name="NumberNewtonIterations">1</P>
+	      <P Name="MaxStep">auto</P>
+	      <P Name="MinStep">auto</P>
+	      <P Name="MaxConsecutiveMinStep">1</P>
+	      <P Name="RelTol">1e-3</P>
+	      <P Name="SolverMode">Auto</P>
+	      <P Name="EnableConcurrentExecution">off</P>
+	      <P Name="ConcurrentTasks">off</P>
+	      <P Name="Solver">ode45</P>
+	      <P Name="SolverName">ode45</P>
+	      <P Name="SolverJacobianMethodControl">auto</P>
+	      <P Name="ShapePreserveControl">DisableAll</P>
+	      <P Name="ZeroCrossControl">UseLocalSettings</P>
+	      <P Name="ZeroCrossAlgorithm">Nonadaptive</P>
+	      <P Name="AlgebraicLoopSolver">TrustRegion</P>
+	      <P Name="SolverResetMethod">Fast</P>
+	      <P Name="PositivePriorityOrder">off</P>
+	      <P Name="AutoInsertRateTranBlk">off</P>
+	      <P Name="SampleTimeConstraint">Unconstrained</P>
+	      <P Name="InsertRTBMode">Whenever possible</P>
+	    </Object>
+	    <Object ObjectID="9" Version="1.14.2" ClassName="Simulink.DataIOCC">
+	      <P Name="Decimation">1</P>
+	      <P Name="ExternalInput">[t, u]</P>
+	      <P Name="FinalStateName">xFinal</P>
+	      <P Name="InitialState">xInitial</P>
+	      <P Name="LimitDataPoints">on</P>
+	      <P Name="MaxDataPoints">1000</P>
+	      <P Name="LoadExternalInput">off</P>
+	      <P Name="LoadInitialState">off</P>
+	      <P Name="SaveFinalState">off</P>
+	      <P Name="SaveCompleteFinalSimState">off</P>
+	      <P Name="SaveFormat">Array</P>
+	      <P Name="SignalLoggingSaveFormat">Dataset</P>
+	      <P Name="SaveOutput">on</P>
+	      <P Name="SaveState">off</P>
+	      <P Name="SignalLogging">on</P>
+	      <P Name="DSMLogging">on</P>
+	      <P Name="InspectSignalLogs">off</P>
+	      <P Name="VisualizeSimOutput">on</P>
+	      <P Name="SaveTime">on</P>
+	      <P Name="ReturnWorkspaceOutputs">off</P>
+	      <P Name="StateSaveName">xout</P>
+	      <P Name="TimeSaveName">tout</P>
+	      <P Name="OutputSaveName">yout</P>
+	      <P Name="SignalLoggingName">logsout</P>
+	      <P Name="DSMLoggingName">dsmout</P>
+	      <P Name="OutputOption">RefineOutputTimes</P>
+	      <P Name="OutputTimes">[]</P>
+	      <P Name="ReturnWorkspaceOutputsName">out</P>
+	      <P Name="Refine">1</P>
+	    </Object>
+	    <Object ObjectID="10" Version="1.14.2" ClassName="Simulink.OptimizationCC">
+	      <Array PropName="DisabledProps" Type="Cell" Dimension="1*8">
+		<Cell Class="char">BooleansAsBitfields</Cell>
+		<Cell Class="char">PassReuseOutputArgsAs</Cell>
+		<Cell Class="char">PassReuseOutputArgsThreshold</Cell>
+		<Cell Class="char">ZeroExternalMemoryAtStartup</Cell>
+		<Cell Class="char">ZeroInternalMemoryAtStartup</Cell>
+		<Cell Class="char">OptimizeModelRefInitCode</Cell>
+		<Cell Class="char">NoFixptDivByZeroProtection</Cell>
+		<Cell Class="char">UseSpecifiedMinMax</Cell>
+	      </Array>
+	      <P Name="BlockReduction">on</P>
+	      <P Name="BooleanDataType">on</P>
+	      <P Name="ConditionallyExecuteInputs">on</P>
+	      <P Name="InlineParams">off</P>
+	      <P Name="UseIntDivNetSlope">off</P>
+	      <P Name="UseFloatMulNetSlope">off</P>
+	      <P Name="DefaultUnderspecifiedDataType">double</P>
+	      <P Name="UseSpecifiedMinMax">off</P>
+	      <P Name="InlineInvariantSignals">off</P>
+	      <P Name="OptimizeBlockIOStorage">on</P>
+	      <P Name="BufferReuse">on</P>
+	      <P Name="EnhancedBackFolding">off</P>
+	      <P Name="CachingGlobalReferences">off</P>
+	      <P Name="GlobalBufferReuse">on</P>
+	      <P Name="StrengthReduction">off</P>
+	      <P Name="ExpressionFolding">on</P>
+	      <P Name="BooleansAsBitfields">off</P>
+	      <P Name="BitfieldContainerType">uint_T</P>
+	      <P Name="EnableMemcpy">on</P>
+	      <P Name="MemcpyThreshold">64</P>
+	      <P Name="PassReuseOutputArgsAs">Structure reference</P>
+	      <P Name="ExpressionDepthLimit">128</P>
+	      <P Name="FoldNonRolledExpr">on</P>
+	      <P Name="LocalBlockOutputs">on</P>
+	      <P Name="RollThreshold">5</P>
+	      <P Name="SystemCodeInlineAuto">off</P>
+	      <P Name="StateBitsets">off</P>
+	      <P Name="DataBitsets">off</P>
+	      <P Name="ActiveStateOutputEnumStorageType">Native Integer</P>
+	      <P Name="UseTempVars">off</P>
+	      <P Name="ZeroExternalMemoryAtStartup">on</P>
+	      <P Name="ZeroInternalMemoryAtStartup">on</P>
+	      <P Name="InitFltsAndDblsToZero">off</P>
+	      <P Name="NoFixptDivByZeroProtection">off</P>
+	      <P Name="EfficientFloat2IntCast">off</P>
+	      <P Name="EfficientMapNaN2IntZero">on</P>
+	      <P Name="OptimizeModelRefInitCode">off</P>
+	      <P Name="LifeSpan">inf</P>
+	      <P Name="MaxStackSize">Inherit from target</P>
+	      <P Name="BufferReusableBoundary">on</P>
+	      <P Name="SimCompilerOptimization">Off</P>
+	      <P Name="AccelVerboseBuild">off</P>
+	      <P Name="ParallelExecutionInRapidAccelerator">on</P>
+	    </Object>
+	    <Object ObjectID="11" Version="1.14.2" ClassName="Simulink.DebuggingCC">
+	      <P Name="RTPrefix">error</P>
+	      <P Name="ConsistencyChecking">none</P>
+	      <P Name="ArrayBoundsChecking">none</P>
+	      <P Name="SignalInfNanChecking">none</P>
+	      <P Name="SignalRangeChecking">none</P>
+	      <P Name="ReadBeforeWriteMsg">UseLocalSettings</P>
+	      <P Name="WriteAfterWriteMsg">UseLocalSettings</P>
+	      <P Name="WriteAfterReadMsg">UseLocalSettings</P>
+	      <P Name="AlgebraicLoopMsg">warning</P>
+	      <P Name="ArtificialAlgebraicLoopMsg">warning</P>
+	      <P Name="SaveWithDisabledLinksMsg">warning</P>
+	      <P Name="SaveWithParameterizedLinksMsg">warning</P>
+	      <P Name="CheckSSInitialOutputMsg">on</P>
+	      <P Name="UnderspecifiedInitializationDetection">Simplified</P>
+	      <P Name="MergeDetectMultiDrivingBlocksExec">none</P>
+	      <P Name="CheckExecutionContextPreStartOutputMsg">off</P>
+	      <P Name="CheckExecutionContextRuntimeOutputMsg">off</P>
+	      <P Name="SignalResolutionControl">UseLocalSettings</P>
+	      <P Name="BlockPriorityViolationMsg">warning</P>
+	      <P Name="MinStepSizeMsg">warning</P>
+	      <P Name="TimeAdjustmentMsg">none</P>
+	      <P Name="MaxConsecutiveZCsMsg">error</P>
+	      <P Name="MaskedZcDiagnostic">warning</P>
+	      <P Name="IgnoredZcDiagnostic">warning</P>
+	      <P Name="SolverPrmCheckMsg">warning</P>
+	      <P Name="InheritedTsInSrcMsg">warning</P>
+	      <P Name="DiscreteInheritContinuousMsg">warning</P>
+	      <P Name="MultiTaskDSMMsg">error</P>
+	      <P Name="MultiTaskCondExecSysMsg">error</P>
+	      <P Name="MultiTaskRateTransMsg">error</P>
+	      <P Name="SingleTaskRateTransMsg">none</P>
+	      <P Name="TasksWithSamePriorityMsg">warning</P>
+	      <P Name="SigSpecEnsureSampleTimeMsg">warning</P>
+	      <P Name="CheckMatrixSingularityMsg">none</P>
+	      <P Name="IntegerOverflowMsg">warning</P>
+	      <P Name="Int32ToFloatConvMsg">warning</P>
+	      <P Name="ParameterDowncastMsg">error</P>
+	      <P Name="ParameterOverflowMsg">error</P>
+	      <P Name="ParameterUnderflowMsg">none</P>
+	      <P Name="ParameterPrecisionLossMsg">warning</P>
+	      <P Name="ParameterTunabilityLossMsg">warning</P>
+	      <P Name="FixptConstUnderflowMsg">none</P>
+	      <P Name="FixptConstOverflowMsg">none</P>
+	      <P Name="FixptConstPrecisionLossMsg">none</P>
+	      <P Name="UnderSpecifiedDataTypeMsg">none</P>
+	      <P Name="UnnecessaryDatatypeConvMsg">none</P>
+	      <P Name="VectorMatrixConversionMsg">none</P>
+	      <P Name="InvalidFcnCallConnMsg">error</P>
+	      <P Name="FcnCallInpInsideContextMsg">EnableAllAsError</P>
+	      <P Name="SignalLabelMismatchMsg">none</P>
+	      <P Name="UnconnectedInputMsg">warning</P>
+	      <P Name="UnconnectedOutputMsg">warning</P>
+	      <P Name="UnconnectedLineMsg">warning</P>
+	      <P Name="SFcnCompatibilityMsg">none</P>
+	      <P Name="FrameProcessingCompatibilityMsg">warning</P>
+	      <P Name="UniqueDataStoreMsg">none</P>
+	      <P Name="BusObjectLabelMismatch">warning</P>
+	      <P Name="RootOutportRequireBusObject">warning</P>
+	      <P Name="AssertControl">UseLocalSettings</P>
+	      <P Name="EnableOverflowDetection">off</P>
+	      <P Name="ModelReferenceIOMsg">none</P>
+	      <P Name="ModelReferenceMultiInstanceNormalModeStructChecksumCheck">error</P>
+	      <P Name="ModelReferenceVersionMismatchMessage">none</P>
+	      <P Name="ModelReferenceIOMismatchMessage">none</P>
+	      <P Name="ModelReferenceCSMismatchMessage">none</P>
+	      <P Name="UnknownTsInhSupMsg">warning</P>
+	      <P Name="ModelReferenceDataLoggingMessage">warning</P>
+	      <P Name="ModelReferenceSymbolNameMessage">warning</P>
+	      <P Name="ModelReferenceExtraNoncontSigs">error</P>
+	      <P Name="StateNameClashWarn">none</P>
+	      <P Name="SimStateInterfaceChecksumMismatchMsg">warning</P>
+	      <P Name="SimStateOlderReleaseMsg">error</P>
+	      <P Name="InitInArrayFormatMsg">warning</P>
+	      <P Name="StrictBusMsg">ErrorLevel1</P>
+	      <P Name="BusNameAdapt">WarnAndRepair</P>
+	      <P Name="NonBusSignalsTreatedAsBus">none</P>
+	      <P Name="LoggingUnavailableSignals">error</P>
+	      <P Name="BlockIODiagnostic">none</P>
+	      <P Name="SFUnusedDataAndEventsDiag">warning</P>
+	      <P Name="SFUnexpectedBacktrackingDiag">warning</P>
+	      <P Name="SFInvalidInputDataAccessInChartInitDiag">warning</P>
+	      <P Name="SFNoUnconditionalDefaultTransitionDiag">warning</P>
+	      <P Name="SFTransitionOutsideNaturalParentDiag">warning</P>
+	      <P Name="SFUnconditionalTransitionShadowingDiag">warning</P>
+	      <P Name="SFUndirectedBroadcastEventsDiag">warning</P>
+	      <P Name="SFTransitionActionBeforeConditionDiag">warning</P>
+	    </Object>
+	    <Object ObjectID="12" Version="1.14.2" ClassName="Simulink.HardwareCC">
+	      <P Name="ProdBitPerChar">8</P>
+	      <P Name="ProdBitPerShort">16</P>
+	      <P Name="ProdBitPerInt">32</P>
+	      <P Name="ProdBitPerLong">32</P>
+	      <P Name="ProdBitPerLongLong">64</P>
+	      <P Name="ProdBitPerFloat">32</P>
+	      <P Name="ProdBitPerDouble">64</P>
+	      <P Name="ProdBitPerPointer">32</P>
+	      <P Name="ProdLargestAtomicInteger">Char</P>
+	      <P Name="ProdLargestAtomicFloat">None</P>
+	      <P Name="ProdIntDivRoundTo">Undefined</P>
+	      <P Name="ProdEndianess">Unspecified</P>
+	      <P Name="ProdWordSize">32</P>
+	      <P Name="ProdShiftRightIntArith">on</P>
+	      <P Name="ProdLongLongMode">off</P>
+	      <P Name="ProdHWDeviceType">32-bit Generic</P>
+	      <P Name="TargetBitPerChar">8</P>
+	      <P Name="TargetBitPerShort">16</P>
+	      <P Name="TargetBitPerInt">32</P>
+	      <P Name="TargetBitPerLong">32</P>
+	      <P Name="TargetBitPerLongLong">64</P>
+	      <P Name="TargetBitPerFloat">32</P>
+	      <P Name="TargetBitPerDouble">64</P>
+	      <P Name="TargetBitPerPointer">32</P>
+	      <P Name="TargetLargestAtomicInteger">Char</P>
+	      <P Name="TargetLargestAtomicFloat">None</P>
+	      <P Name="TargetShiftRightIntArith">on</P>
+	      <P Name="TargetLongLongMode">off</P>
+	      <P Name="TargetIntDivRoundTo">Undefined</P>
+	      <P Name="TargetEndianess">Unspecified</P>
+	      <P Name="TargetWordSize">32</P>
+	      <P Name="TargetTypeEmulationWarnSuppressLevel">0</P>
+	      <P Name="TargetPreprocMaxBitsSint">32</P>
+	      <P Name="TargetPreprocMaxBitsUint">32</P>
+	      <P Name="TargetHWDeviceType">Specified</P>
+	      <P Name="TargetUnknown">off</P>
+	      <P Name="ProdEqTarget">on</P>
+	    </Object>
+	    <Object ObjectID="13" Version="1.14.2" ClassName="Simulink.ModelReferenceCC">
+	      <P Name="UpdateModelReferenceTargets">IfOutOfDateOrStructuralChange</P>
+	      <P Name="CheckModelReferenceTargetMessage">error</P>
+	      <P Name="EnableParallelModelReferenceBuilds">off</P>
+	      <P Name="ParallelModelReferenceErrorOnInvalidPool">on</P>
+	      <P Name="ParallelModelReferenceMATLABWorkerInit">None</P>
+	      <P Name="ModelReferenceNumInstancesAllowed">Multi</P>
+	      <P Name="PropagateVarSize">Infer from blocks in model</P>
+	      <P Name="ModelReferencePassRootInputsByReference">on</P>
+	      <P Name="ModelReferenceMinAlgLoopOccurrences">off</P>
+	      <P Name="PropagateSignalLabelsOutOfModel">off</P>
+	      <P Name="SupportModelReferenceSimTargetCustomCode">off</P>
+	    </Object>
+	    <Object ObjectID="14" Version="1.14.2" ClassName="Simulink.SFSimCC">
+	      <P Name="SFSimEnableDebug">on</P>
+	      <P Name="SFSimOverflowDetection">on</P>
+	      <P Name="SFSimEcho">on</P>
+	      <P Name="SimBlas">on</P>
+	      <P Name="SimCtrlC">on</P>
+	      <P Name="SimExtrinsic">on</P>
+	      <P Name="SimIntegrity">on</P>
+	      <P Name="SimUseLocalCustomCode">off</P>
+	      <P Name="SimParseCustomCode">on</P>
+	      <P Name="SimBuildMode">sf_incremental_build</P>
+	      <P Name="SimGenImportedTypeDefs">off</P>
+	    </Object>
+	    <Object BackupClass="Simulink.RTWCC" ObjectID="15" Version="1.14.2" ClassName="Simulink.RTWCC">
+	      <Array PropName="DisabledProps" Type="Cell" Dimension="1*15">
+		<Cell Class="char">IncludeHyperlinkInReport</Cell>
+		<Cell Class="char">GenerateTraceInfo</Cell>
+		<Cell Class="char">GenerateTraceReport</Cell>
+		<Cell Class="char">GenerateTraceReportSl</Cell>
+		<Cell Class="char">GenerateTraceReportSf</Cell>
+		<Cell Class="char">GenerateTraceReportEml</Cell>
+		<Cell Class="char">PortableWordSizes</Cell>
+		<Cell Class="char">GenerateWebview</Cell>
+		<Cell Class="char">GenerateCodeMetricsReport</Cell>
+		<Cell Class="char">GenerateCodeReplacementReport</Cell>
+		<Cell Class="char">GenerateErtSFunction</Cell>
+		<Cell Class="char">CreateSILPILBlock</Cell>
+		<Cell Class="char">CodeExecutionProfiling</Cell>
+		<Cell Class="char">CodeProfilingSaveOptions</Cell>
+		<Cell Class="char">CodeProfilingInstrumentation</Cell>
+	      </Array>
+	      <P Name="SystemTargetFile">grt.tlc</P>
+	      <P Name="TLCOptions"></P>
+	      <P Name="GenCodeOnly">off</P>
+	      <P Name="MakeCommand">make_rtw</P>
+	      <P Name="GenerateMakefile">on</P>
+	      <P Name="PackageGeneratedCodeAndArtifacts">off</P>
+	      <P Name="PackageName"></P>
+	      <P Name="TemplateMakefile">grt_default_tmf</P>
+	      <P Name="PostCodeGenCommand"></P>
+	      <P Name="Description"></P>
+	      <P Name="GenerateReport">off</P>
+	      <P Name="SaveLog">off</P>
+	      <P Name="RTWVerbose">on</P>
+	      <P Name="RetainRTWFile">off</P>
+	      <P Name="ProfileTLC">off</P>
+	      <P Name="TLCDebug">off</P>
+	      <P Name="TLCCoverage">off</P>
+	      <P Name="TLCAssert">off</P>
+	      <P Name="ProcessScriptMode">Default</P>
+	      <P Name="ConfigurationMode">Optimized</P>
+	      <P Name="ProcessScript"></P>
+	      <P Name="ConfigurationScript"></P>
+	      <P Name="ConfigAtBuild">off</P>
+	      <P Name="RTWUseLocalCustomCode">off</P>
+	      <P Name="RTWUseSimCustomCode">off</P>
+	      <P Name="CustomSourceCode"></P>
+	      <P Name="CustomHeaderCode"></P>
+	      <P Name="CustomInclude"></P>
+	      <P Name="CustomSource"></P>
+	      <P Name="CustomLibrary"></P>
+	      <P Name="CustomInitializer"></P>
+	      <P Name="CustomTerminator"></P>
+	      <P Name="Toolchain">Automatically locate an installed toolchain</P>
+	      <P Name="BuildConfiguration">Faster Builds</P>
+	      <P Name="IncludeHyperlinkInReport">off</P>
+	      <P Name="LaunchReport">off</P>
+	      <P Name="PortableWordSizes">off</P>
+	      <P Name="CreateSILPILBlock">None</P>
+	      <P Name="CodeExecutionProfiling">off</P>
+	      <P Name="CodeExecutionProfileVariable">executionProfile</P>
+	      <P Name="CodeProfilingSaveOptions">SummaryOnly</P>
+	      <P Name="CodeProfilingInstrumentation">off</P>
+	      <P Name="SILDebugging">off</P>
+	      <P Name="TargetLang">C</P>
+	      <P Name="IncludeBusHierarchyInRTWFileBlockHierarchyMap">off</P>
+	      <P Name="IncludeERTFirstTime">off</P>
+	      <P Name="GenerateTraceInfo">off</P>
+	      <P Name="GenerateTraceReport">off</P>
+	      <P Name="GenerateTraceReportSl">off</P>
+	      <P Name="GenerateTraceReportSf">off</P>
+	      <P Name="GenerateTraceReportEml">off</P>
+	      <P Name="GenerateCodeInfo">off</P>
+	      <P Name="GenerateWebview">off</P>
+	      <P Name="GenerateCodeMetricsReport">off</P>
+	      <P Name="GenerateCodeReplacementReport">off</P>
+	      <P Name="RTWCompilerOptimization">Off</P>
+	      <P Name="RTWCustomCompilerOptimizations"></P>
+	      <P Name="CheckMdlBeforeBuild">Off</P>
+	      <P Name="CustomRebuildMode">OnUpdate</P>
+	      <P Name="DataInitializer"></P>
+	      <P Name="SharedConstantsCachingThreshold">1024</P>
+	      <Array PropName="Components" Type="Handle" Dimension="1*2">
+		<Object ObjectID="16" Version="1.14.2" ClassName="Simulink.CodeAppCC">
+		  <Array PropName="DisabledProps" Type="Cell" Dimension="1*23">
+		    <Cell Class="char">IgnoreCustomStorageClasses</Cell>
+		    <Cell Class="char">IgnoreTestpoints</Cell>
+		    <Cell Class="char">InsertBlockDesc</Cell>
+		    <Cell Class="char">InsertPolySpaceComments</Cell>
+		    <Cell Class="char">SFDataObjDesc</Cell>
+		    <Cell Class="char">MATLABFcnDesc</Cell>
+		    <Cell Class="char">SimulinkDataObjDesc</Cell>
+		    <Cell Class="char">DefineNamingRule</Cell>
+		    <Cell Class="char">SignalNamingRule</Cell>
+		    <Cell Class="char">ParamNamingRule</Cell>
+		    <Cell Class="char">InternalIdentifier</Cell>
+		    <Cell Class="char">InlinedPrmAccess</Cell>
+		    <Cell Class="char">CustomSymbolStr</Cell>
+		    <Cell Class="char">CustomSymbolStrGlobalVar</Cell>
+		    <Cell Class="char">CustomSymbolStrType</Cell>
+		    <Cell Class="char">CustomSymbolStrField</Cell>
+		    <Cell Class="char">CustomSymbolStrFcn</Cell>
+		    <Cell Class="char">CustomSymbolStrFcnArg</Cell>
+		    <Cell Class="char">CustomSymbolStrBlkIO</Cell>
+		    <Cell Class="char">CustomSymbolStrTmpVar</Cell>
+		    <Cell Class="char">CustomSymbolStrMacro</Cell>
+		    <Cell Class="char">CustomSymbolStrUtil</Cell>
+		    <Cell Class="char">ReqsInCode</Cell>
+		  </Array>
+		  <P Name="ForceParamTrailComments">off</P>
+		  <P Name="GenerateComments">on</P>
+		  <P Name="CommentStyle">Auto</P>
+		  <P Name="IgnoreCustomStorageClasses">on</P>
+		  <P Name="IgnoreTestpoints">off</P>
+		  <P Name="IncHierarchyInIds">off</P>
+		  <P Name="MaxIdLength">31</P>
+		  <P Name="PreserveName">off</P>
+		  <P Name="PreserveNameWithParent">off</P>
+		  <P Name="ShowEliminatedStatement">off</P>
+		  <P Name="OperatorAnnotations">off</P>
+		  <P Name="IncAutoGenComments">off</P>
+		  <P Name="SimulinkDataObjDesc">off</P>
+		  <P Name="SFDataObjDesc">off</P>
+		  <P Name="MATLABFcnDesc">off</P>
+		  <P Name="IncDataTypeInIds">off</P>
+		  <P Name="MangleLength">1</P>
+		  <P Name="CustomSymbolStrGlobalVar">$R$N$M</P>
+		  <P Name="CustomSymbolStrType">$N$R$M_T</P>
+		  <P Name="CustomSymbolStrField">$N$M</P>
+		  <P Name="CustomSymbolStrFcn">$R$N$M$F</P>
+		  <P Name="CustomSymbolStrFcnArg">rt$I$N$M</P>
+		  <P Name="CustomSymbolStrBlkIO">rtb_$N$M</P>
+		  <P Name="CustomSymbolStrTmpVar">$N$M</P>
+		  <P Name="CustomSymbolStrMacro">$R$N$M</P>
+		  <P Name="CustomSymbolStrUtil">$N$C</P>
+		  <P Name="DefineNamingRule">None</P>
+		  <P Name="ParamNamingRule">None</P>
+		  <P Name="SignalNamingRule">None</P>
+		  <P Name="InsertBlockDesc">off</P>
+		  <P Name="InsertPolySpaceComments">off</P>
+		  <P Name="SimulinkBlockComments">on</P>
+		  <P Name="MATLABSourceComments">off</P>
+		  <P Name="EnableCustomComments">off</P>
+		  <P Name="InternalIdentifier">Shortened</P>
+		  <P Name="InlinedPrmAccess">Literals</P>
+		  <P Name="ReqsInCode">off</P>
+		  <P Name="UseSimReservedNames">off</P>
+		</Object>
+		<Object BackupClass="Simulink.TargetCC" ObjectID="17" Version="1.14.2" ClassName="Simulink.GRTTargetCC">
+		  <Array PropName="DisabledProps" Type="Cell" Dimension="1*14">
+		    <Cell Class="char">GeneratePreprocessorConditionals</Cell>
+		    <Cell Class="char">IncludeMdlTerminateFcn</Cell>
+		    <Cell Class="char">CombineOutputUpdateFcns</Cell>
+		    <Cell Class="char">SuppressErrorStatus</Cell>
+		    <Cell Class="char">ERTCustomFileBanners</Cell>
+		    <Cell Class="char">GenerateSampleERTMain</Cell>
+		    <Cell Class="char">GenerateTestInterfaces</Cell>
+		    <Cell Class="char">ModelStepFunctionPrototypeControlCompliant</Cell>
+		    <Cell Class="char">GenerateAllocFcn</Cell>
+		    <Cell Class="char">PurelyIntegerCode</Cell>
+		    <Cell Class="char">SupportComplex</Cell>
+		    <Cell Class="char">SupportAbsoluteTime</Cell>
+		    <Cell Class="char">SupportContinuousTime</Cell>
+		    <Cell Class="char">SupportNonInlinedSFcns</Cell>
+		  </Array>
+		  <P Name="TargetFcnLib">ansi_tfl_table_tmw.mat</P>
+		  <P Name="TargetLibSuffix"></P>
+		  <P Name="TargetPreCompLibLocation"></P>
+		  <P Name="GenFloatMathFcnCalls">NOT IN USE</P>
+		  <P Name="TargetLangStandard">C89/C90 (ANSI)</P>
+		  <P Name="CodeReplacementLibrary">None</P>
+		  <P Name="UtilityFuncGeneration">Auto</P>
+		  <P Name="ERTMultiwordTypeDef">System defined</P>
+		  <P Name="ERTMultiwordLength">256</P>
+		  <P Name="MultiwordLength">2048</P>
+		  <P Name="GenerateFullHeader">on</P>
+		  <P Name="GenerateSampleERTMain">off</P>
+		  <P Name="GenerateTestInterfaces">off</P>
+		  <P Name="ModelReferenceCompliant">on</P>
+		  <P Name="ParMdlRefBuildCompliant">on</P>
+		  <P Name="CompOptLevelCompliant">on</P>
+		  <P Name="ConcurrentExecutionCompliant">on</P>
+		  <P Name="IncludeMdlTerminateFcn">on</P>
+		  <P Name="GeneratePreprocessorConditionals">Disable all</P>
+		  <P Name="CombineOutputUpdateFcns">on</P>
+		  <P Name="CombineSignalStateStructs">off</P>
+		  <P Name="SuppressErrorStatus">off</P>
+		  <P Name="ERTFirstTimeCompliant">off</P>
+		  <P Name="IncludeFileDelimiter">Auto</P>
+		  <P Name="ERTCustomFileBanners">off</P>
+		  <P Name="SupportAbsoluteTime">on</P>
+		  <P Name="LogVarNameModifier">rt_</P>
+		  <P Name="MatFileLogging">on</P>
+		  <P Name="MultiInstanceERTCode">off</P>
+		  <P Name="CodeInterfacePackaging">Nonreusable function</P>
+		  <P Name="SupportNonFinite">on</P>
+		  <P Name="SupportComplex">on</P>
+		  <P Name="PurelyIntegerCode">off</P>
+		  <P Name="SupportContinuousTime">on</P>
+		  <P Name="SupportNonInlinedSFcns">on</P>
+		  <P Name="SupportVariableSizeSignals">off</P>
+		  <P Name="EnableShiftOperators">on</P>
+		  <P Name="ParenthesesLevel">Nominal</P>
+		  <P Name="MATLABClassNameForMDSCustomization">Simulink.SoftwareTarget.GRTCustomization</P>
+		  <P Name="ModelStepFunctionPrototypeControlCompliant">off</P>
+		  <P Name="CPPClassGenCompliant">on</P>
+		  <P Name="AutosarCompliant">off</P>
+		  <P Name="GRTInterface">off</P>
+		  <P Name="GenerateAllocFcn">off</P>
+		  <P Name="UseMalloc">off</P>
+		  <P Name="ExtMode">off</P>
+		  <P Name="ExtModeStaticAlloc">off</P>
+		  <P Name="ExtModeTesting">off</P>
+		  <P Name="ExtModeStaticAllocSize">1000000</P>
+		  <P Name="ExtModeTransport">0</P>
+		  <P Name="ExtModeMexFile">ext_comm</P>
+		  <P Name="ExtModeIntrfLevel">Level1</P>
+		  <P Name="RTWCAPISignals">off</P>
+		  <P Name="RTWCAPIParams">off</P>
+		  <P Name="RTWCAPIStates">off</P>
+		  <P Name="RTWCAPIRootIO">off</P>
+		  <P Name="GenerateASAP2">off</P>
+		  <P Name="MultiInstanceErrorCode">Error</P>
+		</Object>
+	      </Array>
+	    </Object>
+	    <Object ObjectID="18" Version="1.14.2" ClassName="hdlcoderui.hdlcc">
+	      <P Name="Description">HDL Coder custom configuration component</P>
+	      <P Name="Name">HDL Coder</P>
+	      <Array PropName="HDLConfigFile" Type="Cell" Dimension="1*1">
+		<Cell Class="char"> </Cell>
+	      </Array>
+	      <P Name="HDLCActiveTab">0</P>
+	    </Object>
+	  </Array>
+	  <P Name="Name">Configuration</P>
+	  <P Name="CurrentDlgPage">Solver</P>
+	  <P Name="ConfigPrmDlgPosition"> [ 143, 64, 1223, 704 ] </P>
+	</Object>
+      </Array>
+      <Object Reference="true" PropName="ActiveConfigurationSet" ObjectID="7" ClassName="Simulink.ConfigSet">
+      </Object>
+    </ConfigurationSet>
+    <ConcurrentExecutionSettings>
+      <Object PropName="DataTransfer" ObjectID="19" ClassName="Simulink.GlobalDataTransfer">
+	<P Name="DefaultTransitionBetweenSyncTasks" Class="char">Ensure deterministic transfer (maximum delay)</P>
+	<P Name="DefaultTransitionBetweenAsyncTasks" Class="char">Ensure data integrity only</P>
+	<P Name="DefaultTransitionBetweenContTasks" Class="char">Ensure deterministic transfer (minimum delay)</P>
+	<P Name="DefaultExtrapolationMethodBetweenContTasks" Class="char">None</P>
+	<P Name="AutoInsertRateTranBlk" Class="logical">0</P>
+      </Object>
+      <P Name="ExplicitPartitioning">off</P>
+    </ConcurrentExecutionSettings>
+    <SystemDefaults>
+      <P Name="PaperOrientation">landscape</P>
+      <P Name="PaperPositionMode">auto</P>
+      <P Name="PaperType">usletter</P>
+      <P Name="PaperUnits">inches</P>
+      <P Name="TiledPaperMargins">[0.500000, 0.500000, 0.500000, 0.500000]</P>
+      <P Name="TiledPageScale">1</P>
+      <P Name="ShowPageBoundaries">off</P>
+      <P Name="ModelBrowserVisibility">off</P>
+      <P Name="ModelBrowserWidth">200</P>
+      <P Name="ScreenColor">white</P>
+    </SystemDefaults>
+    <BlockDefaults>
+      <P Name="ForegroundColor">black</P>
+      <P Name="BackgroundColor">white</P>
+      <P Name="DropShadow">off</P>
+      <P Name="NamePlacement">normal</P>
+      <P Name="FontName">Helvetica</P>
+      <P Name="FontSize">10</P>
+      <P Name="FontWeight">normal</P>
+      <P Name="FontAngle">normal</P>
+      <P Name="ShowName">on</P>
+      <P Name="BlockRotation">0</P>
+      <P Name="BlockMirror">off</P>
+    </BlockDefaults>
+    <AnnotationDefaults>
+      <P Name="HorizontalAlignment">center</P>
+      <P Name="VerticalAlignment">middle</P>
+      <P Name="ForegroundColor">black</P>
+      <P Name="BackgroundColor">white</P>
+      <P Name="DropShadow">off</P>
+      <P Name="FontName">Helvetica</P>
+      <P Name="FontSize">10</P>
+      <P Name="FontWeight">normal</P>
+      <P Name="FontAngle">normal</P>
+      <P Name="UseDisplayTextAsClickCallback">off</P>
+    </AnnotationDefaults>
+    <LineDefaults>
+      <P Name="FontName">Helvetica</P>
+      <P Name="FontSize">9</P>
+      <P Name="FontWeight">normal</P>
+      <P Name="FontAngle">normal</P>
+    </LineDefaults>
+    <MaskDefaults>
+      <P Name="SelfModifiable">off</P>
+      <P Name="IconFrame">on</P>
+      <P Name="IconOpaque">on</P>
+      <P Name="RunInitForIconRedraw">off</P>
+      <P Name="IconRotate">none</P>
+      <P Name="PortRotate">default</P>
+      <P Name="IconUnits">autoscale</P>
+    </MaskDefaults>
+    <MaskParameterDefaults>
+      <P Name="Evaluate">on</P>
+      <P Name="Tunable">on</P>
+      <P Name="NeverSave">off</P>
+      <P Name="Internal">off</P>
+      <P Name="ReadOnly">off</P>
+      <P Name="Enabled">on</P>
+      <P Name="Visible">on</P>
+      <P Name="ToolTip">on</P>
+    </MaskParameterDefaults>
+    <BlockParameterDefaults>
+      <Block BlockType="Gain">
+	<P Name="Gain">1</P>
+	<P Name="Multiplication">Element-wise(K.*u)</P>
+	<P Name="ParamMin">[]</P>
+	<P Name="ParamMax">[]</P>
+	<P Name="ParamDataTypeStr">Inherit: Same as input</P>
+	<P Name="OutMin">[]</P>
+	<P Name="OutMax">[]</P>
+	<P Name="OutDataTypeStr">Inherit: Same as input</P>
+	<P Name="LockScale">off</P>
+	<P Name="RndMeth">Floor</P>
+	<P Name="SaturateOnIntegerOverflow">on</P>
+	<P Name="SampleTime">-1</P>
+      </Block>
+      <Block BlockType="Mux">
+	<P Name="Inputs">4</P>
+	<P Name="DisplayOption">none</P>
+	<P Name="UseBusObject">off</P>
+	<P Name="BusObject">BusObject</P>
+	<P Name="NonVirtualBus">off</P>
+      </Block>
+      <Block BlockType="Scope">
+	<P Name="ModelBased">off</P>
+	<P Name="TickLabels">OneTimeTick</P>
+	<P Name="ZoomMode">on</P>
+	<P Name="Grid">on</P>
+	<P Name="TimeRange">auto</P>
+	<P Name="YMin">-5</P>
+	<P Name="YMax">5</P>
+	<P Name="SaveToWorkspace">off</P>
+	<P Name="SaveName">ScopeData</P>
+	<P Name="DataFormat">Array</P>
+	<P Name="LimitDataPoints">on</P>
+	<P Name="MaxDataPoints">5000</P>
+	<P Name="Decimation">1</P>
+	<P Name="SampleInput">off</P>
+	<P Name="SampleTime">-1</P>
+      </Block>
+      <Block BlockType="Step">
+	<P Name="Time">1</P>
+	<P Name="Before">0</P>
+	<P Name="After">1</P>
+	<P Name="SampleTime">-1</P>
+	<P Name="VectorParams1D">on</P>
+	<P Name="ZeroCross">on</P>
+      </Block>
+      <Block BlockType="Sum">
+	<P Name="IconShape">rectangular</P>
+	<P Name="Inputs">++</P>
+	<P Name="CollapseMode">All dimensions</P>
+	<P Name="CollapseDim">1</P>
+	<P Name="InputSameDT">on</P>
+	<P Name="AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+	<P Name="OutMin">[]</P>
+	<P Name="OutMax">[]</P>
+	<P Name="OutDataTypeStr">Inherit: Same as first input</P>
+	<P Name="LockScale">off</P>
+	<P Name="RndMeth">Floor</P>
+	<P Name="SaturateOnIntegerOverflow">on</P>
+	<P Name="SampleTime">-1</P>
+      </Block>
+      <Block BlockType="TransferFcn">
+	<P Name="Numerator">[1]</P>
+	<P Name="Denominator">[1 2 1]</P>
+	<P Name="AbsoluteTolerance">auto</P>
+	<P Name="ContinuousStateAttributes">&apos;&apos;</P>
+	<P Name="Realization">auto</P>
+      </Block>
+    </BlockParameterDefaults>
+    <System>
+      <P Name="Location">[684, 31, 1365, 727]</P>
+      <P Name="Open">on</P>
+      <P Name="ModelBrowserWidth">200</P>
+      <P Name="TiledPaperMargins">[0.500000, 0.500000, 0.500000, 0.500000]</P>
+      <P Name="TiledPageScale">1</P>
+      <P Name="ZoomFactor">100</P>
+      <P Name="ReportName">simulink-default.rpt</P>
+      <P Name="SIDHighWatermark">18</P>
+      <Block BlockType="Gain" Name="Gain" SID="4">
+	<P Name="Position">[195, 60, 255, 100]</P>
+	<P Name="ZOrder">4</P>
+	<P Name="Gain">1/R1</P>
+	<P Name="ParamDataTypeStr">Inherit: Inherit via internal rule</P>
+	<P Name="OutDataTypeStr">Inherit: Inherit via internal rule</P>
+	<P Name="SaturateOnIntegerOverflow">off</P>
+      </Block>
+      <Block BlockType="Gain" Name="Gain1" SID="13">
+	<P Name="Position">[550, 220, 580, 250]</P>
+	<P Name="ZOrder">13</P>
+	<P Name="BlockMirror">on</P>
+	<P Name="NamePlacement">alternate</P>
+	<P Name="Gain">R2</P>
+	<P Name="ParamDataTypeStr">Inherit: Inherit via internal rule</P>
+	<P Name="OutDataTypeStr">Inherit: Inherit via internal rule</P>
+	<P Name="SaturateOnIntegerOverflow">off</P>
+      </Block>
+      <Block BlockType="Mux" Name="Mux" SID="18">
+	<P Name="Ports">[2, 1]</P>
+	<P Name="Position">[970, 256, 975, 294]</P>
+	<P Name="ZOrder">18</P>
+	<P Name="ShowName">off</P>
+	<P Name="Inputs">2</P>
+	<P Name="DisplayOption">bar</P>
+      </Block>
+      <Block BlockType="Scope" Name="Scope" SID="12">
+	<P Name="Ports">[1]</P>
+	<P Name="Position">[1010, 259, 1040, 291]</P>
+	<P Name="ZOrder">12</P>
+	<P Name="Floating">off</P>
+	<P Name="Location">[2, 57, 683, 726]</P>
+	<P Name="Open">off</P>
+	<P Name="NumInputPorts">1</P>
+	<List ListType="AxesTitles">
+	  <P Name="axes1">%&lt;SignalLabel&gt;</P>
+	</List>
+	<List ListType="ScopeGraphics">
+	  <P Name="FigureColor">[0.5 0.5 0.5]</P>
+	  <P Name="AxesColor">[0 0 0]</P>
+	  <P Name="AxesTickColor">[1 1 1]</P>
+	  <P Name="LineColors">[1 1 0;1 0 1;0 1 1;1 0 0;0 1 0;0 0 1]</P>
+	  <P Name="LineStyles">-|-|-|-|-|-</P>
+	  <P Name="LineWidths">[0.5 0.5 0.5 0.5 0.5 0.5]</P>
+	  <P Name="MarkerStyles">none|none|none|none|none|none</P>
+	</List>
+	<P Name="ShowLegends">off</P>
+      </Block>
+      <Block BlockType="Step" Name="Step" SID="1">
+	<P Name="Position">[35, 65, 65, 95]</P>
+	<P Name="ZOrder">1</P>
+	<P Name="Time">0</P>
+	<P Name="SampleTime">0</P>
+      </Block>
+      <Block BlockType="Sum" Name="Subtract" SID="9">
+	<P Name="Ports">[3, 1]</P>
+	<P Name="Position">[505, 69, 530, 141]</P>
+	<P Name="ZOrder">9</P>
+	<P Name="Inputs">+--</P>
+	<P Name="InputSameDT">off</P>
+	<P Name="OutDataTypeStr">Inherit: Inherit via internal rule</P>
+	<P Name="SaturateOnIntegerOverflow">off</P>
+      </Block>
+      <Block BlockType="Sum" Name="Sum" SID="2">
+	<P Name="Ports">[2, 1]</P>
+	<P Name="Position">[125, 70, 145, 90]</P>
+	<P Name="ZOrder">2</P>
+	<P Name="ShowName">off</P>
+	<P Name="IconShape">round</P>
+	<P Name="Inputs">|+-</P>
+	<P Name="InputSameDT">off</P>
+	<P Name="OutDataTypeStr">Inherit: Inherit via internal rule</P>
+	<P Name="SaturateOnIntegerOverflow">off</P>
+      </Block>
+      <Block BlockType="Sum" Name="Sum1" SID="5">
+	<P Name="Ports">[2, 1]</P>
+	<P Name="Position">[305, 70, 325, 90]</P>
+	<P Name="ZOrder">5</P>
+	<P Name="ShowName">off</P>
+	<P Name="IconShape">round</P>
+	<P Name="Inputs">|+-</P>
+	<P Name="InputSameDT">off</P>
+	<P Name="OutDataTypeStr">Inherit: Inherit via internal rule</P>
+	<P Name="SaturateOnIntegerOverflow">off</P>
+      </Block>
+      <Block BlockType="TransferFcn" Name="Transfer Fcn" SID="7">
+	<P Name="Position">[365, 62, 425, 98]</P>
+	<P Name="ZOrder">7</P>
+	<P Name="Denominator">[C1 0]</P>
+      </Block>
+      <Block BlockType="TransferFcn" Name="Transfer Fcn1" SID="10">
+	<P Name="Position">[630, 87, 690, 123]</P>
+	<P Name="ZOrder">10</P>
+	<P Name="Denominator">[L 0]</P>
+      </Block>
+      <Block BlockType="TransferFcn" Name="Transfer Fcn2" SID="11">
+	<P Name="Position">[760, 92, 820, 128]</P>
+	<P Name="ZOrder">11</P>
+	<P Name="Denominator">[C2 0]</P>
+      </Block>
+      <Block BlockType="TransferFcn" Name="Transfer Fcn3" SID="16">
+	<P Name="Position">[440, 331, 645, 419]</P>
+	<P Name="ZOrder">15</P>
+	<P Name="Numerator">[505.964]</P>
+	<P Name="Denominator">[1 130.491 669.96 505.964]</P>
+      </Block>
+      <Line>
+	<P Name="ZOrder">3</P>
+	<P Name="Src">1#out:1</P>
+	<P Name="Points">[14, 0]</P>
+	<Branch>
+	  <P Name="ZOrder">33</P>
+	  <P Name="Points">[0, 295]</P>
+	  <P Name="Dst">16#in:1</P>
+	</Branch>
+	<Branch>
+	  <P Name="ZOrder">32</P>
+	  <P Name="Dst">2#in:1</P>
+	</Branch>
+      </Line>
+      <Line>
+	<P Name="ZOrder">5</P>
+	<P Name="Src">2#out:1</P>
+	<P Name="Dst">4#in:1</P>
+      </Line>
+      <Line>
+	<P Name="ZOrder">6</P>
+	<P Name="Src">4#out:1</P>
+	<P Name="Dst">5#in:1</P>
+      </Line>
+      <Line>
+	<P Name="ZOrder">8</P>
+	<P Name="Src">5#out:1</P>
+	<P Name="Dst">7#in:1</P>
+      </Line>
+      <Line>
+	<P Name="ZOrder">10</P>
+	<P Name="Src">9#out:1</P>
+	<P Name="Dst">10#in:1</P>
+      </Line>
+      <Line>
+	<P Name="ZOrder">14</P>
+	<P Name="Src">13#out:1</P>
+	<P Name="Points">[0, 2; -94, 0; 0, -132]</P>
+	<P Name="Dst">9#in:2</P>
+      </Line>
+      <Line>
+	<P Name="ZOrder">12</P>
+	<P Name="Src">11#out:1</P>
+	<P Name="Points">[15, 0; 0, 86]</P>
+	<Branch>
+	  <P Name="ZOrder">38</P>
+	  <P Name="Points">[0, 69]</P>
+	  <P Name="Dst">18#in:1</P>
+	</Branch>
+	<Branch>
+	  <P Name="ZOrder">37</P>
+	  <P Name="Points">[-352, 0; 0, -66]</P>
+	  <P Name="Dst">9#in:3</P>
+	</Branch>
+      </Line>
+      <Line>
+	<P Name="ZOrder">11</P>
+	<P Name="Src">10#out:1</P>
+	<P Name="Points">[17, 0]</P>
+	<Branch>
+	  <P Name="ZOrder">17</P>
+	  <P Name="Points">[0, 130]</P>
+	  <Branch>
+	    <P Name="ZOrder">25</P>
+	    <P Name="Points">[0, 29; -275, 0; 0, -61; -122, 0]</P>
+	    <P Name="Dst">5#in:2</P>
+	  </Branch>
+	  <Branch>
+	    <P Name="ZOrder">24</P>
+	    <P Name="Dst">13#in:1</P>
+	  </Branch>
+	</Branch>
+	<Branch>
+	  <P Name="ZOrder">16</P>
+	  <P Name="Points">[13, 0; 0, 5]</P>
+	  <P Name="Dst">11#in:1</P>
+	</Branch>
+      </Line>
+      <Line>
+	<P Name="ZOrder">9</P>
+	<P Name="Src">7#out:1</P>
+	<P Name="Points">[5, 0]</P>
+	<Branch>
+	  <P Name="ZOrder">29</P>
+	  <P Name="Points">[0, 71; -300, 0]</P>
+	  <P Name="Dst">2#in:2</P>
+	</Branch>
+	<Branch>
+	  <P Name="ZOrder">28</P>
+	  <P Name="Dst">9#in:1</P>
+	</Branch>
+      </Line>
+      <Line>
+	<P Name="ZOrder">31</P>
+	<P Name="Src">16#out:1</P>
+	<P Name="Points">[52, 0]</P>
+	<Branch>
+	  <P Name="ZOrder">41</P>
+	  <P Name="Points">[0, -90]</P>
+	  <P Name="Dst">18#in:2</P>
+	</Branch>
+	<Branch>
+	  <P Name="ZOrder">40</P>
+	  <P Name="Points">[8, 0]</P>
+	</Branch>
+      </Line>
+      <Line>
+	<P Name="ZOrder">36</P>
+	<P Name="Src">18#out:1</P>
+	<P Name="Dst">12#in:1</P>
+      </Line>
+    </System>
+  </Model>
+</ModelInformation>

@@ -1,0 +1,211 @@
+# depslib dependency file v1.0
+1400223434 source:/home/matheus/IA 2/Fuzzy.cpp
+	"Fuzzy.h"
+
+1400223434 /home/matheus/IA 2/Fuzzy.h
+	<inttypes.h>
+	"FuzzyInput.h"
+	"FuzzyOutput.h"
+	"FuzzyRule.h"
+
+1400223434 /home/matheus/IA 2/FuzzyInput.h
+	"FuzzyIO.h"
+
+1400223434 /home/matheus/IA 2/FuzzyIO.h
+	<stdlib.h>
+	"FuzzySet.h"
+
+1400223434 /home/matheus/IA 2/FuzzySet.h
+
+1400223434 /home/matheus/IA 2/FuzzyOutput.h
+	"FuzzyIO.h"
+	"FuzzyComposition.h"
+
+1400223434 /home/matheus/IA 2/FuzzyComposition.h
+	<stdlib.h>
+
+1400223434 /home/matheus/IA 2/FuzzyRule.h
+	"FuzzyRuleAntecedent.h"
+	"FuzzyRuleConsequent.h"
+
+1400223434 /home/matheus/IA 2/FuzzyRuleAntecedent.h
+	<stdlib.h>
+	"FuzzySet.h"
+
+1400223434 /home/matheus/IA 2/FuzzyRuleConsequent.h
+	<stdlib.h>
+	"FuzzySet.h"
+
+1400223434 source:/home/matheus/IA 2/FuzzyComposition.cpp
+	"FuzzyComposition.h"
+	<math.h>
+
+1400223434 source:/home/matheus/IA 2/FuzzyInput.cpp
+	"FuzzyInput.h"
+
+1400223434 source:/home/matheus/IA 2/FuzzyIO.cpp
+	"FuzzyIO.h"
+
+1400223434 source:/home/matheus/IA 2/FuzzyOutput.cpp
+	"FuzzyOutput.h"
+
+1400223434 source:/home/matheus/IA 2/FuzzyRule.cpp
+	"FuzzyRule.h"
+
+1472142316 source:/home/matheus/IA 2/FuzzyRuleAntecedent.cpp
+	"FuzzyRuleAntecedent.h"
+
+1400223434 source:/home/matheus/IA 2/FuzzyRuleConsequent.cpp
+	"FuzzyRuleConsequent.h"
+
+1400223434 source:/home/matheus/IA 2/FuzzySet.cpp
+	"FuzzySet.h"
+
+1472156065 source:/home/matheus/IA 2/general_simple_sample.cpp
+	<iostream>
+	"FuzzyRule.h"
+	"FuzzyComposition.h"
+	"Fuzzy.h"
+	"FuzzyRuleConsequent.h"
+	"FuzzyOutput.h"
+	"FuzzyInput.h"
+	"FuzzyIO.h"
+	"FuzzySet.h"
+	"FuzzyRuleAntecedent.h"
+
+1400223434 source:/home/matheus/Files/College/Inteligencia Artificial II/Trabalho logica Fuzzy/usina/Fuzzy.cpp
+	"Fuzzy.h"
+
+1400223434 /home/matheus/Files/College/Inteligencia Artificial II/Trabalho logica Fuzzy/usina/Fuzzy.h
+	<inttypes.h>
+	"FuzzyInput.h"
+	"FuzzyOutput.h"
+	"FuzzyRule.h"
+
+1400223434 /home/matheus/Files/College/Inteligencia Artificial II/Trabalho logica Fuzzy/usina/FuzzyInput.h
+	"FuzzyIO.h"
+
+1400223434 /home/matheus/Files/College/Inteligencia Artificial II/Trabalho logica Fuzzy/usina/FuzzyIO.h
+	<stdlib.h>
+	"FuzzySet.h"
+
+1400223434 /home/matheus/Files/College/Inteligencia Artificial II/Trabalho logica Fuzzy/usina/FuzzySet.h
+
+1400223434 /home/matheus/Files/College/Inteligencia Artificial II/Trabalho logica Fuzzy/usina/FuzzyOutput.h
+	"FuzzyIO.h"
+	"FuzzyComposition.h"
+
+1400223434 /home/matheus/Files/College/Inteligencia Artificial II/Trabalho logica Fuzzy/usina/FuzzyComposition.h
+	<stdlib.h>
+
+1400223434 /home/matheus/Files/College/Inteligencia Artificial II/Trabalho logica Fuzzy/usina/FuzzyRule.h
+	"FuzzyRuleAntecedent.h"
+	"FuzzyRuleConsequent.h"
+
+1400223434 /home/matheus/Files/College/Inteligencia Artificial II/Trabalho logica Fuzzy/usina/FuzzyRuleAntecedent.h
+	<stdlib.h>
+	"FuzzySet.h"
+
+1400223434 /home/matheus/Files/College/Inteligencia Artificial II/Trabalho logica Fuzzy/usina/FuzzyRuleConsequent.h
+	<stdlib.h>
+	"FuzzySet.h"
+
+1400223434 source:/home/matheus/Files/College/Inteligencia Artificial II/Trabalho logica Fuzzy/usina/FuzzyComposition.cpp
+	"FuzzyComposition.h"
+	<math.h>
+
+1400223434 source:/home/matheus/Files/College/Inteligencia Artificial II/Trabalho logica Fuzzy/usina/FuzzyInput.cpp
+	"FuzzyInput.h"
+
+1400223434 source:/home/matheus/Files/College/Inteligencia Artificial II/Trabalho logica Fuzzy/usina/FuzzyIO.cpp
+	"FuzzyIO.h"
+
+1400223434 source:/home/matheus/Files/College/Inteligencia Artificial II/Trabalho logica Fuzzy/usina/FuzzyOutput.cpp
+	"FuzzyOutput.h"
+
+1400223434 source:/home/matheus/Files/College/Inteligencia Artificial II/Trabalho logica Fuzzy/usina/FuzzyRule.cpp
+	"FuzzyRule.h"
+
+1472142316 source:/home/matheus/Files/College/Inteligencia Artificial II/Trabalho logica Fuzzy/usina/FuzzyRuleAntecedent.cpp
+	"FuzzyRuleAntecedent.h"
+
+1400223434 source:/home/matheus/Files/College/Inteligencia Artificial II/Trabalho logica Fuzzy/usina/FuzzyRuleConsequent.cpp
+	"FuzzyRuleConsequent.h"
+
+1400223434 source:/home/matheus/Files/College/Inteligencia Artificial II/Trabalho logica Fuzzy/usina/FuzzySet.cpp
+	"FuzzySet.h"
+
+1400223434 source:/home/francisco/Files/College UFSC/5th semestre/Inteligencia Artificial II/Trabalho Fuzzy /Drone/Fuzzy.cpp
+	"Fuzzy.h"
+
+1400223434 /home/francisco/Files/College UFSC/5th semestre/Inteligencia Artificial II/Trabalho Fuzzy /Drone/Fuzzy.h
+	<inttypes.h>
+	"FuzzyInput.h"
+	"FuzzyOutput.h"
+	"FuzzyRule.h"
+
+1400223434 /home/francisco/Files/College UFSC/5th semestre/Inteligencia Artificial II/Trabalho Fuzzy /Drone/FuzzyInput.h
+	"FuzzyIO.h"
+
+1400223434 /home/francisco/Files/College UFSC/5th semestre/Inteligencia Artificial II/Trabalho Fuzzy /Drone/FuzzyIO.h
+	<stdlib.h>
+	"FuzzySet.h"
+
+1400223434 /home/francisco/Files/College UFSC/5th semestre/Inteligencia Artificial II/Trabalho Fuzzy /Drone/FuzzySet.h
+
+1400223434 /home/francisco/Files/College UFSC/5th semestre/Inteligencia Artificial II/Trabalho Fuzzy /Drone/FuzzyOutput.h
+	"FuzzyIO.h"
+	"FuzzyComposition.h"
+
+1400223434 /home/francisco/Files/College UFSC/5th semestre/Inteligencia Artificial II/Trabalho Fuzzy /Drone/FuzzyComposition.h
+	<stdlib.h>
+
+1400223434 /home/francisco/Files/College UFSC/5th semestre/Inteligencia Artificial II/Trabalho Fuzzy /Drone/FuzzyRule.h
+	"FuzzyRuleAntecedent.h"
+	"FuzzyRuleConsequent.h"
+
+1400223434 /home/francisco/Files/College UFSC/5th semestre/Inteligencia Artificial II/Trabalho Fuzzy /Drone/FuzzyRuleAntecedent.h
+	<stdlib.h>
+	"FuzzySet.h"
+
+1400223434 /home/francisco/Files/College UFSC/5th semestre/Inteligencia Artificial II/Trabalho Fuzzy /Drone/FuzzyRuleConsequent.h
+	<stdlib.h>
+	"FuzzySet.h"
+
+1400223434 source:/home/francisco/Files/College UFSC/5th semestre/Inteligencia Artificial II/Trabalho Fuzzy /Drone/FuzzyComposition.cpp
+	"FuzzyComposition.h"
+	<math.h>
+
+1400223434 source:/home/francisco/Files/College UFSC/5th semestre/Inteligencia Artificial II/Trabalho Fuzzy /Drone/FuzzyInput.cpp
+	"FuzzyInput.h"
+
+1400223434 source:/home/francisco/Files/College UFSC/5th semestre/Inteligencia Artificial II/Trabalho Fuzzy /Drone/FuzzyIO.cpp
+	"FuzzyIO.h"
+
+1400223434 source:/home/francisco/Files/College UFSC/5th semestre/Inteligencia Artificial II/Trabalho Fuzzy /Drone/FuzzyOutput.cpp
+	"FuzzyOutput.h"
+
+1400223434 source:/home/francisco/Files/College UFSC/5th semestre/Inteligencia Artificial II/Trabalho Fuzzy /Drone/FuzzyRule.cpp
+	"FuzzyRule.h"
+
+1472142316 source:/home/francisco/Files/College UFSC/5th semestre/Inteligencia Artificial II/Trabalho Fuzzy /Drone/FuzzyRuleAntecedent.cpp
+	"FuzzyRuleAntecedent.h"
+
+1400223434 source:/home/francisco/Files/College UFSC/5th semestre/Inteligencia Artificial II/Trabalho Fuzzy /Drone/FuzzyRuleConsequent.cpp
+	"FuzzyRuleConsequent.h"
+
+1400223434 source:/home/francisco/Files/College UFSC/5th semestre/Inteligencia Artificial II/Trabalho Fuzzy /Drone/FuzzySet.cpp
+	"FuzzySet.h"
+
+1477440413 source:/home/francisco/Files/College UFSC/5th semestre/Inteligencia Artificial II/Trabalho Fuzzy /Drone/general_simple_sample.cpp
+	<iostream>
+	"FuzzyRule.h"
+	"FuzzyComposition.h"
+	"Fuzzy.h"
+	"FuzzyRuleConsequent.h"
+	"FuzzyOutput.h"
+	"FuzzyInput.h"
+	"FuzzyIO.h"
+	"FuzzySet.h"
+	"FuzzyRuleAntecedent.h"
+

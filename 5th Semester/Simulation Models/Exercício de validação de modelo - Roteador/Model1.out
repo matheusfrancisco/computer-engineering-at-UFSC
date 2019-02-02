@@ -1,0 +1,109 @@
+
+                                      ARENA Simulation Results
+                                           Morgana Sartor
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 7/ 5/2016
+Analyst: Morgana Sartor                                              Model revision date: 7/ 5/2016
+
+Replication ended at time      : 1440.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Prepara Refri.WaitTimePerEntity             .00000     (Insuf)    .00000     .00000        203    
+Pagamento.VATimePerEntity                   .39691     .00547     .21489     .58659        664    
+Prepara Refri.TotalTimePerEntity            .54670     (Insuf)    .31662     .79681        203    
+Prepara Batata.VATimePerEntity              .95188     (Insuf)    .80105     1.0979         97    
+Ordem.WaitTimePerEntity                     41.081     (Corr)     .00000     47.858        665    
+Ordem.TotalTimePerEntity                    41.885     (Corr)     .67527     48.887        665    
+Prepara Batata.WaitTimePerEntity            .00000     (Insuf)    .00000     .00000         97    
+Prepara 3.WaitTimePerEntity                 .00000     .00000     .00000     .00000        364    
+Pagamento.TotalTimePerEntity                .39691     .00547     .21489     .58659        664    
+Prepara 3.TotalTimePerEntity                1.2039     (Corr)     1.0003     1.3998        364    
+Prepara Refri.VATimePerEntity               .54670     (Insuf)    .31662     .79681        203    
+Prepara 3.VATimePerEntity                   1.2039     (Corr)     1.0003     1.3998        364    
+Ordem.VATimePerEntity                       .80350     .01318     .42846     1.1701        665    
+Prepara Batata.TotalTimePerEntity           .95188     (Insuf)    .80105     1.0979         97    
+Entidades.VATime                            .99011     .07551     .00000     3.0735       1453    
+Entidades.NVATime                           .00000     .00000     .00000     .00000       1453    
+Entidades.WaitTime                          18.773     1.2378     .00000     47.858       1453    
+Entidades.TranTime                          .00000     .00000     .00000     .00000       1453    
+Entidades.OtherTime                         .00000     .00000     .00000     .00000       1453    
+Entidades.TotalTime                         19.763     1.2899     .00000     49.861       1453    
+Prepara Batata.Queue.WaitingTime            .00000     (Insuf)    .00000     .00000         97    
+Prepara 3.Queue.WaitingTime                 .00000     .00000     .00000     .00000        364    
+Prepara Refri.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000        204    
+Ordem.Queue.WaitingTime                     41.081     (Corr)     .00000     47.858        665    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entidades.WIP                               20.249     (Corr)     .00000     22.000     21.000    
+Caixa1.NumberBusy                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Caixa1.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Caixa1.Utilization                          1.0000     (Insuf)    .00000     1.0000     1.0000    
+Caixa2.NumberBusy                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Caixa2.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Caixa2.Utilization                          1.0000     (Insuf)    .00000     1.0000     1.0000    
+Coz.NumberBusy                              .44592     .00710     .00000     1.0000     1.0000    
+Coz.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Coz.Utilization                             .44592     .00710     .00000     1.0000     1.0000    
+Prepara Batata.Queue.NumberInQueue          .00000     (Insuf)    .00000     .00000     .00000    
+Prepara 3.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+Prepara Refri.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Ordem.Queue.NumberInQueue                   19.249     (Corr)     .00000     20.000     20.000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Batata                                           97  Infinite
+Refri                                           203  Infinite
+Clientes nao atendidos                          789  Infinite
+BurgBatataRefri                                 364  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Prepara Refri Number Out                    203.00    
+Ordem Number Out                            665.00    
+Ordem Accum VA Time                         534.32    
+Prepara Batata Accum VA Time                92.332    
+Ordem Number In                             685.00    
+Pagamento Number In                         664.00    
+Pagamento Accum VA Time                     263.54    
+Ordem Accum Wait Time                       27319.    
+Prepara Batata Number Out                   97.000    
+Prepara Refri Number In                     204.00    
+Prepara 3 Number In                         364.00    
+Pagamento Number Out                        664.00    
+Prepara 3 Accum Wait Time                   .00000    
+Prepara 3 Accum VA Time                     438.23    
+Prepara Refri Accum Wait Time               .00000    
+Prepara Refri Accum VA Time                 110.98    
+Prepara Batata Number In                    97.000    
+Prepara 3 Number Out                        364.00    
+Prepara Batata Accum Wait Time              .00000    
+Entidades.NumberIn                          1474.0    
+Entidades.NumberOut                         1453.0    
+Caixa1.NumberSeized                         665.00    
+Caixa1.ScheduledUtilization                 1.0000    
+Caixa2.NumberSeized                         665.00    
+Caixa2.ScheduledUtilization                 1.0000    
+Coz.NumberSeized                            665.00    
+Coz.ScheduledUtilization                    .44592    
+System.NumberOut                            1453.0    
+
+
+Simulation run time: 1.18 minutes.
+Simulation run complete.

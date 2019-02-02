@@ -1,0 +1,25 @@
+
+                                      ARENA Simulation Results
+                                           Morgana Sartor
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 6/12/2016
+Analyst: pf                                                          Model revision date: 6/12/2016
+
+Replication ended at time      : 5000.0 Seconds 
+Base Time Units: Seconds
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+descartes                                     49179  Infinite
+Conta 1                                         808  Infinite
+Conta 2                                         503  Infinite
+Conta 3                                         373  Infinite
+
+
+Simulation run time: 0.00 minutes.
+Simulation run complete.

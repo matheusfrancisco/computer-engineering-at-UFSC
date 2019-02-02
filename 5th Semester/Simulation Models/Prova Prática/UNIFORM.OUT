@@ -1,0 +1,47 @@
+
+	Distribution Summary
+
+Distribution:	Uniform      
+Expression:	UNIF(0, 30)
+Square Error:	0.005337
+
+Chi Square Test
+  Number of intervals	= 11
+  Degrees of freedom 	= 10
+  Test Statistic     	= 7.4
+  Corresponding p-value	= 0.687
+
+Kolmogorov-Smirnov Test
+  Test Statistic	= 0.0394
+  Corresponding p-value	> 0.15
+
+	Data Summary
+
+Number of Data Points	= 126
+Min Data Value       	= 0.02
+Max Data Value       	= 29.9
+Sample Mean          	= 14.8
+Sample Std Dev       	= 8.63
+
+	Histogram Summary
+
+Histogram Range    	= 0 to 30
+Number of Intervals	= 11
+
+
+==================================================================
+Int.   No. of               Probability           Cumulative      
+No.    Data Pts.   x        Density               Distribution    
+------------------------------------------------------------------
+                            Data   Function       Data   Function   
+   0    12       2.73     0.0952     0.0909     0.0952     0.0909
+   1    12       5.45     0.0952     0.0909      0.190      0.182
+   2     9       8.18     0.0714     0.0909      0.262      0.273
+   3    14       10.9      0.111     0.0909      0.373      0.364
+   4     8       13.6     0.0635     0.0909      0.437      0.455
+   5    18       16.4      0.143     0.0909      0.579      0.545
+   6     8       19.1     0.0635     0.0909      0.643      0.636
+   7    13       21.8      0.103     0.0909      0.746      0.727
+   8    11       24.5     0.0873     0.0909      0.833      0.818
+   9    11       27.3     0.0873     0.0909      0.921      0.909
+  10    10       30.0     0.0794     0.0909       1.00       1.00

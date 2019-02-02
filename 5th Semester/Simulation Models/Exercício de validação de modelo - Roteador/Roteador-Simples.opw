@@ -1,0 +1,14 @@
+[RESOURCES]
+Processador
+[VARIABLES]
+Fonte B.NumberOut
+Roteador.NumberOut
+Fonte A.NumberOut
+Testa Buffer.NumberOut True
+Dispose 1.NumberOut
+Roteador.NumberIn
+Roteador.VATime
+Roteador.WaitTime
+Fonte C.NumberOut
+Testa Buffer.NumberOut False
+Capacidade do Buffer

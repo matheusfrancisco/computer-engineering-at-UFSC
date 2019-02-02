@@ -1,0 +1,29 @@
+[RESOURCES]
+Caixa1
+Caixa2
+Coz
+[VARIABLES]
+Prepara Refri.NumberOut
+Saida.NumberOut
+Ordem.NumberOut
+Ordem.VATime
+Prepara Batata.VATime
+Ordem.NumberIn
+Pagamento.NumberIn
+Pagamento.VATime
+Ordem.WaitTime
+Prepara Batata.NumberOut
+Prepara Refri.NumberIn
+Tamanho da Fila.NumberOut True
+Prepara 3.NumberIn
+Chegada.NumberOut
+Pagamento.NumberOut
+Prepara 3.WaitTime
+Prepara 3.VATime
+Prepara Refri.WaitTime
+Prepara Refri.VATime
+Fila
+Tamanho da Fila.NumberOut False
+Prepara Batata.NumberIn
+Prepara 3.NumberOut
+Prepara Batata.WaitTime

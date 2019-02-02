@@ -1,0 +1,107 @@
+
+                                      ARENA Simulation Results
+                                           Morgana Sartor
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 7/ 5/2016
+Analyst: Morgana Sartor                                              Model revision date: 7/ 5/2016
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Corte.WaitTimePerEntity                     .75257     (Insuf)    .00000     6.4763         31    
+Corte.VATimePerEntity                       6.1909     (Insuf)    5.2117     7.4005         31    
+Corte.TotalTimePerEntity                    6.9435     (Insuf)    5.2117     13.131         31    
+Inspecao.VATimePerEntity                    2.0000     (Insuf)    2.0000     2.0000         43    
+Inspecao.WaitTimePerEntity                  .00000     (Insuf)    .00000     .00000         43    
+Inspecao.TotalTimePerEntity                 2.0000     (Insuf)    2.0000     2.0000         43    
+Costura.TotalTimePerEntity                  17.927     (Insuf)    6.9204     37.473         43    
+Costura.VATimePerEntity                     9.7914     (Insuf)    6.9204     12.346         43    
+Costura.WaitTimePerEntity                   8.1364     (Insuf)    .00000     25.486         43    
+Pedidos.VATime                              22.899     (Insuf)    15.135     52.315         28    
+Pedidos.NVATime                             .00000     (Insuf)    .00000     .00000         28    
+Pedidos.WaitTime                            11.356     (Insuf)    .00000     46.039         28    
+Pedidos.TranTime                            .00000     (Insuf)    .00000     .00000         28    
+Pedidos.OtherTime                           .00000     (Insuf)    .00000     .00000         28    
+Pedidos.TotalTime                           34.256     (Insuf)    15.727     74.648         28    
+Costura.Queue.WaitingTime                   8.4211     (Insuf)    .00000     25.486         44    
+Corte.Queue.WaitingTime                     .72905     (Insuf)    .00000     6.4763         32    
+Inspecao.Queue.WaitingTime                  .00000     (Insuf)    .00000     .00000         43    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Pedidos.WIP                                 2.3235     (Insuf)    .00000     5.0000     4.0000    
+Operario2.NumberBusy                        .40416     (Insuf)    .00000     1.0000     1.0000    
+Operario2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operario2.Utilization                       .40416     (Insuf)    .00000     1.0000     1.0000    
+Costureira.NumberBusy                       .88325     (Insuf)    .00000     1.0000     1.0000    
+Costureira.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Costureira.Utilization                      .88325     (Insuf)    .00000     1.0000     1.0000    
+Costureira2.NumberBusy                      .88325     (Insuf)    .00000     1.0000     1.0000    
+Costureira2.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Costureira2.Utilization                     .88325     (Insuf)    .00000     1.0000     1.0000    
+Costureira3.NumberBusy                      .88325     (Insuf)    .00000     1.0000     1.0000    
+Costureira3.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Costureira3.Utilization                     .88325     (Insuf)    .00000     1.0000     1.0000    
+Operario.NumberBusy                         .40416     (Insuf)    .00000     1.0000     1.0000    
+Operario.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operario.Utilization                        .40416     (Insuf)    .00000     1.0000     1.0000    
+Inspetor.NumberBusy                         .17917     (Insuf)    .00000     1.0000     .00000    
+Inspetor.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Inspetor.Utilization                        .17917     (Insuf)    .00000     1.0000     .00000    
+Costura.Queue.NumberInQueue                 .80840     (Insuf)    .00000     3.0000     2.0000    
+Corte.Queue.NumberInQueue                   .04860     (Insuf)    .00000     2.0000     .00000    
+Inspecao.Queue.NumberInQueue                .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Defeito                                          15  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Costura Number Out                          43.000    
+Inspecao Number In                          43.000    
+Costura Accum VA Time                       421.03    
+Inspecao Accum Wait Time                    .00000    
+Corte Number Out                            31.000    
+Corte Accum VA Time                         191.92    
+Inspecao Accum VA Time                      86.000    
+Costura Number In                           46.000    
+Corte Number In                             32.000    
+Inspecao Number Out                         43.000    
+Costura Accum Wait Time                     349.86    
+Corte Accum Wait Time                       23.329    
+Pedidos.NumberIn                            32.000    
+Pedidos.NumberOut                           28.000    
+Operario2.NumberSeized                      32.000    
+Operario2.ScheduledUtilization              .40416    
+Costureira.NumberSeized                     44.000    
+Costureira.ScheduledUtilization             .88325    
+Costureira2.NumberSeized                    44.000    
+Costureira2.ScheduledUtilization            .88325    
+Costureira3.NumberSeized                    44.000    
+Costureira3.ScheduledUtilization            .88325    
+Operario.NumberSeized                       32.000    
+Operario.ScheduledUtilization               .40416    
+Inspetor.NumberSeized                       43.000    
+Inspetor.ScheduledUtilization               .17917    
+System.NumberOut                            28.000    
+
+
+Simulation run time: 0.03 minutes.
+Simulation run complete.

@@ -58,6 +58,7 @@ I will separate by semester
 * Acquisition of Signals
 * Ubiquitous projects
 * Compilers
+* [NRF24l01](https://github.com/matheusfrancisco/Redes-Sem-Fio-NRF24l01-PA-LNA)
 * [ARM-CortexM3](https://github.com/matheusfrancisco/arm-Cortex-M3)
 * [Implementation_RSA_and_Diffie-Hellman](https://github.com/matheusfrancisco/Implementation_RSA_and_Diffie-Hellman)
 * [OSM MAP](https://github.com/matheusfrancisco/OSM_GRAPH_DIJKSTRA)

@@ -1,0 +1,10 @@
+* Z:\home\francisco\Files\ENC\8th Semester\Aquisição de Sinais\Relatórios 2018-1\Relatório Amplificador Macromodelo\LTSPICE\parte3.asc
+Vs Vi 0 SINE(0 0.1 1k)
+Rs Vin Vi 10
+Rentrada 0 Vin 100000
+Rsaida Vo Von 10
+RL Vo 0 10k
+B1 Von 0 V=limit(-5,1000*V(vin),+5)
+.tran 4ms
+.backanno
+.end

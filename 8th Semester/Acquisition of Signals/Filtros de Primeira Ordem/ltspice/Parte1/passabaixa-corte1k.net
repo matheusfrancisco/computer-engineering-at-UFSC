@@ -1,0 +1,14 @@
+* E:\googleDriver\ENC\8th Semester\Aquisição de Sinais\Filtros de Primeira Ordem\ltspice\Parte1\passabaixa-corte1k.asc
+R2 out N001 {R2}
+C1 out N001 {CAP}
+R1 N001 in {R1}
+E1 out 0 0 N001 1000000
+V1 in N002 SINE(0 100m 500) AC 1
+V2 N002 0 SINE(0 1m 50)
+.ac dec 5m 1 10MEG
+.MEAS AC gain max mag(V(out))
+.meas AC meas_3db trig mag(V(out))=gain/sqrt(2)
+.step param run 1 500 1
+.param R2=mc(100k,0.025) CAP=mc(1.59n,0.025) R1=mc(1k,0.025)
+.backanno
+.end

@@ -54,6 +54,7 @@ I will separate by semester
 
 #### 8th Semester
 
+* Acquisition of Signals
 * Ubiquitous projects
 * Compilers
 * [ARM-CortexM3](https://github.com/matheusfrancisco/arm-Cortex-M3)

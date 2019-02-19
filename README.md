@@ -1,4 +1,5 @@
-# Computer engineering at UFSC
+# Computer engineering at UFSC 
+
 
 <img src="https://github.com/matheusfrancisco/computer-engineering-at-UFSC/blob/master/logo.png" width='250' heigth='300'>
 
@@ -68,7 +69,7 @@ I will separate by semester
   
 ### Current 10th Semester
 
-* TCC in progress.... :( 
+* TCC in progress.... :)
 
 
 ## Contact 

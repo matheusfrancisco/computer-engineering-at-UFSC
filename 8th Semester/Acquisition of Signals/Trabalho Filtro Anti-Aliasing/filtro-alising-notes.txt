@@ -1,0 +1,14 @@
+quantas amostras voce consegue vizualizar?
+95 amostras por segundo
+mean(diff(rx_time))
+
+nyquest
+metade da frequencia de amostragem, 95hz/2
+
+sinal proximo ou maior que a frequencia maxima permitida
+sinal é distorcido. 
+
+passo 4
+
+filtro com capacitores de 1microF e 2,2microF em paralelo e um resistor de 10k
+1k so nivel DC, um pulso em 0

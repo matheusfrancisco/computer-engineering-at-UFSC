@@ -66,7 +66,7 @@ I will separate by semester
 #### 9th Semester
 
 * Manager project
-* Software engineer
+* [Software engineer](https://github.com/matheusfrancisco/computer-engineering-at-UFSC/tree/master/9th%20Semester/Software%20Eng%20II)
   
 ### Current 10th Semester
 
